@@ -2,6 +2,10 @@
 
 A high-scale Python/OpenCV face recognition security monitoring system.
 
+## Screenshot
+
+![CAMS dashboard screenshot](./Screenshot%202026-06-11%20111233.png)
+
 ---
 
 ## Quick-Start
