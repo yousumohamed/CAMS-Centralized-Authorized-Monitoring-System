@@ -1,0 +1,8 @@
+# CAMS – Centralized Authorized Monitoring System
+# Python 3.11+ recommended  (works on 3.14)
+# Install:  pip install -r requirements.txt
+
+opencv-python>=4.8.0
+opencv-contrib-python>=4.8.0    # required for cv2.face.LBPHFaceRecognizer
+numpy>=1.24.0
+cryptography>=41.0.0

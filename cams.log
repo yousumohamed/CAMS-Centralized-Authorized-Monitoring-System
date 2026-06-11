@@ -1,0 +1,2074 @@
+2026-03-31 16:36:08,936 [INFO] CAMS – ============================================================
+2026-03-31 16:36:08,937 [INFO] CAMS –   CAMS – Centralized Authorized Monitoring System
+2026-03-31 16:36:08,937 [INFO] CAMS – ============================================================
+2026-03-31 16:36:08,939 [WARNING] CAMS – ============================================================
+2026-03-31 16:36:08,939 [WARNING] CAMS –   ⚠  [1] LBPH recogniser not trained  →  place photos in target_profile/ then run: python train.py
+2026-03-31 16:36:08,939 [WARNING] CAMS –   Face recognition alerts will be DISABLED until resolved.
+2026-03-31 16:36:08,940 [WARNING] CAMS – ============================================================
+2026-03-31 16:36:08,945 [INFO] db – Database initialised at C:\code\cams\cams.db
+2026-03-31 16:36:08,999 [INFO] recognition – DNN face detector loaded.
+2026-03-31 16:36:09,150 [INFO] manager – Starting 4 camera worker(s)…
+2026-03-31 16:36:09,151 [INFO] camera_worker – [CAM_001] Connecting to 0
+2026-03-31 16:36:09,152 [INFO] manager – Worker started: CAM_001 (Front Door)
+2026-03-31 16:36:09,154 [INFO] camera_worker – [CAM_002] Connecting to rtsp://demo:demo@ipvmdemo.dyndns.org:554/onvif-media/media.amp
+2026-03-31 16:36:09,154 [INFO] manager – Worker started: CAM_002 (Street North)
+2026-03-31 16:36:09,309 [INFO] camera_worker – [CAM_003] Connecting to 1
+2026-03-31 16:36:09,309 [INFO] manager – Worker started: CAM_003 (Back Yard)
+2026-03-31 16:36:09,313 [INFO] camera_worker – [CAM_004] Connecting to rtsp://demo:demo@ipvmdemo.dyndns.org:554/onvif-media/media.amp
+2026-03-31 16:36:09,314 [INFO] manager – Worker started: CAM_004 (Parking Lot)
+2026-03-31 16:36:09,346 [INFO] alert_notifier – Alert notifier started.
+2026-03-31 16:36:09,354 [INFO] health_monitor – Health monitor started (interval=15s).
+2026-03-31 16:36:38,323 [INFO] CAMS – ============================================================
+2026-03-31 16:36:38,324 [INFO] CAMS –   CAMS – Centralized Authorized Monitoring System
+2026-03-31 16:36:38,324 [INFO] CAMS – ============================================================
+2026-03-31 16:36:38,326 [WARNING] CAMS – ============================================================
+2026-03-31 16:36:38,326 [WARNING] CAMS –   ⚠  [1] LBPH recogniser not trained  →  place photos in target_profile/ then run: python train.py
+2026-03-31 16:36:38,327 [WARNING] CAMS –   Face recognition alerts will be DISABLED until resolved.
+2026-03-31 16:36:38,327 [WARNING] CAMS – ============================================================
+2026-03-31 16:36:38,331 [INFO] db – Database initialised at C:\code\cams\cams.db
+2026-03-31 16:36:38,411 [INFO] recognition – DNN face detector loaded.
+2026-03-31 16:36:38,507 [INFO] manager – Starting 4 camera worker(s)…
+2026-03-31 16:36:38,510 [INFO] camera_worker – [CAM_001] Connecting to 0
+2026-03-31 16:36:38,511 [INFO] manager – Worker started: CAM_001 (Front Door)
+2026-03-31 16:36:38,513 [INFO] camera_worker – [CAM_002] Connecting to rtsp://demo:demo@ipvmdemo.dyndns.org:554/onvif-media/media.amp
+2026-03-31 16:36:38,513 [INFO] manager – Worker started: CAM_002 (Street North)
+2026-03-31 16:36:38,514 [INFO] camera_worker – [CAM_003] Connecting to 1
+2026-03-31 16:36:38,514 [INFO] manager – Worker started: CAM_003 (Back Yard)
+2026-03-31 16:36:38,521 [INFO] camera_worker – [CAM_004] Connecting to rtsp://demo:demo@ipvmdemo.dyndns.org:554/onvif-media/media.amp
+2026-03-31 16:36:38,521 [INFO] manager – Worker started: CAM_004 (Parking Lot)
+2026-03-31 16:36:38,558 [INFO] alert_notifier – Alert notifier started.
+2026-03-31 16:36:38,559 [INFO] health_monitor – Health monitor started (interval=15s).
+2026-03-31 16:39:12,670 [INFO] CAMS – ============================================================
+2026-03-31 16:39:12,671 [INFO] CAMS –   CAMS – Centralized Authorized Monitoring System
+2026-03-31 16:39:12,671 [INFO] CAMS – ============================================================
+2026-03-31 16:39:12,673 [WARNING] CAMS – ============================================================
+2026-03-31 16:39:12,673 [WARNING] CAMS –   ⚠  [1] LBPH recogniser not trained  →  place photos in target_profile/ then run: python train.py
+2026-03-31 16:39:12,674 [WARNING] CAMS –   Face recognition alerts will be DISABLED until resolved.
+2026-03-31 16:39:12,674 [WARNING] CAMS – ============================================================
+2026-03-31 16:39:12,676 [INFO] db – Database initialised at C:\code\cams\cams.db
+2026-03-31 16:39:12,734 [INFO] recognition – DNN face detector loaded.
+2026-03-31 16:39:12,843 [INFO] manager – Starting 2 camera worker(s)…
+2026-03-31 16:39:12,844 [INFO] camera_worker – [CAM_001] Connecting to 0
+2026-03-31 16:39:12,845 [INFO] manager – Worker started: CAM_001 (Front Door)
+2026-03-31 16:39:12,847 [INFO] camera_worker – [CAM_002] Connecting to 1
+2026-03-31 16:39:12,847 [INFO] manager – Worker started: CAM_002 (Back Yard)
+2026-03-31 16:39:12,878 [INFO] alert_notifier – Alert notifier started.
+2026-03-31 16:39:12,879 [INFO] health_monitor – Health monitor started (interval=15s).
+2026-03-31 16:39:12,881 [INFO] stream_recorder – ClipRecorder attached to CAM_001
+2026-03-31 16:39:12,889 [INFO] stream_recorder – ClipRecorder attached to CAM_002
+2026-03-31 16:39:12,890 [INFO] stream_recorder – Clip recorder dispatcher started.
+2026-03-31 16:39:12,890 [INFO] CAMS – All systems running: 2 camera(s), alert notifier, health watchdog, 2 clip recorder(s).
+2026-03-31 16:39:12,891 [INFO] dashboard – Dashboard started.
+2026-03-31 16:39:12,990 [WARNING] camera_worker – [CAM_002] Attempt 1 failed, waiting…
+2026-03-31 16:39:14,041 [WARNING] camera_worker – [CAM_002] Attempt 2 failed, waiting…
+2026-03-31 16:39:16,082 [WARNING] camera_worker – [CAM_002] Attempt 3 failed, waiting…
+2026-03-31 16:39:18,568 [INFO] dashboard – Selected camera: CAM_001
+2026-03-31 16:39:19,297 [INFO] dashboard – Selected camera: CAM_002
+2026-03-31 16:39:19,734 [INFO] dashboard – Selected camera: CAM_002
+2026-03-31 16:39:20,130 [WARNING] camera_worker – [CAM_002] Attempt 4 failed, waiting…
+2026-03-31 16:39:26,430 [INFO] camera_worker – [CAM_001] Capture opened (attempt 1).
+2026-03-31 16:39:27,882 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:39:28,163 [WARNING] camera_worker – [CAM_002] Attempt 5 failed, waiting…
+2026-03-31 16:39:40,003 [INFO] dashboard – Selected camera: CAM_002
+2026-03-31 16:39:40,419 [INFO] dashboard – Selected camera: CAM_002
+2026-03-31 16:39:42,884 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:39:57,901 [WARNING] health_monitor – [CAM_002] CRASHED detected — restarting (attempt 1/5).
+2026-03-31 16:39:57,933 [INFO] camera_worker – [CAM_002] Connecting to 1
+2026-03-31 16:39:57,933 [INFO] manager – Worker started: CAM_002 (Back Yard)
+2026-03-31 16:39:57,934 [INFO] manager – Worker restarted: CAM_002
+2026-03-31 16:39:57,935 [INFO] health_monitor – Health sweep: 1/2 OK  |  1 problem(s)
+2026-03-31 16:39:57,991 [WARNING] camera_worker – [CAM_002] Attempt 1 failed, waiting…
+2026-03-31 16:39:59,030 [WARNING] camera_worker – [CAM_002] Attempt 2 failed, waiting…
+2026-03-31 16:40:01,063 [WARNING] camera_worker – [CAM_002] Attempt 3 failed, waiting…
+2026-03-31 16:40:05,094 [WARNING] camera_worker – [CAM_002] Attempt 4 failed, waiting…
+2026-03-31 16:40:12,936 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:40:13,132 [WARNING] camera_worker – [CAM_002] Attempt 5 failed, waiting…
+2026-03-31 16:40:13,545 [INFO] dashboard – Selected camera: CAM_001
+2026-03-31 16:40:27,272 [INFO] manager – Stopping all camera workers…
+2026-03-31 16:40:27,724 [INFO] camera_worker – [CAM_001] Worker stopped.
+2026-03-31 16:40:27,939 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:40:29,164 [INFO] manager – Stopping all camera workers…
+2026-03-31 16:40:29,193 [INFO] CAMS – CAMS shutdown complete.
+2026-03-31 16:40:35,252 [INFO] CAMS – ============================================================
+2026-03-31 16:40:35,253 [INFO] CAMS –   CAMS – Centralized Authorized Monitoring System
+2026-03-31 16:40:35,253 [INFO] CAMS – ============================================================
+2026-03-31 16:40:35,254 [WARNING] CAMS – ============================================================
+2026-03-31 16:40:35,255 [WARNING] CAMS –   ⚠  [1] LBPH recogniser not trained  →  place photos in target_profile/ then run: python train.py
+2026-03-31 16:40:35,255 [WARNING] CAMS –   Face recognition alerts will be DISABLED until resolved.
+2026-03-31 16:40:35,256 [WARNING] CAMS – ============================================================
+2026-03-31 16:40:35,261 [INFO] db – Database initialised at C:\code\cams\cams.db
+2026-03-31 16:40:35,312 [INFO] recognition – DNN face detector loaded.
+2026-03-31 16:40:35,469 [INFO] manager – Starting 2 camera worker(s)…
+2026-03-31 16:40:35,472 [INFO] camera_worker – [CAM_001] Connecting to 0
+2026-03-31 16:40:35,472 [INFO] manager – Worker started: CAM_001 (Front Door)
+2026-03-31 16:40:35,474 [INFO] camera_worker – [CAM_002] Connecting to 1
+2026-03-31 16:40:35,474 [INFO] manager – Worker started: CAM_002 (Back Yard)
+2026-03-31 16:40:35,503 [INFO] alert_notifier – Alert notifier started.
+2026-03-31 16:40:35,504 [INFO] health_monitor – Health monitor started (interval=15s).
+2026-03-31 16:40:35,506 [INFO] stream_recorder – ClipRecorder attached to CAM_001
+2026-03-31 16:40:35,509 [INFO] stream_recorder – ClipRecorder attached to CAM_002
+2026-03-31 16:40:35,515 [INFO] stream_recorder – Clip recorder dispatcher started.
+2026-03-31 16:40:35,515 [INFO] CAMS – All systems running: 2 camera(s), alert notifier, health watchdog, 2 clip recorder(s).
+2026-03-31 16:40:35,517 [INFO] dashboard – Dashboard started.
+2026-03-31 16:40:35,655 [WARNING] camera_worker – [CAM_002] Attempt 1 failed, waiting…
+2026-03-31 16:40:36,706 [WARNING] camera_worker – [CAM_002] Attempt 2 failed, waiting…
+2026-03-31 16:40:38,740 [WARNING] camera_worker – [CAM_002] Attempt 3 failed, waiting…
+2026-03-31 16:40:42,777 [WARNING] camera_worker – [CAM_002] Attempt 4 failed, waiting…
+2026-03-31 16:40:50,324 [INFO] camera_worker – [CAM_001] Capture opened (attempt 1).
+2026-03-31 16:40:50,505 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:40:50,824 [WARNING] camera_worker – [CAM_002] Attempt 5 failed, waiting…
+2026-03-31 16:41:05,507 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:41:20,509 [WARNING] health_monitor – [CAM_002] CRASHED detected — restarting (attempt 1/5).
+2026-03-31 16:41:20,566 [INFO] camera_worker – [CAM_002] Connecting to 1
+2026-03-31 16:41:20,566 [INFO] manager – Worker started: CAM_002 (Back Yard)
+2026-03-31 16:41:20,574 [INFO] manager – Worker restarted: CAM_002
+2026-03-31 16:41:20,581 [INFO] health_monitor – Health sweep: 1/2 OK  |  1 problem(s)
+2026-03-31 16:41:20,650 [WARNING] camera_worker – [CAM_002] Attempt 1 failed, waiting…
+2026-03-31 16:41:21,690 [WARNING] camera_worker – [CAM_002] Attempt 2 failed, waiting…
+2026-03-31 16:41:23,730 [WARNING] camera_worker – [CAM_002] Attempt 3 failed, waiting…
+2026-03-31 16:41:27,762 [WARNING] camera_worker – [CAM_002] Attempt 4 failed, waiting…
+2026-03-31 16:41:31,564 [INFO] dashboard – Selected camera: CAM_001
+2026-03-31 16:41:32,007 [INFO] dashboard – Selected camera: CAM_002
+2026-03-31 16:41:32,492 [INFO] dashboard – Selected camera: CAM_001
+2026-03-31 16:41:35,606 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:41:35,938 [WARNING] camera_worker – [CAM_002] Attempt 5 failed, waiting…
+2026-03-31 16:41:43,027 [INFO] camera_worker – [CAM_001] Worker stopped.
+2026-03-31 16:41:43,032 [INFO] camera_worker – [CAM_001] Connecting to 0
+2026-03-31 16:41:43,032 [INFO] manager – Worker started: CAM_001 (Front Door)
+2026-03-31 16:41:43,033 [INFO] manager – Worker restarted: CAM_001
+2026-03-31 16:41:50,608 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:41:59,443 [INFO] camera_worker – [CAM_001] Capture opened (attempt 1).
+2026-03-31 16:42:05,609 [WARNING] health_monitor – [CAM_002] CRASHED detected — restarting (attempt 2/5).
+2026-03-31 16:42:05,642 [INFO] camera_worker – [CAM_002] Connecting to 1
+2026-03-31 16:42:05,642 [INFO] manager – Worker started: CAM_002 (Back Yard)
+2026-03-31 16:42:05,643 [INFO] manager – Worker restarted: CAM_002
+2026-03-31 16:42:05,643 [INFO] health_monitor – Health sweep: 1/2 OK  |  1 problem(s)
+2026-03-31 16:42:05,679 [WARNING] camera_worker – [CAM_002] Attempt 1 failed, waiting…
+2026-03-31 16:42:06,717 [WARNING] camera_worker – [CAM_002] Attempt 2 failed, waiting…
+2026-03-31 16:42:08,755 [WARNING] camera_worker – [CAM_002] Attempt 3 failed, waiting…
+2026-03-31 16:42:12,790 [WARNING] camera_worker – [CAM_002] Attempt 4 failed, waiting…
+2026-03-31 16:42:20,644 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:42:20,830 [WARNING] camera_worker – [CAM_002] Attempt 5 failed, waiting…
+2026-03-31 16:42:35,645 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:42:50,646 [WARNING] health_monitor – [CAM_002] CRASHED detected — restarting (attempt 3/5).
+2026-03-31 16:42:50,674 [INFO] camera_worker – [CAM_002] Connecting to 1
+2026-03-31 16:42:50,675 [INFO] manager – Worker started: CAM_002 (Back Yard)
+2026-03-31 16:42:50,676 [INFO] manager – Worker restarted: CAM_002
+2026-03-31 16:42:50,677 [INFO] health_monitor – Health sweep: 1/2 OK  |  1 problem(s)
+2026-03-31 16:42:50,723 [WARNING] camera_worker – [CAM_002] Attempt 1 failed, waiting…
+2026-03-31 16:42:51,764 [WARNING] camera_worker – [CAM_002] Attempt 2 failed, waiting…
+2026-03-31 16:42:53,800 [WARNING] camera_worker – [CAM_002] Attempt 3 failed, waiting…
+2026-03-31 16:42:57,836 [WARNING] camera_worker – [CAM_002] Attempt 4 failed, waiting…
+2026-03-31 16:43:05,680 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:43:05,869 [WARNING] camera_worker – [CAM_002] Attempt 5 failed, waiting…
+2026-03-31 16:43:20,681 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:43:35,683 [WARNING] health_monitor – [CAM_002] CRASHED detected — restarting (attempt 4/5).
+2026-03-31 16:43:35,710 [INFO] camera_worker – [CAM_002] Connecting to 1
+2026-03-31 16:43:35,710 [INFO] manager – Worker started: CAM_002 (Back Yard)
+2026-03-31 16:43:35,711 [INFO] manager – Worker restarted: CAM_002
+2026-03-31 16:43:35,711 [INFO] health_monitor – Health sweep: 1/2 OK  |  1 problem(s)
+2026-03-31 16:43:35,756 [WARNING] camera_worker – [CAM_002] Attempt 1 failed, waiting…
+2026-03-31 16:43:36,805 [WARNING] camera_worker – [CAM_002] Attempt 2 failed, waiting…
+2026-03-31 16:43:38,857 [WARNING] camera_worker – [CAM_002] Attempt 3 failed, waiting…
+2026-03-31 16:43:42,896 [WARNING] camera_worker – [CAM_002] Attempt 4 failed, waiting…
+2026-03-31 16:43:50,712 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:43:50,951 [WARNING] camera_worker – [CAM_002] Attempt 5 failed, waiting…
+2026-03-31 16:44:05,713 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:44:20,715 [WARNING] health_monitor – [CAM_002] CRASHED detected — restarting (attempt 5/5).
+2026-03-31 16:44:20,742 [INFO] camera_worker – [CAM_002] Connecting to 1
+2026-03-31 16:44:20,742 [INFO] manager – Worker started: CAM_002 (Back Yard)
+2026-03-31 16:44:20,744 [INFO] manager – Worker restarted: CAM_002
+2026-03-31 16:44:20,744 [INFO] health_monitor – Health sweep: 1/2 OK  |  1 problem(s)
+2026-03-31 16:44:20,786 [WARNING] camera_worker – [CAM_002] Attempt 1 failed, waiting…
+2026-03-31 16:44:21,820 [WARNING] camera_worker – [CAM_002] Attempt 2 failed, waiting…
+2026-03-31 16:44:23,854 [WARNING] camera_worker – [CAM_002] Attempt 3 failed, waiting…
+2026-03-31 16:44:27,897 [WARNING] camera_worker – [CAM_002] Attempt 4 failed, waiting…
+2026-03-31 16:44:35,746 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:44:35,941 [WARNING] camera_worker – [CAM_002] Attempt 5 failed, waiting…
+2026-03-31 16:44:50,748 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:45:05,749 [ERROR] health_monitor – [CAM_002] Exceeded max restarts (5) — giving up.
+2026-03-31 16:45:05,772 [INFO] health_monitor – Health sweep: 1/2 OK  |  1 problem(s)
+2026-03-31 16:45:19,205 [INFO] CAMS – KeyboardInterrupt — shutting down.
+2026-03-31 16:45:19,207 [INFO] manager – Stopping all camera workers…
+2026-03-31 16:45:19,592 [INFO] camera_worker – [CAM_001] Worker stopped.
+2026-03-31 16:45:19,628 [INFO] CAMS – CAMS shutdown complete.
+2026-03-31 16:45:24,640 [INFO] CAMS – ============================================================
+2026-03-31 16:45:24,641 [INFO] CAMS –   CAMS – Centralized Authorized Monitoring System
+2026-03-31 16:45:24,641 [INFO] CAMS – ============================================================
+2026-03-31 16:45:24,643 [WARNING] CAMS – ============================================================
+2026-03-31 16:45:24,643 [WARNING] CAMS –   ⚠  [1] LBPH recogniser not trained  →  place photos in target_profile/ then run: python train.py
+2026-03-31 16:45:24,643 [WARNING] CAMS –   Face recognition alerts will be DISABLED until resolved.
+2026-03-31 16:45:24,644 [WARNING] CAMS – ============================================================
+2026-03-31 16:45:24,648 [INFO] db – Database initialised at C:\code\cams\cams.db
+2026-03-31 16:45:24,705 [INFO] recognition – DNN face detector loaded.
+2026-03-31 16:45:24,847 [INFO] manager – Starting 2 camera worker(s)…
+2026-03-31 16:45:24,848 [INFO] camera_worker – [CAM_001] Connecting to source: 0
+2026-03-31 16:45:24,849 [INFO] manager – Worker started: CAM_001 (Front Door)
+2026-03-31 16:45:24,850 [INFO] camera_worker – [CAM_002] Connecting to source: 1
+2026-03-31 16:45:24,850 [INFO] manager – Worker started: CAM_002 (Back Yard)
+2026-03-31 16:45:24,882 [INFO] alert_notifier – Alert notifier started.
+2026-03-31 16:45:24,886 [INFO] health_monitor – Health monitor started (interval=15s).
+2026-03-31 16:45:24,891 [INFO] stream_recorder – ClipRecorder attached to CAM_001
+2026-03-31 16:45:24,893 [INFO] stream_recorder – ClipRecorder attached to CAM_002
+2026-03-31 16:45:24,896 [INFO] stream_recorder – Clip recorder dispatcher started.
+2026-03-31 16:45:24,896 [INFO] CAMS – All systems running: 2 camera(s), alert notifier, health watchdog, 2 clip recorder(s).
+2026-03-31 16:45:24,897 [INFO] dashboard – Dashboard started.
+2026-03-31 16:45:25,017 [WARNING] camera_worker – [CAM_002] Webcam index 1 not found — marking NO SIGNAL.
+2026-03-31 16:45:39,104 [INFO] dashboard – Selected camera: CAM_002
+2026-03-31 16:45:39,887 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:45:40,033 [INFO] camera_worker – [CAM_001] Webcam 0 opened.
+2026-03-31 16:45:44,379 [INFO] dashboard – Selected camera: CAM_002
+2026-03-31 16:45:44,835 [INFO] dashboard – Selected camera: CAM_002
+2026-03-31 16:45:45,218 [INFO] dashboard – Selected camera: CAM_002
+2026-03-31 16:45:54,888 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:46:01,661 [INFO] dashboard – Selected camera: CAM_002
+2026-03-31 16:46:02,254 [INFO] dashboard – Selected camera: CAM_002
+2026-03-31 16:46:02,488 [INFO] dashboard – Selected camera: CAM_002
+2026-03-31 16:46:06,141 [INFO] dashboard – Selected camera: CAM_001
+2026-03-31 16:46:09,890 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:46:10,554 [INFO] dashboard – Selected camera: CAM_001
+2026-03-31 16:46:24,892 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:46:39,894 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:46:54,903 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:47:09,905 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:47:24,909 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:47:39,922 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:47:54,924 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:48:09,926 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:48:24,928 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:48:39,933 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:48:54,936 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:49:09,938 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:49:24,939 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:49:39,941 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:49:54,944 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:50:09,946 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:50:24,950 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:50:39,954 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:50:54,956 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:51:09,958 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:51:24,960 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:51:39,962 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:51:54,964 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:52:09,966 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:52:24,968 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:52:39,970 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:52:54,972 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:53:09,975 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:53:24,977 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:53:39,979 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:53:54,982 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:54:09,984 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:54:24,986 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:54:39,989 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:54:54,990 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:55:09,992 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:55:24,994 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:55:39,996 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:55:54,998 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:56:10,001 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:56:25,004 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:56:40,011 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:56:55,014 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:57:10,016 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:57:25,018 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:57:40,021 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:57:55,023 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:58:10,025 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:58:25,027 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:58:40,030 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:58:55,032 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:59:10,034 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:59:25,036 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:59:40,038 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 16:59:49,556 [INFO] dashboard – Selected camera: CAM_001
+2026-03-31 16:59:52,772 [INFO] dashboard – Selected camera: CAM_002
+2026-03-31 16:59:55,040 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:00:10,043 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:00:25,045 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:00:40,047 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:00:55,050 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:01:10,051 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:01:25,053 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:01:40,055 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:01:55,057 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:02:00,152 [INFO] dashboard – Selected camera: CAM_001
+2026-03-31 17:02:10,059 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:02:25,061 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:02:40,063 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:02:55,064 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:03:10,067 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:03:25,085 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:03:40,097 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:03:55,100 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:04:10,103 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:04:25,105 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:04:40,107 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:04:55,114 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:05:10,120 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:05:25,123 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:05:40,125 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:05:55,127 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:06:10,129 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:06:17,866 [INFO] CAMS – KeyboardInterrupt — shutting down.
+2026-03-31 17:06:17,870 [INFO] manager – Stopping all camera workers…
+2026-03-31 17:06:18,215 [INFO] camera_worker – [CAM_001] Worker stopped.
+2026-03-31 17:06:18,262 [INFO] CAMS – CAMS shutdown complete.
+2026-03-31 17:06:21,953 [INFO] CAMS – ============================================================
+2026-03-31 17:06:21,954 [INFO] CAMS –   CAMS – Centralized Authorized Monitoring System
+2026-03-31 17:06:21,954 [INFO] CAMS – ============================================================
+2026-03-31 17:06:21,955 [INFO] CAMS – ✅ LBPH model found — recognition active.
+2026-03-31 17:06:21,960 [INFO] db – Database initialised at C:\code\cams\cams.db
+2026-03-31 17:06:22,023 [INFO] recognition – DNN face detector loaded.
+2026-03-31 17:06:22,033 [INFO] recognition – LBPH model loaded from C:\code\cams\models\lbph_model.xml
+2026-03-31 17:06:22,219 [INFO] manager – Starting 22 camera worker(s)…
+2026-03-31 17:06:22,221 [INFO] camera_worker – [CAM_KRD] Connecting to source: http://158.58.130.148:80/mjpg/video.mjpg
+2026-03-31 17:06:22,222 [INFO] manager – Worker started: CAM_KRD (Krasnodar)
+2026-03-31 17:06:22,228 [INFO] camera_worker – [CAM_ANT] Connecting to source: http://81.83.10.9:8001/mjpg/video.mjpg
+2026-03-31 17:06:22,228 [INFO] manager – Worker started: CAM_ANT (Antwerpen)
+2026-03-31 17:06:22,230 [INFO] camera_worker – [CAM_COL] Connecting to source: http://208.72.70.171:80/mjpg/video.mjpg
+2026-03-31 17:06:22,230 [INFO] manager – Worker started: CAM_COL (Colorado)
+2026-03-31 17:06:22,233 [INFO] camera_worker – [CAM_GOLF] Connecting to source: http://wmccpinetop.axiscam.net/mjpg/video.mjpg
+2026-03-31 17:06:22,234 [INFO] manager – Worker started: CAM_GOLF (USA Golf)
+2026-03-31 17:06:22,236 [INFO] camera_worker – [CAM_TKY] Connecting to source: http://210.148.114.53/-wvhttp-01-/GetOneShot?image_size=640x480&frame_count=1000000000
+2026-03-31 17:06:22,236 [INFO] manager – Worker started: CAM_TKY (Tokyo)
+2026-03-31 17:06:22,237 [INFO] camera_worker – [CAM_SEC_1] Connecting to source: http://46.16.226.181:88/?action=stream
+2026-03-31 17:06:22,238 [INFO] manager – Worker started: CAM_SEC_1 (Sec Cam 1)
+2026-03-31 17:06:22,239 [INFO] camera_worker – [CAM_SEC_2] Connecting to source: http://79.132.232.174:8080/?action=stream
+2026-03-31 17:06:22,239 [INFO] manager – Worker started: CAM_SEC_2 (Sec Cam 2)
+2026-03-31 17:06:22,241 [INFO] camera_worker – [CAM_SEC_3] Connecting to source: http://46.151.101.158:8081/?action=stream
+2026-03-31 17:06:22,241 [INFO] manager – Worker started: CAM_SEC_3 (Sec Cam 3)
+2026-03-31 17:06:22,242 [INFO] camera_worker – [CAM_SEC_4] Connecting to source: http://90.66.111.157:8080/?action=stream
+2026-03-31 17:06:22,243 [INFO] manager – Worker started: CAM_SEC_4 (Sec Cam 4)
+2026-03-31 17:06:22,244 [INFO] camera_worker – [CAM_SEC_5] Connecting to source: http://91.49.234.155:9000/?action=stream
+2026-03-31 17:06:22,245 [INFO] manager – Worker started: CAM_SEC_5 (Sec Cam 5)
+2026-03-31 17:06:22,246 [INFO] camera_worker – [CAM_SEC_6] Connecting to source: http://46.151.101.149:8081/?action=stream
+2026-03-31 17:06:22,246 [INFO] manager – Worker started: CAM_SEC_6 (Sec Cam 6)
+2026-03-31 17:06:22,250 [INFO] camera_worker – [CAM_SEC_7] Connecting to source: http://78.99.31.149:8081/?action=stream
+2026-03-31 17:06:22,250 [INFO] manager – Worker started: CAM_SEC_7 (Sec Cam 7)
+2026-03-31 17:06:22,251 [INFO] camera_worker – [CAM_SEC_8] Connecting to source: http://46.151.101.134:8082/?action=stream
+2026-03-31 17:06:22,252 [INFO] manager – Worker started: CAM_SEC_8 (Sec Cam 8)
+2026-03-31 17:06:22,253 [INFO] camera_worker – [CAM_EQ_1] Connecting to source: http://68.3.132.170:8080/?action=stream
+2026-03-31 17:06:22,254 [INFO] manager – Worker started: CAM_EQ_1 (Equip Cam 1)
+2026-03-31 17:06:22,255 [INFO] camera_worker – [CAM_EQ_2] Connecting to source: http://129.10.131.166:8080/?action=stream
+2026-03-31 17:06:22,255 [INFO] manager – Worker started: CAM_EQ_2 (Equip Cam 2)
+2026-03-31 17:06:22,256 [INFO] camera_worker – [CAM_EQ_3] Connecting to source: http://89.39.27.182:8080/?action=stream
+2026-03-31 17:06:22,257 [INFO] manager – Worker started: CAM_EQ_3 (Equip Cam 3)
+2026-03-31 17:06:22,258 [INFO] camera_worker – [CAM_EQ_4] Connecting to source: http://66.130.223.168:8080/?action=stream
+2026-03-31 17:06:22,259 [INFO] manager – Worker started: CAM_EQ_4 (Equip Cam 4)
+2026-03-31 17:06:22,260 [INFO] camera_worker – [CAM_EQ_5] Connecting to source: http://98.30.39.160:8080/?action=stream
+2026-03-31 17:06:22,260 [INFO] manager – Worker started: CAM_EQ_5 (Equip Cam 5)
+2026-03-31 17:06:22,262 [INFO] camera_worker – [CAM_HWY] Connecting to source: rtsp://170.93.143.139/rtplive/470011e600ef003a004ee33696235daa
+2026-03-31 17:06:22,262 [INFO] manager – Worker started: CAM_HWY (Highway)
+2026-03-31 17:06:22,264 [INFO] camera_worker – [CAM_HES] Connecting to source: http://freja.hiof.no:1935/rtplive/_definst_/hessdalen03.stream/playlist.m3u8
+2026-03-31 17:06:22,264 [INFO] manager – Worker started: CAM_HES (Hessdalen)
+2026-03-31 17:06:22,267 [INFO] camera_worker – [CAM_SEM] Connecting to source: rtmp://semerkandglb.mediatriple.net:1935/semerkandliveedge/semerkand2
+2026-03-31 17:06:22,267 [INFO] manager – Worker started: CAM_SEM (Semerkand TV)
+2026-03-31 17:06:22,270 [INFO] camera_worker – [CAM_LOCAL] Connecting to source: 0
+2026-03-31 17:06:22,270 [INFO] manager – Worker started: CAM_LOCAL (My Local Webcam)
+2026-03-31 17:06:22,297 [INFO] alert_notifier – Alert notifier started.
+2026-03-31 17:06:22,300 [INFO] health_monitor – Health monitor started (interval=15s).
+2026-03-31 17:06:22,305 [INFO] stream_recorder – ClipRecorder attached to CAM_KRD
+2026-03-31 17:06:22,309 [INFO] stream_recorder – ClipRecorder attached to CAM_ANT
+2026-03-31 17:06:22,311 [INFO] stream_recorder – ClipRecorder attached to CAM_COL
+2026-03-31 17:06:22,313 [INFO] stream_recorder – ClipRecorder attached to CAM_GOLF
+2026-03-31 17:06:22,326 [INFO] stream_recorder – ClipRecorder attached to CAM_TKY
+2026-03-31 17:06:22,329 [INFO] stream_recorder – ClipRecorder attached to CAM_SEC_1
+2026-03-31 17:06:22,331 [INFO] stream_recorder – ClipRecorder attached to CAM_SEC_2
+2026-03-31 17:06:22,334 [INFO] stream_recorder – ClipRecorder attached to CAM_SEC_3
+2026-03-31 17:06:22,336 [INFO] stream_recorder – ClipRecorder attached to CAM_SEC_4
+2026-03-31 17:06:22,338 [INFO] stream_recorder – ClipRecorder attached to CAM_SEC_5
+2026-03-31 17:06:22,340 [INFO] stream_recorder – ClipRecorder attached to CAM_SEC_6
+2026-03-31 17:06:22,342 [INFO] stream_recorder – ClipRecorder attached to CAM_SEC_7
+2026-03-31 17:06:22,345 [INFO] stream_recorder – ClipRecorder attached to CAM_SEC_8
+2026-03-31 17:06:22,347 [INFO] stream_recorder – ClipRecorder attached to CAM_EQ_1
+2026-03-31 17:06:22,350 [INFO] stream_recorder – ClipRecorder attached to CAM_EQ_2
+2026-03-31 17:06:22,352 [INFO] stream_recorder – ClipRecorder attached to CAM_EQ_3
+2026-03-31 17:06:22,354 [INFO] stream_recorder – ClipRecorder attached to CAM_EQ_4
+2026-03-31 17:06:22,356 [INFO] stream_recorder – ClipRecorder attached to CAM_EQ_5
+2026-03-31 17:06:22,358 [INFO] stream_recorder – ClipRecorder attached to CAM_HWY
+2026-03-31 17:06:22,361 [INFO] stream_recorder – ClipRecorder attached to CAM_HES
+2026-03-31 17:06:22,363 [INFO] stream_recorder – ClipRecorder attached to CAM_SEM
+2026-03-31 17:06:22,366 [INFO] stream_recorder – ClipRecorder attached to CAM_LOCAL
+2026-03-31 17:06:22,368 [INFO] stream_recorder – Clip recorder dispatcher started.
+2026-03-31 17:06:22,368 [INFO] CAMS – All systems running: 22 camera(s), alert notifier, health watchdog, 22 clip recorder(s).
+2026-03-31 17:06:22,369 [INFO] dashboard – Dashboard started.
+2026-03-31 17:06:30,456 [WARNING] camera_worker – [CAM_GOLF] Attempt 1 failed, retrying...
+2026-03-31 17:06:36,797 [INFO] camera_worker – [CAM_LOCAL] Webcam 0 opened.
+2026-03-31 17:06:37,302 [INFO] health_monitor – Health sweep: 22/22 OK  |  0 problem(s)
+2026-03-31 17:06:45,884 [INFO] dashboard – Selected camera: CAM_LOCAL
+2026-03-31 17:06:52,304 [INFO] health_monitor – Health sweep: 22/22 OK  |  0 problem(s)
+2026-03-31 17:07:07,308 [INFO] health_monitor – Health sweep: 22/22 OK  |  0 problem(s)
+2026-03-31 17:07:22,309 [INFO] health_monitor – Health sweep: 22/22 OK  |  0 problem(s)
+2026-03-31 17:07:37,311 [INFO] health_monitor – Health sweep: 22/22 OK  |  0 problem(s)
+2026-03-31 17:07:39,008 [WARNING] camera_worker – [CAM_HES] Attempt 1 failed, retrying...
+2026-03-31 17:07:47,527 [WARNING] camera_worker – [CAM_SEM] Attempt 1 failed, retrying...
+2026-03-31 17:07:51,383 [WARNING] camera_worker – [CAM_GOLF] Attempt 2 failed, retrying...
+2026-03-31 17:07:52,313 [INFO] health_monitor – Health sweep: 22/22 OK  |  0 problem(s)
+2026-03-31 17:07:52,683 [WARNING] camera_worker – [CAM_ANT] Attempt 1 failed, retrying...
+2026-03-31 17:07:59,034 [WARNING] camera_worker – [CAM_SEC_1] Attempt 1 failed, retrying...
+2026-03-31 17:08:04,588 [WARNING] camera_worker – [CAM_SEC_3] Attempt 1 failed, retrying...
+2026-03-31 17:08:07,318 [INFO] health_monitor – Health sweep: 22/22 OK  |  0 problem(s)
+2026-03-31 17:08:09,859 [WARNING] camera_worker – [CAM_SEC_5] Attempt 1 failed, retrying...
+2026-03-31 17:08:10,183 [WARNING] camera_worker – [CAM_SEM] Attempt 2 failed, retrying...
+2026-03-31 17:08:13,412 [WARNING] camera_worker – [CAM_HES] Attempt 2 failed, retrying...
+2026-03-31 17:08:15,190 [WARNING] camera_worker – [CAM_SEC_7] Attempt 1 failed, retrying...
+2026-03-31 17:08:20,794 [WARNING] camera_worker – [CAM_EQ_1] Attempt 1 failed, retrying...
+2026-03-31 17:08:22,324 [INFO] health_monitor – Health sweep: 22/22 OK  |  0 problem(s)
+2026-03-31 17:08:26,142 [WARNING] camera_worker – [CAM_EQ_3] Attempt 1 failed, retrying...
+2026-03-31 17:08:31,729 [WARNING] camera_worker – [CAM_EQ_5] Attempt 1 failed, retrying...
+2026-03-31 17:08:37,327 [INFO] health_monitor – Health sweep: 22/22 OK  |  0 problem(s)
+2026-03-31 17:08:43,033 [WARNING] camera_worker – [CAM_COL] Attempt 1 failed, retrying...
+2026-03-31 17:08:48,332 [WARNING] camera_worker – [CAM_SEC_2] Attempt 1 failed, retrying...
+2026-03-31 17:08:48,421 [WARNING] camera_worker – [CAM_GOLF] Attempt 3 failed, retrying...
+2026-03-31 17:08:52,329 [INFO] health_monitor – Health sweep: 22/22 OK  |  0 problem(s)
+2026-03-31 17:08:53,860 [WARNING] camera_worker – [CAM_SEC_4] Attempt 1 failed, retrying...
+2026-03-31 17:08:57,329 [WARNING] camera_worker – [CAM_SEM] Attempt 3 failed, retrying...
+2026-03-31 17:08:59,600 [WARNING] camera_worker – [CAM_SEC_8] Attempt 1 failed, retrying...
+2026-03-31 17:09:04,789 [WARNING] camera_worker – [CAM_EQ_4] Attempt 1 failed, retrying...
+2026-03-31 17:09:07,332 [INFO] health_monitor – Health sweep: 22/22 OK  |  0 problem(s)
+2026-03-31 17:09:17,712 [WARNING] camera_worker – [CAM_EQ_2] Attempt 1 failed, retrying...
+2026-03-31 17:09:22,335 [INFO] health_monitor – Health sweep: 22/22 OK  |  0 problem(s)
+2026-03-31 17:09:26,529 [WARNING] camera_worker – [CAM_GOLF] Attempt 4 failed, retrying...
+2026-03-31 17:09:28,338 [WARNING] camera_worker – [CAM_SEC_6] Attempt 1 failed, retrying...
+2026-03-31 17:09:36,334 [WARNING] camera_worker – [CAM_SEM] Attempt 4 failed, retrying...
+2026-03-31 17:09:37,338 [INFO] health_monitor – Health sweep: 22/22 OK  |  0 problem(s)
+2026-03-31 17:09:39,807 [WARNING] camera_worker – [CAM_TKY] Attempt 1 failed, retrying...
+2026-03-31 17:09:52,340 [INFO] health_monitor – Health sweep: 22/22 OK  |  0 problem(s)
+2026-03-31 17:10:05,650 [WARNING] camera_worker – [CAM_HES] Attempt 3 failed, retrying...
+2026-03-31 17:10:07,357 [INFO] health_monitor – Health sweep: 22/22 OK  |  0 problem(s)
+2026-03-31 17:10:15,896 [WARNING] camera_worker – [CAM_ANT] Attempt 2 failed, retrying...
+2026-03-31 17:10:20,916 [WARNING] camera_worker – [CAM_GOLF] Attempt 5 failed, retrying...
+2026-03-31 17:10:22,360 [INFO] health_monitor – Health sweep: 22/22 OK  |  0 problem(s)
+2026-03-31 17:10:25,253 [WARNING] camera_worker – [CAM_SEM] Attempt 5 failed, retrying...
+2026-03-31 17:10:27,135 [WARNING] camera_worker – [CAM_SEC_1] Attempt 2 failed, retrying...
+2026-03-31 17:10:32,536 [WARNING] camera_worker – [CAM_EQ_1] Attempt 2 failed, retrying...
+2026-03-31 17:10:37,364 [WARNING] health_monitor – [CAM_GOLF] CRASHED detected — restarting (attempt 1/5).
+2026-03-31 17:10:37,401 [INFO] camera_worker – [CAM_GOLF] Connecting to source: http://wmccpinetop.axiscam.net/mjpg/video.mjpg
+2026-03-31 17:10:37,401 [INFO] manager – Worker started: CAM_GOLF (USA Golf)
+2026-03-31 17:10:37,403 [INFO] manager – Worker restarted: CAM_GOLF
+2026-03-31 17:10:37,404 [INFO] health_monitor – Health sweep: 21/22 OK  |  1 problem(s)
+2026-03-31 17:10:37,890 [WARNING] camera_worker – [CAM_EQ_5] Attempt 2 failed, retrying...
+2026-03-31 17:10:43,248 [WARNING] camera_worker – [CAM_SEC_3] Attempt 2 failed, retrying...
+2026-03-31 17:10:48,729 [WARNING] camera_worker – [CAM_SEC_2] Attempt 2 failed, retrying...
+2026-03-31 17:10:52,405 [WARNING] health_monitor – [CAM_SEM] CRASHED detected — restarting (attempt 1/5).
+2026-03-31 17:10:52,460 [INFO] camera_worker – [CAM_SEM] Connecting to source: rtmp://semerkandglb.mediatriple.net:1935/semerkandliveedge/semerkand2
+2026-03-31 17:10:52,460 [INFO] manager – Worker started: CAM_SEM (Semerkand TV)
+2026-03-31 17:10:52,461 [INFO] manager – Worker restarted: CAM_SEM
+2026-03-31 17:10:52,462 [INFO] health_monitor – Health sweep: 21/22 OK  |  1 problem(s)
+2026-03-31 17:10:54,940 [WARNING] camera_worker – [CAM_SEC_7] Attempt 2 failed, retrying...
+2026-03-31 17:10:58,649 [WARNING] camera_worker – [CAM_HES] Attempt 4 failed, retrying...
+2026-03-31 17:11:05,882 [WARNING] camera_worker – [CAM_EQ_4] Attempt 2 failed, retrying...
+2026-03-31 17:11:07,464 [INFO] health_monitor – Health sweep: 22/22 OK  |  0 problem(s)
+2026-03-31 17:11:11,332 [WARNING] camera_worker – [CAM_SEC_5] Attempt 2 failed, retrying...
+2026-03-31 17:11:14,268 [WARNING] camera_worker – [CAM_SEM] Attempt 1 failed, retrying...
+2026-03-31 17:11:15,843 [WARNING] camera_worker – [CAM_GOLF] Attempt 1 failed, retrying...
+2026-03-31 17:11:22,061 [WARNING] camera_worker – [CAM_SEC_8] Attempt 2 failed, retrying...
+2026-03-31 17:11:22,466 [INFO] health_monitor – Health sweep: 22/22 OK  |  0 problem(s)
+2026-03-31 17:11:24,745 [WARNING] camera_worker – [CAM_KRD] Attempt 1 failed, retrying...
+2026-03-31 17:11:27,341 [WARNING] camera_worker – [CAM_EQ_3] Attempt 2 failed, retrying...
+2026-03-31 17:11:31,256 [WARNING] camera_worker – [CAM_HES] Attempt 5 failed, retrying...
+2026-03-31 17:11:32,805 [WARNING] camera_worker – [CAM_COL] Attempt 2 failed, retrying...
+2026-03-31 17:11:36,159 [WARNING] camera_worker – [CAM_SEM] Attempt 2 failed, retrying...
+2026-03-31 17:11:37,467 [INFO] health_monitor – Health sweep: 22/22 OK  |  0 problem(s)
+2026-03-31 17:11:37,509 [WARNING] camera_worker – [CAM_HWY] Attempt 1 failed, retrying...
+2026-03-31 17:11:38,402 [WARNING] camera_worker – [CAM_EQ_2] Attempt 2 failed, retrying...
+2026-03-31 17:11:43,575 [WARNING] camera_worker – [CAM_SEC_4] Attempt 2 failed, retrying...
+2026-03-31 17:11:52,471 [WARNING] health_monitor – [CAM_HES] CRASHED detected — restarting (attempt 1/5).
+2026-03-31 17:11:52,505 [INFO] camera_worker – [CAM_HES] Connecting to source: http://freja.hiof.no:1935/rtplive/_definst_/hessdalen03.stream/playlist.m3u8
+2026-03-31 17:11:52,505 [INFO] manager – Worker started: CAM_HES (Hessdalen)
+2026-03-31 17:11:52,508 [INFO] manager – Worker restarted: CAM_HES
+2026-03-31 17:11:52,508 [INFO] health_monitor – Health sweep: 21/22 OK  |  1 problem(s)
+2026-03-31 17:11:54,932 [WARNING] camera_worker – [CAM_SEC_6] Attempt 2 failed, retrying...
+2026-03-31 17:12:00,337 [WARNING] camera_worker – [CAM_TKY] Attempt 2 failed, retrying...
+2026-03-31 17:12:03,812 [WARNING] camera_worker – [CAM_SEM] Attempt 3 failed, retrying...
+2026-03-31 17:12:05,757 [WARNING] camera_worker – [CAM_ANT] Attempt 3 failed, retrying...
+2026-03-31 17:12:07,510 [INFO] health_monitor – Health sweep: 22/22 OK  |  0 problem(s)
+2026-03-31 17:12:16,584 [WARNING] camera_worker – [CAM_SEC_1] Attempt 3 failed, retrying...
+2026-03-31 17:12:21,901 [WARNING] camera_worker – [CAM_EQ_5] Attempt 3 failed, retrying...
+2026-03-31 17:12:22,513 [INFO] health_monitor – Health sweep: 22/22 OK  |  0 problem(s)
+2026-03-31 17:12:27,303 [WARNING] camera_worker – [CAM_SEC_3] Attempt 3 failed, retrying...
+2026-03-31 17:12:32,716 [WARNING] camera_worker – [CAM_SEC_2] Attempt 3 failed, retrying...
+2026-03-31 17:12:34,463 [WARNING] camera_worker – [CAM_HES] Attempt 1 failed, retrying...
+2026-03-31 17:12:36,331 [WARNING] camera_worker – [CAM_SEM] Attempt 4 failed, retrying...
+2026-03-31 17:12:37,515 [INFO] health_monitor – Health sweep: 22/22 OK  |  0 problem(s)
+2026-03-31 17:12:49,660 [WARNING] camera_worker – [CAM_SEC_7] Attempt 3 failed, retrying...
+2026-03-31 17:12:52,519 [INFO] health_monitor – Health sweep: 22/22 OK  |  0 problem(s)
+2026-03-31 17:12:55,062 [WARNING] camera_worker – [CAM_EQ_1] Attempt 3 failed, retrying...
+2026-03-31 17:13:05,968 [WARNING] camera_worker – [CAM_SEC_5] Attempt 3 failed, retrying...
+2026-03-31 17:13:07,528 [INFO] health_monitor – Health sweep: 22/22 OK  |  0 problem(s)
+2026-03-31 17:13:11,275 [WARNING] camera_worker – [CAM_EQ_4] Attempt 3 failed, retrying...
+2026-03-31 17:13:16,814 [WARNING] camera_worker – [CAM_EQ_3] Attempt 3 failed, retrying...
+2026-03-31 17:13:22,238 [WARNING] camera_worker – [CAM_COL] Attempt 3 failed, retrying...
+2026-03-31 17:13:22,544 [INFO] health_monitor – Health sweep: 22/22 OK  |  0 problem(s)
+2026-03-31 17:13:32,426 [INFO] camera_worker – [CAM_KRD] Stream opened (attempt 2).
+2026-03-31 17:13:33,461 [WARNING] camera_worker – [CAM_EQ_2] Attempt 3 failed, retrying...
+2026-03-31 17:13:34,109 [WARNING] camera_worker – [CAM_GOLF] Attempt 2 failed, retrying...
+2026-03-31 17:13:37,549 [INFO] health_monitor – Health sweep: 22/22 OK  |  0 problem(s)
+2026-03-31 17:13:38,762 [WARNING] camera_worker – [CAM_SEC_4] Attempt 3 failed, retrying...
+2026-03-31 17:13:49,272 [WARNING] camera_worker – [CAM_SEM] Attempt 5 failed, retrying...
+2026-03-31 17:13:49,610 [WARNING] camera_worker – [CAM_SEC_6] Attempt 3 failed, retrying...
+2026-03-31 17:13:50,286 [WARNING] camera_worker – [CAM_HES] Attempt 2 failed, retrying...
+2026-03-31 17:13:52,551 [INFO] health_monitor – Health sweep: 22/22 OK  |  0 problem(s)
+2026-03-31 17:13:54,980 [WARNING] camera_worker – [CAM_TKY] Attempt 3 failed, retrying...
+2026-03-31 17:14:05,988 [WARNING] camera_worker – [CAM_ANT] Attempt 4 failed, retrying...
+2026-03-31 17:14:07,554 [WARNING] health_monitor – [CAM_KRD] STALLED detected — restarting (attempt 1/5).
+2026-03-31 17:14:07,582 [INFO] camera_worker – [CAM_KRD] Connecting to source: http://158.58.130.148:80/mjpg/video.mjpg
+2026-03-31 17:14:07,582 [INFO] manager – Worker started: CAM_KRD (Krasnodar)
+2026-03-31 17:14:07,583 [INFO] manager – Worker restarted: CAM_KRD
+2026-03-31 17:14:07,583 [WARNING] health_monitor – [CAM_SEM] CRASHED detected — restarting (attempt 2/5).
+2026-03-31 17:14:07,637 [INFO] camera_worker – [CAM_SEM] Connecting to source: rtmp://semerkandglb.mediatriple.net:1935/semerkandliveedge/semerkand2
+2026-03-31 17:14:07,637 [INFO] manager – Worker started: CAM_SEM (Semerkand TV)
+2026-03-31 17:14:07,642 [INFO] manager – Worker restarted: CAM_SEM
+2026-03-31 17:14:07,643 [INFO] health_monitor – Health sweep: 20/22 OK  |  2 problem(s)
+2026-03-31 17:14:13,174 [WARNING] camera_worker – [CAM_GOLF] Attempt 3 failed, retrying...
+2026-03-31 17:14:22,647 [INFO] health_monitor – Health sweep: 22/22 OK  |  0 problem(s)
+2026-03-31 17:14:37,649 [INFO] health_monitor – Health sweep: 22/22 OK  |  0 problem(s)
+2026-03-31 17:14:39,945 [WARNING] camera_worker – [CAM_HES] Attempt 3 failed, retrying...
+2026-03-31 17:14:40,741 [INFO] camera_worker – [CAM_KRD] Stream opened (attempt 1).
+2026-03-31 17:14:42,678 [INFO] dashboard – Selected camera: CAM_KRD
+2026-03-31 17:14:43,515 [INFO] dashboard – Selected camera: CAM_KRD
+2026-03-31 17:14:52,401 [INFO] dashboard – Selected camera: CAM_ANT
+2026-03-31 17:14:52,652 [INFO] health_monitor – Health sweep: 22/22 OK  |  0 problem(s)
+2026-03-31 17:14:53,779 [INFO] dashboard – Selected camera: CAM_KRD
+2026-03-31 17:14:53,820 [WARNING] camera_worker – [CAM_GOLF] Attempt 4 failed, retrying...
+2026-03-31 17:15:03,711 [WARNING] camera_worker – [CAM_SEM] Attempt 1 failed, retrying...
+2026-03-31 17:15:07,654 [INFO] health_monitor – Health sweep: 22/22 OK  |  0 problem(s)
+2026-03-31 17:15:07,934 [WARNING] camera_worker – [CAM_SEC_2] Attempt 4 failed, retrying...
+2026-03-31 17:15:18,847 [WARNING] camera_worker – [CAM_EQ_1] Attempt 4 failed, retrying...
+2026-03-31 17:15:20,851 [WARNING] camera_worker – [CAM_HES] Attempt 4 failed, retrying...
+2026-03-31 17:15:22,658 [WARNING] health_monitor – [CAM_LOCAL] STALLED detected — restarting (attempt 1/5).
+2026-03-31 17:15:22,702 [INFO] camera_worker – [CAM_LOCAL] Connecting to source: 0
+2026-03-31 17:15:22,703 [INFO] manager – Worker started: CAM_LOCAL (My Local Webcam)
+2026-03-31 17:15:22,704 [INFO] manager – Worker restarted: CAM_LOCAL
+2026-03-31 17:15:22,705 [INFO] health_monitor – Health sweep: 21/22 OK  |  1 problem(s)
+2026-03-31 17:15:24,280 [WARNING] camera_worker – [CAM_EQ_5] Attempt 4 failed, retrying...
+2026-03-31 17:15:29,729 [WARNING] camera_worker – [CAM_EQ_3] Attempt 4 failed, retrying...
+2026-03-31 17:15:34,233 [INFO] CAMS – KeyboardInterrupt — shutting down.
+2026-03-31 17:15:34,237 [INFO] manager – Stopping all camera workers…
+2026-03-31 17:15:35,037 [WARNING] camera_worker – [CAM_SEC_3] Attempt 4 failed, retrying...
+2026-03-31 17:15:35,472 [INFO] camera_worker – [CAM_KRD] Worker stopped.
+2026-03-31 17:15:37,707 [INFO] health_monitor – Health sweep: 22/22 OK  |  0 problem(s)
+2026-03-31 17:15:38,657 [INFO] camera_worker – [CAM_LOCAL] Webcam 0 opened.
+2026-03-31 17:15:38,668 [INFO] camera_worker – [CAM_LOCAL] Worker stopped.
+2026-03-31 17:15:42,830 [INFO] CAMS – ============================================================
+2026-03-31 17:15:42,831 [INFO] CAMS –   CAMS – Centralized Authorized Monitoring System
+2026-03-31 17:15:42,831 [INFO] CAMS – ============================================================
+2026-03-31 17:15:42,832 [INFO] CAMS – ✅ LBPH model found — recognition active.
+2026-03-31 17:15:42,836 [INFO] db – Database initialised at C:\code\cams\cams.db
+2026-03-31 17:15:42,892 [INFO] recognition – DNN face detector loaded.
+2026-03-31 17:15:42,901 [INFO] recognition – LBPH model loaded from C:\code\cams\models\lbph_model.xml
+2026-03-31 17:15:43,045 [INFO] manager – Starting 2 camera worker(s)…
+2026-03-31 17:15:43,046 [INFO] camera_worker – [CAM_UNI] Connecting to source: http://pendelcam.kip.uni-heidelberg.de/mjpg/video.mjpg
+2026-03-31 17:15:43,047 [INFO] manager – Worker started: CAM_UNI (Heidelberg Uni)
+2026-03-31 17:15:43,052 [INFO] camera_worker – [CAM_LOCAL] Connecting to source: 0
+2026-03-31 17:15:43,052 [INFO] manager – Worker started: CAM_LOCAL (My Local Webcam)
+2026-03-31 17:15:43,079 [INFO] alert_notifier – Alert notifier started.
+2026-03-31 17:15:43,080 [INFO] health_monitor – Health monitor started (interval=15s).
+2026-03-31 17:15:43,082 [INFO] stream_recorder – ClipRecorder attached to CAM_UNI
+2026-03-31 17:15:43,084 [INFO] stream_recorder – ClipRecorder attached to CAM_LOCAL
+2026-03-31 17:15:43,085 [INFO] stream_recorder – Clip recorder dispatcher started.
+2026-03-31 17:15:43,085 [INFO] CAMS – All systems running: 2 camera(s), alert notifier, health watchdog, 2 clip recorder(s).
+2026-03-31 17:15:43,086 [INFO] dashboard – Dashboard started.
+2026-03-31 17:15:58,082 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:15:59,024 [INFO] camera_worker – [CAM_LOCAL] Webcam 0 opened.
+2026-03-31 17:16:02,366 [INFO] dashboard – Selected camera: CAM_UNI
+2026-03-31 17:16:02,937 [INFO] dashboard – Selected camera: CAM_LOCAL
+2026-03-31 17:16:13,090 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:16:28,142 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:16:43,149 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:16:58,151 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:17:13,154 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:17:13,212 [WARNING] camera_worker – [CAM_UNI] Attempt 1 failed, retrying...
+2026-03-31 17:17:28,156 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:17:43,157 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:17:58,164 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:18:13,169 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:18:28,177 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:18:43,179 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:18:47,335 [WARNING] camera_worker – [CAM_UNI] Attempt 2 failed, retrying...
+2026-03-31 17:18:58,180 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:19:13,182 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:19:28,184 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:19:43,186 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:19:58,188 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:20:13,190 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:20:27,131 [WARNING] camera_worker – [CAM_UNI] Attempt 3 failed, retrying...
+2026-03-31 17:20:28,191 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:20:43,192 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:20:58,194 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:21:06,494 [INFO] dashboard – Selected camera: CAM_LOCAL
+2026-03-31 17:21:07,614 [INFO] dashboard – Selected camera: CAM_LOCAL
+2026-03-31 17:21:13,196 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:21:28,198 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:21:43,199 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:21:58,201 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:22:00,931 [WARNING] camera_worker – [CAM_UNI] Attempt 4 failed, retrying...
+2026-03-31 17:22:13,243 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:22:28,245 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:22:43,251 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:22:58,252 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:23:13,256 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:23:28,262 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:23:39,292 [WARNING] camera_worker – [CAM_UNI] Attempt 5 failed, retrying...
+2026-03-31 17:23:43,269 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:23:58,270 [WARNING] health_monitor – [CAM_UNI] CRASHED detected — restarting (attempt 1/5).
+2026-03-31 17:23:58,363 [INFO] camera_worker – [CAM_UNI] Connecting to source: http://pendelcam.kip.uni-heidelberg.de/mjpg/video.mjpg
+2026-03-31 17:23:58,363 [INFO] manager – Worker started: CAM_UNI (Heidelberg Uni)
+2026-03-31 17:23:58,364 [INFO] manager – Worker restarted: CAM_UNI
+2026-03-31 17:23:58,364 [INFO] health_monitor – Health sweep: 1/2 OK  |  1 problem(s)
+2026-03-31 17:24:13,365 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:24:28,369 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:24:43,371 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:24:58,374 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:25:13,374 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:25:28,377 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:25:34,954 [WARNING] camera_worker – [CAM_UNI] Attempt 1 failed, retrying...
+2026-03-31 17:25:43,379 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:25:58,381 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:26:13,385 [INFO] health_monitor – Health sweep: 2/2 OK  |  0 problem(s)
+2026-03-31 17:26:21,904 [INFO] CAMS – KeyboardInterrupt — shutting down.
+2026-03-31 17:26:21,908 [INFO] manager – Stopping all camera workers…
+2026-03-31 17:26:22,325 [INFO] camera_worker – [CAM_LOCAL] Worker stopped.
+2026-03-31 17:26:29,552 [INFO] CAMS – ============================================================
+2026-03-31 17:26:29,554 [INFO] CAMS –   CAMS – Centralized Authorized Monitoring System
+2026-03-31 17:26:29,554 [INFO] CAMS – ============================================================
+2026-03-31 17:26:29,557 [INFO] CAMS – ✅ LBPH model found — recognition active.
+2026-03-31 17:26:29,564 [INFO] db – Database initialised at C:\code\cams\cams.db
+2026-03-31 17:26:29,649 [INFO] recognition – DNN face detector loaded.
+2026-03-31 17:26:29,660 [INFO] recognition – LBPH model loaded from C:\code\cams\models\lbph_model.xml
+2026-03-31 17:26:29,821 [INFO] manager – Starting 17 camera worker(s)…
+2026-03-31 17:26:29,823 [INFO] camera_worker – [CAM_LOCAL] Connecting to source: 0
+2026-03-31 17:26:29,823 [INFO] manager – Worker started: CAM_LOCAL (My Local Webcam)
+2026-03-31 17:26:29,826 [INFO] camera_worker – [CAM_01] Connecting to source: http://pendelcam.kip.uni-heidelberg.de/mjpg/video.mjpg
+2026-03-31 17:26:29,827 [INFO] manager – Worker started: CAM_01 (Heidelberg Uni)
+2026-03-31 17:26:29,839 [INFO] camera_worker – [CAM_02] Connecting to source: http://camera.buffalotrace.com/mjpg/video.mjpg
+2026-03-31 17:26:29,840 [INFO] manager – Worker started: CAM_02 (Blanton Bottling)
+2026-03-31 17:26:29,851 [INFO] camera_worker – [CAM_03] Connecting to source: http://camera.butovo.com/mjpg/video.mjpg
+2026-03-31 17:26:29,852 [INFO] manager – Worker started: CAM_03 (Butovo Moscow)
+2026-03-31 17:26:29,858 [INFO] camera_worker – [CAM_04] Connecting to source: http://webcam01.ecn.purdue.edu/mjpg/video.mjpg
+2026-03-31 17:26:29,859 [INFO] manager – Worker started: CAM_04 (Purdue Engineering)
+2026-03-31 17:26:29,865 [INFO] camera_worker – [CAM_05] Connecting to source: http://61.211.241.239/nphMotionJpeg?Resolution=320x240&Quality=Standard
+2026-03-31 17:26:29,866 [INFO] manager – Worker started: CAM_05 (Tokyo Japan)
+2026-03-31 17:26:29,870 [INFO] camera_worker – [CAM_06] Connecting to source: http://vetter.viewnetcam.com:50000/nphMotionJpeg?Resolution=640x480&Quality=Clarity
+2026-03-31 17:26:29,870 [INFO] manager – Worker started: CAM_06 (Japan Camera)
+2026-03-31 17:26:29,872 [INFO] camera_worker – [CAM_07] Connecting to source: http://tamperehacklab.tunk.org:38001/nphMotionJpeg?Resolution=640x480&Quality=Clarity
+2026-03-31 17:26:29,872 [INFO] manager – Worker started: CAM_07 (Tampere Hacklab)
+2026-03-31 17:26:29,879 [INFO] camera_worker – [CAM_08] Connecting to source: http://takemotopiano.aa1.netvolante.jp:8190/nphMotionJpeg?Resolution=640x480&Quality=Standard&Framerate=30
+2026-03-31 17:26:29,879 [INFO] manager – Worker started: CAM_08 (Osaka Piano)
+2026-03-31 17:26:29,883 [INFO] camera_worker – [CAM_09] Connecting to source: http://clausenrc5.viewnetcam.com:50003/nphMotionJpeg?Resolution=320x240
+2026-03-31 17:26:29,884 [INFO] manager – Worker started: CAM_09 (Richtung West (CH))
+2026-03-31 17:26:29,886 [INFO] camera_worker – [CAM_10] Connecting to source: http://195.196.36.242/mjpg/video.mjpg
+2026-03-31 17:26:29,886 [INFO] manager – Worker started: CAM_10 (Soltorget Pajala)
+2026-03-31 17:26:29,888 [INFO] camera_worker – [CAM_11] Connecting to source: http://honjin1.miemasu.net/nphMotionJpeg?Resolution=640x480&Quality=Standard
+2026-03-31 17:26:29,888 [INFO] manager – Worker started: CAM_11 (Tsumago Japan)
+2026-03-31 17:26:29,893 [INFO] camera_worker – [CAM_12] Connecting to source: http://67.53.46.161:65123/mjpg/video.mjpg
+2026-03-31 17:26:29,895 [INFO] manager – Worker started: CAM_12 (Mohouli Park (HI))
+2026-03-31 17:26:29,902 [INFO] camera_worker – [CAM_13] Connecting to source: http://webcam.rhein-taunus-krematorium.de/mjpg/video.mjpg
+2026-03-31 17:26:29,903 [INFO] manager – Worker started: CAM_13 (Krematorium DE)
+2026-03-31 17:26:29,906 [INFO] camera_worker – [CAM_14] Connecting to source: http://77.222.181.11:8080/mjpg/video.mjpg
+2026-03-31 17:26:29,906 [INFO] manager – Worker started: CAM_14 (Kaiskuru Ski)
+2026-03-31 17:26:29,908 [INFO] camera_worker – [CAM_15] Connecting to source: http://webcam.mchcares.com/mjpg/video.mjpg?timestamp=1566232173730
+2026-03-31 17:26:29,908 [INFO] manager – Worker started: CAM_15 (San Bernardino)
+2026-03-31 17:26:29,921 [INFO] camera_worker – [CAM_16] Connecting to source: http://47.51.131.147/-wvhttp-01-/GetOneShot?image_size=1280x720&frame_count=1000000000
+2026-03-31 17:26:29,922 [INFO] manager – Worker started: CAM_16 (Warrenton OR)
+2026-03-31 17:26:29,948 [INFO] alert_notifier – Alert notifier started.
+2026-03-31 17:26:29,950 [INFO] health_monitor – Health monitor started (interval=15s).
+2026-03-31 17:26:29,952 [INFO] stream_recorder – ClipRecorder attached to CAM_LOCAL
+2026-03-31 17:26:29,955 [INFO] stream_recorder – ClipRecorder attached to CAM_01
+2026-03-31 17:26:29,957 [INFO] stream_recorder – ClipRecorder attached to CAM_02
+2026-03-31 17:26:29,959 [INFO] stream_recorder – ClipRecorder attached to CAM_03
+2026-03-31 17:26:29,962 [INFO] stream_recorder – ClipRecorder attached to CAM_04
+2026-03-31 17:26:29,965 [INFO] stream_recorder – ClipRecorder attached to CAM_05
+2026-03-31 17:26:29,968 [INFO] stream_recorder – ClipRecorder attached to CAM_06
+2026-03-31 17:26:29,970 [INFO] stream_recorder – ClipRecorder attached to CAM_07
+2026-03-31 17:26:29,972 [INFO] stream_recorder – ClipRecorder attached to CAM_08
+2026-03-31 17:26:29,974 [INFO] stream_recorder – ClipRecorder attached to CAM_09
+2026-03-31 17:26:29,976 [INFO] stream_recorder – ClipRecorder attached to CAM_10
+2026-03-31 17:26:29,978 [INFO] stream_recorder – ClipRecorder attached to CAM_11
+2026-03-31 17:26:29,981 [INFO] stream_recorder – ClipRecorder attached to CAM_12
+2026-03-31 17:26:29,986 [INFO] stream_recorder – ClipRecorder attached to CAM_13
+2026-03-31 17:26:29,988 [INFO] stream_recorder – ClipRecorder attached to CAM_14
+2026-03-31 17:26:29,990 [INFO] stream_recorder – ClipRecorder attached to CAM_15
+2026-03-31 17:26:29,993 [INFO] stream_recorder – ClipRecorder attached to CAM_16
+2026-03-31 17:26:29,996 [INFO] stream_recorder – Clip recorder dispatcher started.
+2026-03-31 17:26:29,996 [INFO] CAMS – All systems running: 17 camera(s), alert notifier, health watchdog, 17 clip recorder(s).
+2026-03-31 17:26:29,998 [INFO] dashboard – Dashboard started.
+2026-03-31 17:26:44,952 [INFO] health_monitor – Health sweep: 17/17 OK  |  0 problem(s)
+2026-03-31 17:26:47,146 [WARNING] camera_worker – [CAM_06] Attempt 1 failed, retrying...
+2026-03-31 17:26:49,995 [INFO] camera_worker – [CAM_LOCAL] Webcam 0 opened.
+2026-03-31 17:26:59,954 [INFO] health_monitor – Health sweep: 17/17 OK  |  0 problem(s)
+2026-03-31 17:27:00,242 [INFO] camera_worker – [CAM_10] Stream opened (attempt 1).
+2026-03-31 17:27:14,959 [INFO] health_monitor – Health sweep: 17/17 OK  |  0 problem(s)
+2026-03-31 17:27:16,917 [INFO] camera_worker – [CAM_16] Stream opened (attempt 1).
+2026-03-31 17:27:18,538 [INFO] dashboard – Selected camera: CAM_16
+2026-03-31 17:27:23,835 [WARNING] camera_worker – [CAM_09] Attempt 1 failed, retrying...
+2026-03-31 17:27:28,685 [INFO] camera_worker – [CAM_11] Stream opened (attempt 1).
+2026-03-31 17:27:29,962 [INFO] health_monitor – Health sweep: 17/17 OK  |  0 problem(s)
+2026-03-31 17:27:35,432 [WARNING] camera_worker – [CAM_07] Attempt 1 failed, retrying...
+2026-03-31 17:27:44,085 [INFO] dashboard – Selected camera: CAM_11
+2026-03-31 17:27:44,963 [WARNING] health_monitor – [CAM_LOCAL] STALLED detected — restarting (attempt 1/5).
+2026-03-31 17:27:44,996 [INFO] camera_worker – [CAM_LOCAL] Connecting to source: 0
+2026-03-31 17:27:44,996 [INFO] manager – Worker started: CAM_LOCAL (My Local Webcam)
+2026-03-31 17:27:44,998 [INFO] manager – Worker restarted: CAM_LOCAL
+2026-03-31 17:27:44,999 [WARNING] health_monitor – [CAM_10] STALLED detected — restarting (attempt 1/5).
+2026-03-31 17:27:45,036 [INFO] camera_worker – [CAM_10] Connecting to source: http://195.196.36.242/mjpg/video.mjpg
+2026-03-31 17:27:45,037 [INFO] manager – Worker started: CAM_10 (Soltorget Pajala)
+2026-03-31 17:27:45,039 [INFO] manager – Worker restarted: CAM_10
+2026-03-31 17:27:45,040 [INFO] health_monitor – Health sweep: 15/17 OK  |  2 problem(s)
+2026-03-31 17:27:48,897 [INFO] camera_worker – [CAM_13] Stream opened (attempt 1).
+2026-03-31 17:27:49,443 [WARNING] camera_worker – [CAM_03] Attempt 1 failed, retrying...
+2026-03-31 17:27:49,753 [WARNING] camera_worker – [CAM_09] Attempt 2 failed, retrying...
+2026-03-31 17:27:51,893 [INFO] dashboard – Selected camera: CAM_13
+2026-03-31 17:27:52,698 [INFO] dashboard – Selected camera: CAM_11
+2026-03-31 17:28:00,042 [INFO] health_monitor – Health sweep: 17/17 OK  |  0 problem(s)
+2026-03-31 17:28:00,369 [WARNING] camera_worker – [CAM_01] Attempt 1 failed, retrying...
+2026-03-31 17:28:01,207 [INFO] camera_worker – [CAM_LOCAL] Webcam 0 opened.
+2026-03-31 17:28:05,968 [INFO] camera_worker – [CAM_10] Stream opened (attempt 1).
+2026-03-31 17:28:06,575 [WARNING] camera_worker – [CAM_07] Attempt 2 failed, retrying...
+2026-03-31 17:28:06,596 [WARNING] camera_worker – [CAM_03] Attempt 2 failed, retrying...
+2026-03-31 17:28:07,001 [WARNING] camera_worker – [CAM_02] Attempt 1 failed, retrying...
+2026-03-31 17:28:11,179 [WARNING] camera_worker – [CAM_04] Attempt 1 failed, retrying...
+2026-03-31 17:28:11,810 [WARNING] camera_worker – [CAM_09] Attempt 3 failed, retrying...
+2026-03-31 17:28:15,046 [INFO] health_monitor – Health sweep: 17/17 OK  |  0 problem(s)
+2026-03-31 17:28:17,348 [WARNING] camera_worker – [CAM_03] Attempt 3 failed, retrying...
+2026-03-31 17:28:17,781 [WARNING] camera_worker – [CAM_07] Attempt 3 failed, retrying...
+2026-03-31 17:28:17,891 [WARNING] camera_worker – [CAM_09] Attempt 4 failed, retrying...
+2026-03-31 17:28:18,886 [WARNING] camera_worker – [CAM_08] Attempt 1 failed, retrying...
+2026-03-31 17:28:23,437 [WARNING] camera_worker – [CAM_06] Attempt 2 failed, retrying...
+2026-03-31 17:28:23,453 [WARNING] camera_worker – [CAM_03] Attempt 4 failed, retrying...
+2026-03-31 17:28:29,203 [WARNING] camera_worker – [CAM_09] Attempt 5 failed, retrying...
+2026-03-31 17:28:29,204 [WARNING] camera_worker – [CAM_07] Attempt 4 failed, retrying...
+2026-03-31 17:28:29,210 [WARNING] camera_worker – [CAM_06] Attempt 3 failed, retrying...
+2026-03-31 17:28:30,022 [WARNING] camera_worker – [CAM_12] Attempt 1 failed, retrying...
+2026-03-31 17:28:30,049 [WARNING] health_monitor – [CAM_11] STALLED detected — restarting (attempt 1/5).
+2026-03-31 17:28:30,108 [INFO] camera_worker – [CAM_11] Connecting to source: http://honjin1.miemasu.net/nphMotionJpeg?Resolution=640x480&Quality=Standard
+2026-03-31 17:28:30,111 [INFO] manager – Worker started: CAM_11 (Tsumago Japan)
+2026-03-31 17:28:30,115 [INFO] manager – Worker restarted: CAM_11
+2026-03-31 17:28:30,121 [WARNING] health_monitor – [CAM_13] STALLED detected — restarting (attempt 1/5).
+2026-03-31 17:28:30,245 [INFO] camera_worker – [CAM_13] Connecting to source: http://webcam.rhein-taunus-krematorium.de/mjpg/video.mjpg
+2026-03-31 17:28:30,245 [INFO] manager – Worker started: CAM_13 (Krematorium DE)
+2026-03-31 17:28:30,246 [INFO] manager – Worker restarted: CAM_13
+2026-03-31 17:28:30,247 [INFO] health_monitor – Health sweep: 15/17 OK  |  2 problem(s)
+2026-03-31 17:28:35,475 [WARNING] camera_worker – [CAM_14] Attempt 1 failed, retrying...
+2026-03-31 17:28:36,107 [INFO] camera_worker – [CAM_11] Stream opened (attempt 1).
+2026-03-31 17:28:37,509 [INFO] camera_worker – [CAM_13] Stream opened (attempt 1).
+2026-03-31 17:28:37,817 [WARNING] camera_worker – [CAM_03] Attempt 5 failed, retrying...
+2026-03-31 17:28:43,376 [WARNING] camera_worker – [CAM_07] Attempt 5 failed, retrying...
+2026-03-31 17:28:45,248 [WARNING] health_monitor – [CAM_09] CRASHED detected — restarting (attempt 1/5).
+2026-03-31 17:28:45,290 [INFO] camera_worker – [CAM_09] Connecting to source: http://clausenrc5.viewnetcam.com:50003/nphMotionJpeg?Resolution=320x240
+2026-03-31 17:28:45,291 [INFO] manager – Worker started: CAM_09 (Richtung West (CH))
+2026-03-31 17:28:45,292 [INFO] manager – Worker restarted: CAM_09
+2026-03-31 17:28:45,293 [INFO] health_monitor – Health sweep: 16/17 OK  |  1 problem(s)
+2026-03-31 17:28:46,870 [WARNING] camera_worker – [CAM_05] Attempt 1 failed, retrying...
+2026-03-31 17:28:52,304 [WARNING] camera_worker – [CAM_06] Attempt 4 failed, retrying...
+2026-03-31 17:29:00,294 [WARNING] health_monitor – [CAM_LOCAL] STALLED detected — restarting (attempt 2/5).
+2026-03-31 17:29:00,325 [INFO] camera_worker – [CAM_LOCAL] Connecting to source: 0
+2026-03-31 17:29:00,326 [INFO] manager – Worker started: CAM_LOCAL (My Local Webcam)
+2026-03-31 17:29:00,327 [INFO] manager – Worker restarted: CAM_LOCAL
+2026-03-31 17:29:00,335 [WARNING] health_monitor – [CAM_03] CRASHED detected — restarting (attempt 1/5).
+2026-03-31 17:29:00,371 [INFO] camera_worker – [CAM_03] Connecting to source: http://camera.butovo.com/mjpg/video.mjpg
+2026-03-31 17:29:00,372 [INFO] manager – Worker started: CAM_03 (Butovo Moscow)
+2026-03-31 17:29:00,379 [INFO] manager – Worker restarted: CAM_03
+2026-03-31 17:29:00,390 [WARNING] health_monitor – [CAM_07] CRASHED detected — restarting (attempt 1/5).
+2026-03-31 17:29:00,431 [INFO] camera_worker – [CAM_07] Connecting to source: http://tamperehacklab.tunk.org:38001/nphMotionJpeg?Resolution=640x480&Quality=Clarity
+2026-03-31 17:29:00,431 [INFO] manager – Worker started: CAM_07 (Tampere Hacklab)
+2026-03-31 17:29:00,433 [INFO] manager – Worker restarted: CAM_07
+2026-03-31 17:29:00,434 [WARNING] health_monitor – [CAM_10] STALLED detected — restarting (attempt 2/5).
+2026-03-31 17:29:00,463 [INFO] camera_worker – [CAM_10] Connecting to source: http://195.196.36.242/mjpg/video.mjpg
+2026-03-31 17:29:00,464 [INFO] manager – Worker started: CAM_10 (Soltorget Pajala)
+2026-03-31 17:29:00,469 [INFO] manager – Worker restarted: CAM_10
+2026-03-31 17:29:00,613 [WARNING] camera_worker – [CAM_09] Attempt 1 failed, retrying...
+2026-03-31 17:29:00,618 [INFO] health_monitor – Health sweep: 13/17 OK  |  4 problem(s)
+2026-03-31 17:29:00,638 [WARNING] camera_worker – [CAM_15] Attempt 1 failed, retrying...
+2026-03-31 17:29:01,268 [WARNING] camera_worker – [CAM_03] Attempt 1 failed, retrying...
+2026-03-31 17:29:01,416 [WARNING] camera_worker – [CAM_06] Attempt 5 failed, retrying...
+2026-03-31 17:29:01,648 [WARNING] camera_worker – [CAM_07] Attempt 1 failed, retrying...
+2026-03-31 17:29:06,942 [INFO] camera_worker – [CAM_10] Stream opened (attempt 1).
+2026-03-31 17:29:07,225 [WARNING] camera_worker – [CAM_03] Attempt 2 failed, retrying...
+2026-03-31 17:29:07,227 [WARNING] camera_worker – [CAM_09] Attempt 2 failed, retrying...
+2026-03-31 17:29:12,969 [WARNING] camera_worker – [CAM_09] Attempt 3 failed, retrying...
+2026-03-31 17:29:13,096 [WARNING] camera_worker – [CAM_07] Attempt 2 failed, retrying...
+2026-03-31 17:29:13,134 [WARNING] camera_worker – [CAM_03] Attempt 3 failed, retrying...
+2026-03-31 17:29:15,395 [WARNING] camera_worker – [CAM_07] Attempt 3 failed, retrying...
+2026-03-31 17:29:15,634 [INFO] health_monitor – Health sweep: 17/17 OK  |  0 problem(s)
+2026-03-31 17:29:17,068 [WARNING] camera_worker – [CAM_09] Attempt 4 failed, retrying...
+2026-03-31 17:29:17,237 [WARNING] camera_worker – [CAM_03] Attempt 4 failed, retrying...
+2026-03-31 17:29:19,502 [INFO] camera_worker – [CAM_LOCAL] Webcam 0 opened.
+2026-03-31 17:29:19,928 [WARNING] camera_worker – [CAM_07] Attempt 4 failed, retrying...
+2026-03-31 17:29:26,483 [WARNING] camera_worker – [CAM_09] Attempt 5 failed, retrying...
+2026-03-31 17:29:26,897 [WARNING] camera_worker – [CAM_03] Attempt 5 failed, retrying...
+2026-03-31 17:29:28,345 [WARNING] camera_worker – [CAM_07] Attempt 5 failed, retrying...
+2026-03-31 17:29:30,636 [WARNING] health_monitor – [CAM_06] CRASHED detected — restarting (attempt 1/5).
+2026-03-31 17:29:30,679 [INFO] camera_worker – [CAM_06] Connecting to source: http://vetter.viewnetcam.com:50000/nphMotionJpeg?Resolution=640x480&Quality=Clarity
+2026-03-31 17:29:30,679 [INFO] manager – Worker started: CAM_06 (Japan Camera)
+2026-03-31 17:29:30,681 [INFO] manager – Worker restarted: CAM_06
+2026-03-31 17:29:30,684 [INFO] health_monitor – Health sweep: 16/17 OK  |  1 problem(s)
+2026-03-31 17:29:30,901 [WARNING] camera_worker – [CAM_06] Attempt 1 failed, retrying...
+2026-03-31 17:29:32,062 [WARNING] camera_worker – [CAM_06] Attempt 2 failed, retrying...
+2026-03-31 17:29:34,288 [WARNING] camera_worker – [CAM_06] Attempt 3 failed, retrying...
+2026-03-31 17:29:38,596 [WARNING] camera_worker – [CAM_06] Attempt 4 failed, retrying...
+2026-03-31 17:29:40,059 [WARNING] camera_worker – [CAM_01] Attempt 2 failed, retrying...
+2026-03-31 17:29:42,772 [WARNING] camera_worker – [CAM_02] Attempt 2 failed, retrying...
+2026-03-31 17:29:45,689 [WARNING] health_monitor – [CAM_03] CRASHED detected — restarting (attempt 2/5).
+2026-03-31 17:29:45,753 [INFO] camera_worker – [CAM_03] Connecting to source: http://camera.butovo.com/mjpg/video.mjpg
+2026-03-31 17:29:45,753 [INFO] manager – Worker started: CAM_03 (Butovo Moscow)
+2026-03-31 17:29:45,755 [INFO] manager – Worker restarted: CAM_03
+2026-03-31 17:29:45,757 [WARNING] health_monitor – [CAM_07] CRASHED detected — restarting (attempt 2/5).
+2026-03-31 17:29:45,794 [INFO] camera_worker – [CAM_07] Connecting to source: http://tamperehacklab.tunk.org:38001/nphMotionJpeg?Resolution=640x480&Quality=Clarity
+2026-03-31 17:29:45,794 [INFO] manager – Worker started: CAM_07 (Tampere Hacklab)
+2026-03-31 17:29:45,796 [INFO] manager – Worker restarted: CAM_07
+2026-03-31 17:29:45,797 [WARNING] health_monitor – [CAM_09] CRASHED detected — restarting (attempt 2/5).
+2026-03-31 17:29:45,833 [INFO] camera_worker – [CAM_09] Connecting to source: http://clausenrc5.viewnetcam.com:50003/nphMotionJpeg?Resolution=320x240
+2026-03-31 17:29:45,835 [INFO] manager – Worker started: CAM_09 (Richtung West (CH))
+2026-03-31 17:29:45,836 [INFO] manager – Worker restarted: CAM_09
+2026-03-31 17:29:45,837 [WARNING] health_monitor – [CAM_10] STALLED detected — restarting (attempt 3/5).
+2026-03-31 17:29:45,882 [INFO] camera_worker – [CAM_10] Connecting to source: http://195.196.36.242/mjpg/video.mjpg
+2026-03-31 17:29:45,885 [INFO] manager – Worker started: CAM_10 (Soltorget Pajala)
+2026-03-31 17:29:45,887 [INFO] manager – Worker restarted: CAM_10
+2026-03-31 17:29:45,977 [WARNING] health_monitor – [CAM_11] STALLED detected — restarting (attempt 2/5).
+2026-03-31 17:29:46,011 [INFO] camera_worker – [CAM_11] Connecting to source: http://honjin1.miemasu.net/nphMotionJpeg?Resolution=640x480&Quality=Standard
+2026-03-31 17:29:46,011 [INFO] manager – Worker started: CAM_11 (Tsumago Japan)
+2026-03-31 17:29:46,012 [INFO] manager – Worker restarted: CAM_11
+2026-03-31 17:29:46,019 [WARNING] health_monitor – [CAM_13] STALLED detected — restarting (attempt 2/5).
+2026-03-31 17:29:46,061 [INFO] camera_worker – [CAM_13] Connecting to source: http://webcam.rhein-taunus-krematorium.de/mjpg/video.mjpg
+2026-03-31 17:29:46,062 [INFO] manager – Worker started: CAM_13 (Krematorium DE)
+2026-03-31 17:29:46,068 [INFO] manager – Worker restarted: CAM_13
+2026-03-31 17:29:46,133 [WARNING] health_monitor – [CAM_16] STALLED detected — restarting (attempt 1/5).
+2026-03-31 17:29:46,175 [INFO] camera_worker – [CAM_16] Connecting to source: http://47.51.131.147/-wvhttp-01-/GetOneShot?image_size=1280x720&frame_count=1000000000
+2026-03-31 17:29:46,175 [INFO] manager – Worker started: CAM_16 (Warrenton OR)
+2026-03-31 17:29:46,177 [INFO] manager – Worker restarted: CAM_16
+2026-03-31 17:29:46,178 [INFO] health_monitor – Health sweep: 10/17 OK  |  7 problem(s)
+2026-03-31 17:29:47,999 [WARNING] camera_worker – [CAM_04] Attempt 2 failed, retrying...
+2026-03-31 17:29:56,751 [WARNING] camera_worker – [CAM_07] Attempt 1 failed, retrying...
+2026-03-31 17:29:57,222 [WARNING] camera_worker – [CAM_08] Attempt 2 failed, retrying...
+2026-03-31 17:30:01,181 [INFO] health_monitor – Health sweep: 17/17 OK  |  0 problem(s)
+2026-03-31 17:30:07,297 [WARNING] camera_worker – [CAM_12] Attempt 2 failed, retrying...
+2026-03-31 17:30:12,997 [WARNING] camera_worker – [CAM_14] Attempt 2 failed, retrying...
+2026-03-31 17:30:15,074 [INFO] camera_worker – [CAM_10] Stream opened (attempt 1).
+2026-03-31 17:30:16,183 [INFO] health_monitor – Health sweep: 17/17 OK  |  0 problem(s)
+2026-03-31 17:30:21,714 [WARNING] camera_worker – [CAM_05] Attempt 2 failed, retrying...
+2026-03-31 17:30:23,045 [INFO] camera_worker – [CAM_13] Stream opened (attempt 1).
+2026-03-31 17:30:31,187 [INFO] health_monitor – Health sweep: 17/17 OK  |  0 problem(s)
+2026-03-31 17:30:36,960 [WARNING] camera_worker – [CAM_15] Attempt 2 failed, retrying...
+2026-03-31 17:30:45,598 [WARNING] camera_worker – [CAM_06] Attempt 5 failed, retrying...
+2026-03-31 17:30:45,614 [WARNING] camera_worker – [CAM_03] Attempt 1 failed, retrying...
+2026-03-31 17:30:46,189 [INFO] health_monitor – Health sweep: 17/17 OK  |  0 problem(s)
+2026-03-31 17:30:58,868 [WARNING] camera_worker – [CAM_13] Frame read failed -- reconnecting.
+2026-03-31 17:31:01,191 [INFO] health_monitor – Health sweep: 17/17 OK  |  0 problem(s)
+2026-03-31 17:31:15,812 [WARNING] camera_worker – [CAM_02] Attempt 3 failed, retrying...
+2026-03-31 17:31:15,814 [WARNING] camera_worker – [CAM_01] Attempt 3 failed, retrying...
+2026-03-31 17:31:16,014 [WARNING] camera_worker – [CAM_14] Attempt 3 failed, retrying...
+2026-03-31 17:31:16,016 [WARNING] camera_worker – [CAM_11] Attempt 1 failed, retrying...
+2026-03-31 17:31:16,022 [WARNING] camera_worker – [CAM_08] Attempt 3 failed, retrying...
+2026-03-31 17:31:16,198 [WARNING] health_monitor – [CAM_06] CRASHED detected — restarting (attempt 2/5).
+2026-03-31 17:31:16,239 [INFO] camera_worker – [CAM_06] Connecting to source: http://vetter.viewnetcam.com:50000/nphMotionJpeg?Resolution=640x480&Quality=Clarity
+2026-03-31 17:31:16,243 [INFO] manager – Worker started: CAM_06 (Japan Camera)
+2026-03-31 17:31:16,249 [INFO] manager – Worker restarted: CAM_06
+2026-03-31 17:31:16,253 [WARNING] health_monitor – [CAM_10] STALLED detected — restarting (attempt 4/5).
+2026-03-31 17:31:16,336 [INFO] camera_worker – [CAM_10] Connecting to source: http://195.196.36.242/mjpg/video.mjpg
+2026-03-31 17:31:16,336 [INFO] manager – Worker started: CAM_10 (Soltorget Pajala)
+2026-03-31 17:31:16,369 [INFO] manager – Worker restarted: CAM_10
+2026-03-31 17:31:16,561 [INFO] health_monitor – Health sweep: 15/17 OK  |  2 problem(s)
+2026-03-31 17:31:18,876 [WARNING] camera_worker – [CAM_09] Attempt 1 failed, retrying...
+2026-03-31 17:31:18,885 [WARNING] camera_worker – [CAM_04] Attempt 3 failed, retrying...
+2026-03-31 17:31:18,914 [WARNING] camera_worker – [CAM_07] Attempt 2 failed, retrying...
+2026-03-31 17:31:26,076 [INFO] camera_worker – [CAM_16] Stream opened (attempt 1).
+2026-03-31 17:31:26,450 [WARNING] camera_worker – [CAM_06] Attempt 1 failed, retrying...
+2026-03-31 17:31:29,051 [INFO] camera_worker – [CAM_11] Stream opened (attempt 2).
+2026-03-31 17:31:29,400 [WARNING] camera_worker – [CAM_03] Attempt 2 failed, retrying...
+2026-03-31 17:31:31,569 [WARNING] health_monitor – [CAM_LOCAL] STALLED detected — restarting (attempt 3/5).
+2026-03-31 17:31:31,628 [INFO] camera_worker – [CAM_LOCAL] Connecting to source: 0
+2026-03-31 17:31:31,628 [INFO] manager – Worker started: CAM_LOCAL (My Local Webcam)
+2026-03-31 17:31:31,630 [INFO] manager – Worker restarted: CAM_LOCAL
+2026-03-31 17:31:31,663 [WARNING] health_monitor – [CAM_13] STALLED detected — restarting (attempt 3/5).
+2026-03-31 17:31:35,143 [WARNING] camera_worker – [CAM_09] Attempt 2 failed, retrying...
+2026-03-31 17:31:36,754 [INFO] camera_worker – [CAM_13] Connecting to source: http://webcam.rhein-taunus-krematorium.de/mjpg/video.mjpg
+2026-03-31 17:31:36,754 [INFO] manager – Worker started: CAM_13 (Krematorium DE)
+2026-03-31 17:31:36,756 [INFO] manager – Worker restarted: CAM_13
+2026-03-31 17:31:36,757 [INFO] health_monitor – Health sweep: 15/17 OK  |  2 problem(s)
+2026-03-31 17:31:51,760 [INFO] health_monitor – Health sweep: 17/17 OK  |  0 problem(s)
+2026-03-31 17:31:53,312 [INFO] camera_worker – [CAM_10] Stream opened (attempt 1).
+2026-03-31 17:31:53,809 [WARNING] camera_worker – [CAM_06] Attempt 2 failed, retrying...
+2026-03-31 17:31:54,552 [INFO] camera_worker – [CAM_LOCAL] Webcam 0 opened.
+2026-03-31 17:32:05,971 [INFO] camera_worker – [CAM_13] Stream opened (attempt 1).
+2026-03-31 17:32:06,763 [INFO] health_monitor – Health sweep: 17/17 OK  |  0 problem(s)
+2026-03-31 17:32:12,776 [INFO] camera_worker – [CAM_13] Stream opened (attempt 1).
+2026-03-31 17:32:12,899 [INFO] camera_worker – [CAM_13] Worker stopped.
+2026-03-31 17:32:13,474 [WARNING] camera_worker – [CAM_06] Attempt 3 failed, retrying...
+2026-03-31 17:32:13,508 [WARNING] camera_worker – [CAM_09] Attempt 3 failed, retrying...
+2026-03-31 17:32:13,658 [WARNING] camera_worker – [CAM_03] Attempt 3 failed, retrying...
+2026-03-31 17:32:19,333 [WARNING] camera_worker – [CAM_09] Attempt 4 failed, retrying...
+2026-03-31 17:32:19,372 [WARNING] camera_worker – [CAM_06] Attempt 4 failed, retrying...
+2026-03-31 17:32:19,384 [WARNING] camera_worker – [CAM_03] Attempt 4 failed, retrying...
+2026-03-31 17:32:19,386 [WARNING] camera_worker – [CAM_07] Attempt 3 failed, retrying...
+2026-03-31 17:32:21,766 [WARNING] health_monitor – [CAM_11] STALLED detected — restarting (attempt 3/5).
+2026-03-31 17:32:21,802 [INFO] camera_worker – [CAM_11] Connecting to source: http://honjin1.miemasu.net/nphMotionJpeg?Resolution=640x480&Quality=Standard
+2026-03-31 17:32:21,803 [INFO] manager – Worker started: CAM_11 (Tsumago Japan)
+2026-03-31 17:32:21,805 [INFO] manager – Worker restarted: CAM_11
+2026-03-31 17:32:21,818 [WARNING] health_monitor – [CAM_16] STALLED detected — restarting (attempt 2/5).
+2026-03-31 17:32:21,866 [INFO] camera_worker – [CAM_16] Connecting to source: http://47.51.131.147/-wvhttp-01-/GetOneShot?image_size=1280x720&frame_count=1000000000
+2026-03-31 17:32:21,866 [INFO] manager – Worker started: CAM_16 (Warrenton OR)
+2026-03-31 17:32:21,868 [INFO] manager – Worker restarted: CAM_16
+2026-03-31 17:32:21,869 [INFO] health_monitor – Health sweep: 15/17 OK  |  2 problem(s)
+2026-03-31 17:32:24,772 [INFO] camera_worker – [CAM_11] Stream opened (attempt 1).
+2026-03-31 17:32:26,708 [INFO] camera_worker – [CAM_16] Stream opened (attempt 1).
+2026-03-31 17:32:27,012 [WARNING] camera_worker – [CAM_07] Attempt 4 failed, retrying...
+2026-03-31 17:32:27,527 [WARNING] camera_worker – [CAM_09] Attempt 5 failed, retrying...
+2026-03-31 17:32:27,556 [WARNING] camera_worker – [CAM_06] Attempt 5 failed, retrying...
+2026-03-31 17:32:27,636 [WARNING] camera_worker – [CAM_03] Attempt 5 failed, retrying...
+2026-03-31 17:32:35,396 [WARNING] camera_worker – [CAM_07] Attempt 5 failed, retrying...
+2026-03-31 17:32:36,891 [WARNING] health_monitor – [CAM_LOCAL] STALLED detected — restarting (attempt 4/5).
+2026-03-31 17:32:36,949 [INFO] camera_worker – [CAM_LOCAL] Connecting to source: 0
+2026-03-31 17:32:36,949 [INFO] manager – Worker started: CAM_LOCAL (My Local Webcam)
+2026-03-31 17:32:36,959 [INFO] manager – Worker restarted: CAM_LOCAL
+2026-03-31 17:32:37,053 [WARNING] health_monitor – [CAM_10] STALLED detected — restarting (attempt 5/5).
+2026-03-31 17:32:37,158 [INFO] camera_worker – [CAM_10] Connecting to source: http://195.196.36.242/mjpg/video.mjpg
+2026-03-31 17:32:37,159 [INFO] manager – Worker started: CAM_10 (Soltorget Pajala)
+2026-03-31 17:32:37,181 [INFO] manager – Worker restarted: CAM_10
+2026-03-31 17:32:37,324 [INFO] health_monitor – Health sweep: 15/17 OK  |  2 problem(s)
+2026-03-31 17:32:44,499 [INFO] camera_worker – [CAM_10] Stream opened (attempt 1).
+2026-03-31 17:32:48,514 [WARNING] camera_worker – [CAM_12] Attempt 3 failed, retrying...
+2026-03-31 17:32:52,344 [WARNING] health_monitor – [CAM_03] CRASHED detected — restarting (attempt 3/5).
+2026-03-31 17:32:52,457 [INFO] camera_worker – [CAM_03] Connecting to source: http://camera.butovo.com/mjpg/video.mjpg
+2026-03-31 17:32:52,457 [INFO] manager – Worker started: CAM_03 (Butovo Moscow)
+2026-03-31 17:32:52,463 [INFO] manager – Worker restarted: CAM_03
+2026-03-31 17:32:52,464 [WARNING] health_monitor – [CAM_06] CRASHED detected — restarting (attempt 3/5).
+2026-03-31 17:32:52,519 [INFO] camera_worker – [CAM_06] Connecting to source: http://vetter.viewnetcam.com:50000/nphMotionJpeg?Resolution=640x480&Quality=Clarity
+2026-03-31 17:32:52,520 [INFO] manager – Worker started: CAM_06 (Japan Camera)
+2026-03-31 17:32:52,529 [INFO] manager – Worker restarted: CAM_06
+2026-03-31 17:32:52,531 [WARNING] health_monitor – [CAM_07] CRASHED detected — restarting (attempt 3/5).
+2026-03-31 17:32:52,605 [INFO] camera_worker – [CAM_07] Connecting to source: http://tamperehacklab.tunk.org:38001/nphMotionJpeg?Resolution=640x480&Quality=Clarity
+2026-03-31 17:32:52,605 [INFO] manager – Worker started: CAM_07 (Tampere Hacklab)
+2026-03-31 17:32:52,606 [INFO] manager – Worker restarted: CAM_07
+2026-03-31 17:32:52,607 [WARNING] health_monitor – [CAM_09] CRASHED detected — restarting (attempt 3/5).
+2026-03-31 17:32:52,648 [INFO] camera_worker – [CAM_09] Connecting to source: http://clausenrc5.viewnetcam.com:50003/nphMotionJpeg?Resolution=320x240
+2026-03-31 17:32:52,648 [INFO] manager – Worker started: CAM_09 (Richtung West (CH))
+2026-03-31 17:32:52,650 [INFO] manager – Worker restarted: CAM_09
+2026-03-31 17:32:52,651 [INFO] health_monitor – Health sweep: 13/17 OK  |  4 problem(s)
+2026-03-31 17:32:52,676 [WARNING] camera_worker – [CAM_03] Attempt 1 failed, retrying...
+2026-03-31 17:32:57,989 [WARNING] camera_worker – [CAM_06] Attempt 1 failed, retrying...
+2026-03-31 17:32:58,011 [WARNING] camera_worker – [CAM_09] Attempt 1 failed, retrying...
+2026-03-31 17:32:58,202 [WARNING] camera_worker – [CAM_07] Attempt 1 failed, retrying...
+2026-03-31 17:32:58,218 [WARNING] camera_worker – [CAM_03] Attempt 2 failed, retrying...
+2026-03-31 17:32:58,815 [INFO] camera_worker – [CAM_LOCAL] Webcam 0 opened.
+2026-03-31 17:32:58,842 [INFO] dashboard – Selected camera: CAM_10
+2026-03-31 17:32:59,121 [WARNING] camera_worker – [CAM_06] Attempt 2 failed, retrying...
+2026-03-31 17:32:59,130 [WARNING] camera_worker – [CAM_09] Attempt 2 failed, retrying...
+2026-03-31 17:32:59,322 [WARNING] camera_worker – [CAM_02] Attempt 4 failed, retrying...
+2026-03-31 17:32:59,413 [WARNING] camera_worker – [CAM_07] Attempt 2 failed, retrying...
+2026-03-31 17:33:00,345 [WARNING] camera_worker – [CAM_03] Attempt 3 failed, retrying...
+2026-03-31 17:33:01,249 [WARNING] camera_worker – [CAM_06] Attempt 3 failed, retrying...
+2026-03-31 17:33:01,254 [WARNING] camera_worker – [CAM_09] Attempt 3 failed, retrying...
+2026-03-31 17:33:01,529 [WARNING] camera_worker – [CAM_07] Attempt 3 failed, retrying...
+2026-03-31 17:33:04,489 [WARNING] camera_worker – [CAM_03] Attempt 4 failed, retrying...
+2026-03-31 17:33:05,504 [WARNING] camera_worker – [CAM_06] Attempt 4 failed, retrying...
+2026-03-31 17:33:05,507 [WARNING] camera_worker – [CAM_09] Attempt 4 failed, retrying...
+2026-03-31 17:33:05,621 [WARNING] camera_worker – [CAM_08] Attempt 4 failed, retrying...
+2026-03-31 17:33:05,834 [WARNING] camera_worker – [CAM_07] Attempt 4 failed, retrying...
+2026-03-31 17:33:07,655 [WARNING] health_monitor – [CAM_13] STALLED detected — restarting (attempt 4/5).
+2026-03-31 17:33:07,687 [INFO] camera_worker – [CAM_13] Connecting to source: http://webcam.rhein-taunus-krematorium.de/mjpg/video.mjpg
+2026-03-31 17:33:07,688 [INFO] manager – Worker started: CAM_13 (Krematorium DE)
+2026-03-31 17:33:07,689 [INFO] manager – Worker restarted: CAM_13
+2026-03-31 17:33:07,745 [WARNING] health_monitor – [CAM_16] STALLED detected — restarting (attempt 3/5).
+2026-03-31 17:33:07,794 [INFO] camera_worker – [CAM_16] Connecting to source: http://47.51.131.147/-wvhttp-01-/GetOneShot?image_size=1280x720&frame_count=1000000000
+2026-03-31 17:33:07,794 [INFO] manager – Worker started: CAM_16 (Warrenton OR)
+2026-03-31 17:33:07,795 [INFO] manager – Worker restarted: CAM_16
+2026-03-31 17:33:07,796 [INFO] health_monitor – Health sweep: 15/17 OK  |  2 problem(s)
+2026-03-31 17:33:10,538 [INFO] dashboard – Selected camera: CAM_11
+2026-03-31 17:33:10,950 [WARNING] camera_worker – [CAM_04] Attempt 4 failed, retrying...
+2026-03-31 17:33:15,028 [INFO] camera_worker – [CAM_13] Stream opened (attempt 1).
+2026-03-31 17:33:15,311 [WARNING] camera_worker – [CAM_03] Attempt 5 failed, retrying...
+2026-03-31 17:33:15,472 [WARNING] camera_worker – [CAM_06] Attempt 5 failed, retrying...
+2026-03-31 17:33:22,811 [INFO] health_monitor – Health sweep: 17/17 OK  |  0 problem(s)
+2026-03-31 17:33:22,906 [INFO] camera_worker – [CAM_16] Stream opened (attempt 1).
+2026-03-31 17:33:23,306 [WARNING] camera_worker – [CAM_09] Attempt 5 failed, retrying...
+2026-03-31 17:33:23,403 [WARNING] camera_worker – [CAM_01] Attempt 4 failed, retrying...
+2026-03-31 17:33:23,512 [WARNING] camera_worker – [CAM_07] Attempt 5 failed, retrying...
+2026-03-31 17:33:28,546 [WARNING] camera_worker – [CAM_14] Attempt 4 failed, retrying...
+2026-03-31 17:33:32,734 [INFO] dashboard – Selected camera: CAM_10
+2026-03-31 17:33:35,745 [WARNING] camera_worker – [CAM_05] Attempt 3 failed, retrying...
+2026-03-31 17:33:37,813 [WARNING] health_monitor – [CAM_LOCAL] STALLED detected — restarting (attempt 5/5).
+2026-03-31 17:33:37,842 [INFO] camera_worker – [CAM_LOCAL] Connecting to source: 0
+2026-03-31 17:33:37,842 [INFO] manager – Worker started: CAM_LOCAL (My Local Webcam)
+2026-03-31 17:33:37,844 [INFO] manager – Worker restarted: CAM_LOCAL
+2026-03-31 17:33:37,849 [WARNING] health_monitor – [CAM_03] CRASHED detected — restarting (attempt 4/5).
+2026-03-31 17:33:37,884 [INFO] camera_worker – [CAM_03] Connecting to source: http://camera.butovo.com/mjpg/video.mjpg
+2026-03-31 17:33:37,885 [INFO] manager – Worker started: CAM_03 (Butovo Moscow)
+2026-03-31 17:33:37,885 [INFO] manager – Worker restarted: CAM_03
+2026-03-31 17:33:37,886 [WARNING] health_monitor – [CAM_06] CRASHED detected — restarting (attempt 4/5).
+2026-03-31 17:33:37,940 [INFO] camera_worker – [CAM_06] Connecting to source: http://vetter.viewnetcam.com:50000/nphMotionJpeg?Resolution=640x480&Quality=Clarity
+2026-03-31 17:33:37,940 [INFO] manager – Worker started: CAM_06 (Japan Camera)
+2026-03-31 17:33:37,970 [INFO] manager – Worker restarted: CAM_06
+2026-03-31 17:33:37,971 [ERROR] health_monitor – [CAM_10] Exceeded max restarts (5) — giving up.
+2026-03-31 17:33:38,022 [INFO] health_monitor – Health sweep: 13/17 OK  |  4 problem(s)
+2026-03-31 17:33:43,010 [WARNING] camera_worker – [CAM_03] Attempt 1 failed, retrying...
+2026-03-31 17:33:43,384 [WARNING] camera_worker – [CAM_15] Attempt 3 failed, retrying...
+2026-03-31 17:33:48,420 [WARNING] camera_worker – [CAM_06] Attempt 1 failed, retrying...
+2026-03-31 17:33:53,023 [WARNING] health_monitor – [CAM_07] CRASHED detected — restarting (attempt 4/5).
+2026-03-31 17:33:53,066 [INFO] camera_worker – [CAM_07] Connecting to source: http://tamperehacklab.tunk.org:38001/nphMotionJpeg?Resolution=640x480&Quality=Clarity
+2026-03-31 17:33:53,066 [INFO] manager – Worker started: CAM_07 (Tampere Hacklab)
+2026-03-31 17:33:53,071 [INFO] manager – Worker restarted: CAM_07
+2026-03-31 17:33:53,072 [WARNING] health_monitor – [CAM_09] CRASHED detected — restarting (attempt 4/5).
+2026-03-31 17:33:53,132 [INFO] camera_worker – [CAM_09] Connecting to source: http://clausenrc5.viewnetcam.com:50003/nphMotionJpeg?Resolution=320x240
+2026-03-31 17:33:53,133 [INFO] manager – Worker started: CAM_09 (Richtung West (CH))
+2026-03-31 17:33:53,140 [INFO] manager – Worker restarted: CAM_09
+2026-03-31 17:33:53,141 [ERROR] health_monitor – [CAM_10] Exceeded max restarts (5) — giving up.
+2026-03-31 17:33:53,191 [INFO] health_monitor – Health sweep: 14/17 OK  |  3 problem(s)
+2026-03-31 17:33:54,109 [WARNING] camera_worker – [CAM_03] Attempt 2 failed, retrying...
+2026-03-31 17:33:54,319 [WARNING] camera_worker – [CAM_07] Attempt 1 failed, retrying...
+2026-03-31 17:33:54,325 [WARNING] camera_worker – [CAM_06] Attempt 2 failed, retrying...
+2026-03-31 17:33:54,338 [WARNING] camera_worker – [CAM_09] Attempt 1 failed, retrying...
+2026-03-31 17:33:55,495 [WARNING] camera_worker – [CAM_07] Attempt 2 failed, retrying...
+2026-03-31 17:33:55,501 [WARNING] camera_worker – [CAM_09] Attempt 2 failed, retrying...
+2026-03-31 17:33:56,246 [WARNING] camera_worker – [CAM_03] Attempt 3 failed, retrying...
+2026-03-31 17:33:56,475 [WARNING] camera_worker – [CAM_06] Attempt 3 failed, retrying...
+2026-03-31 17:33:57,646 [WARNING] camera_worker – [CAM_07] Attempt 3 failed, retrying...
+2026-03-31 17:33:57,652 [WARNING] camera_worker – [CAM_09] Attempt 3 failed, retrying...
+2026-03-31 17:34:00,581 [WARNING] camera_worker – [CAM_03] Attempt 4 failed, retrying...
+2026-03-31 17:34:00,645 [WARNING] camera_worker – [CAM_06] Attempt 4 failed, retrying...
+2026-03-31 17:34:01,288 [INFO] camera_worker – [CAM_LOCAL] Webcam 0 opened.
+2026-03-31 17:34:01,969 [WARNING] camera_worker – [CAM_07] Attempt 4 failed, retrying...
+2026-03-31 17:34:01,977 [WARNING] camera_worker – [CAM_09] Attempt 4 failed, retrying...
+2026-03-31 17:34:08,195 [ERROR] health_monitor – [CAM_10] Exceeded max restarts (5) — giving up.
+2026-03-31 17:34:08,235 [WARNING] health_monitor – [CAM_16] STALLED detected — restarting (attempt 4/5).
+2026-03-31 17:34:08,264 [INFO] camera_worker – [CAM_16] Connecting to source: http://47.51.131.147/-wvhttp-01-/GetOneShot?image_size=1280x720&frame_count=1000000000
+2026-03-31 17:34:08,265 [INFO] manager – Worker started: CAM_16 (Warrenton OR)
+2026-03-31 17:34:08,266 [INFO] manager – Worker restarted: CAM_16
+2026-03-31 17:34:08,267 [INFO] health_monitor – Health sweep: 15/17 OK  |  2 problem(s)
+2026-03-31 17:34:10,127 [INFO] camera_worker – [CAM_16] Stream opened (attempt 1).
+2026-03-31 17:34:10,367 [WARNING] camera_worker – [CAM_03] Attempt 5 failed, retrying...
+2026-03-31 17:34:10,594 [WARNING] camera_worker – [CAM_07] Attempt 5 failed, retrying...
+2026-03-31 17:34:10,595 [WARNING] camera_worker – [CAM_06] Attempt 5 failed, retrying...
+2026-03-31 17:34:10,616 [WARNING] camera_worker – [CAM_09] Attempt 5 failed, retrying...
+2026-03-31 17:34:22,118 [WARNING] camera_worker – [CAM_12] Attempt 4 failed, retrying...
+2026-03-31 17:34:23,269 [ERROR] health_monitor – [CAM_10] Exceeded max restarts (5) — giving up.
+2026-03-31 17:34:23,304 [WARNING] health_monitor – [CAM_11] STALLED detected — restarting (attempt 4/5).
+2026-03-31 17:34:23,346 [INFO] camera_worker – [CAM_11] Connecting to source: http://honjin1.miemasu.net/nphMotionJpeg?Resolution=640x480&Quality=Standard
+2026-03-31 17:34:23,346 [INFO] manager – Worker started: CAM_11 (Tsumago Japan)
+2026-03-31 17:34:23,352 [INFO] manager – Worker restarted: CAM_11
+2026-03-31 17:34:23,359 [INFO] health_monitor – Health sweep: 15/17 OK  |  2 problem(s)
+2026-03-31 17:34:26,596 [INFO] camera_worker – [CAM_11] Stream opened (attempt 1).
+2026-03-31 17:34:37,323 [WARNING] camera_worker – [CAM_02] Attempt 5 failed, retrying...
+2026-03-31 17:34:38,368 [ERROR] health_monitor – [CAM_LOCAL] Exceeded max restarts (5) — giving up.
+2026-03-31 17:34:38,397 [WARNING] health_monitor – [CAM_03] CRASHED detected — restarting (attempt 5/5).
+2026-03-31 17:34:38,442 [INFO] camera_worker – [CAM_03] Connecting to source: http://camera.butovo.com/mjpg/video.mjpg
+2026-03-31 17:34:38,444 [INFO] manager – Worker started: CAM_03 (Butovo Moscow)
+2026-03-31 17:34:38,447 [INFO] manager – Worker restarted: CAM_03
+2026-03-31 17:34:38,448 [WARNING] health_monitor – [CAM_06] CRASHED detected — restarting (attempt 5/5).
+2026-03-31 17:34:38,504 [INFO] camera_worker – [CAM_06] Connecting to source: http://vetter.viewnetcam.com:50000/nphMotionJpeg?Resolution=640x480&Quality=Clarity
+2026-03-31 17:34:38,509 [INFO] manager – Worker started: CAM_06 (Japan Camera)
+2026-03-31 17:34:38,515 [INFO] manager – Worker restarted: CAM_06
+2026-03-31 17:34:38,516 [WARNING] health_monitor – [CAM_07] CRASHED detected — restarting (attempt 5/5).
+2026-03-31 17:34:38,573 [INFO] camera_worker – [CAM_07] Connecting to source: http://tamperehacklab.tunk.org:38001/nphMotionJpeg?Resolution=640x480&Quality=Clarity
+2026-03-31 17:34:38,576 [INFO] manager – Worker started: CAM_07 (Tampere Hacklab)
+2026-03-31 17:34:38,584 [INFO] manager – Worker restarted: CAM_07
+2026-03-31 17:34:38,586 [WARNING] health_monitor – [CAM_09] CRASHED detected — restarting (attempt 5/5).
+2026-03-31 17:34:38,627 [INFO] camera_worker – [CAM_09] Connecting to source: http://clausenrc5.viewnetcam.com:50003/nphMotionJpeg?Resolution=320x240
+2026-03-31 17:34:38,629 [INFO] manager – Worker started: CAM_09 (Richtung West (CH))
+2026-03-31 17:34:38,637 [INFO] manager – Worker restarted: CAM_09
+2026-03-31 17:34:38,641 [ERROR] health_monitor – [CAM_10] Exceeded max restarts (5) — giving up.
+2026-03-31 17:34:38,686 [WARNING] health_monitor – [CAM_13] STALLED detected — restarting (attempt 5/5).
+2026-03-31 17:34:38,726 [INFO] camera_worker – [CAM_13] Connecting to source: http://webcam.rhein-taunus-krematorium.de/mjpg/video.mjpg
+2026-03-31 17:34:38,728 [INFO] manager – Worker started: CAM_13 (Krematorium DE)
+2026-03-31 17:34:38,737 [INFO] manager – Worker restarted: CAM_13
+2026-03-31 17:34:38,805 [INFO] health_monitor – Health sweep: 10/17 OK  |  7 problem(s)
+2026-03-31 17:34:38,874 [WARNING] camera_worker – [CAM_03] Attempt 1 failed, retrying...
+2026-03-31 17:34:38,877 [WARNING] camera_worker – [CAM_06] Attempt 1 failed, retrying...
+2026-03-31 17:34:38,920 [WARNING] camera_worker – [CAM_09] Attempt 1 failed, retrying...
+2026-03-31 17:34:39,164 [WARNING] camera_worker – [CAM_07] Attempt 1 failed, retrying...
+2026-03-31 17:34:40,334 [INFO] camera_worker – [CAM_13] Stream opened (attempt 1).
+2026-03-31 17:34:40,658 [WARNING] camera_worker – [CAM_09] Attempt 2 failed, retrying...
+2026-03-31 17:34:40,716 [WARNING] camera_worker – [CAM_03] Attempt 2 failed, retrying...
+2026-03-31 17:34:40,759 [WARNING] camera_worker – [CAM_06] Attempt 2 failed, retrying...
+2026-03-31 17:34:40,797 [WARNING] camera_worker – [CAM_07] Attempt 2 failed, retrying...
+2026-03-31 17:34:42,898 [WARNING] camera_worker – [CAM_09] Attempt 3 failed, retrying...
+2026-03-31 17:34:42,979 [WARNING] camera_worker – [CAM_03] Attempt 3 failed, retrying...
+2026-03-31 17:34:43,039 [WARNING] camera_worker – [CAM_06] Attempt 3 failed, retrying...
+2026-03-31 17:34:43,097 [WARNING] camera_worker – [CAM_07] Attempt 3 failed, retrying...
+2026-03-31 17:34:45,547 [WARNING] camera_worker – [CAM_08] Attempt 5 failed, retrying...
+2026-03-31 17:34:47,139 [WARNING] camera_worker – [CAM_09] Attempt 4 failed, retrying...
+2026-03-31 17:34:47,148 [WARNING] camera_worker – [CAM_03] Attempt 4 failed, retrying...
+2026-03-31 17:34:47,205 [WARNING] camera_worker – [CAM_06] Attempt 4 failed, retrying...
+2026-03-31 17:34:47,608 [WARNING] camera_worker – [CAM_07] Attempt 4 failed, retrying...
+2026-03-31 17:34:53,168 [WARNING] camera_worker – [CAM_04] Attempt 5 failed, retrying...
+2026-03-31 17:34:53,811 [ERROR] health_monitor – [CAM_LOCAL] Exceeded max restarts (5) — giving up.
+2026-03-31 17:34:53,839 [WARNING] health_monitor – [CAM_02] CRASHED detected — restarting (attempt 1/5).
+2026-03-31 17:34:53,877 [INFO] camera_worker – [CAM_02] Connecting to source: http://camera.buffalotrace.com/mjpg/video.mjpg
+2026-03-31 17:34:53,878 [INFO] manager – Worker started: CAM_02 (Blanton Bottling)
+2026-03-31 17:34:53,881 [INFO] manager – Worker restarted: CAM_02
+2026-03-31 17:34:53,882 [ERROR] health_monitor – [CAM_10] Exceeded max restarts (5) — giving up.
+2026-03-31 17:34:53,914 [INFO] health_monitor – Health sweep: 14/17 OK  |  3 problem(s)
+2026-03-31 17:34:59,650 [WARNING] camera_worker – [CAM_09] Attempt 5 failed, retrying...
+2026-03-31 17:34:59,661 [WARNING] camera_worker – [CAM_06] Attempt 5 failed, retrying...
+2026-03-31 17:34:59,784 [WARNING] camera_worker – [CAM_03] Attempt 5 failed, retrying...
+2026-03-31 17:34:59,957 [WARNING] camera_worker – [CAM_07] Attempt 5 failed, retrying...
+2026-03-31 17:35:01,683 [WARNING] camera_worker – [CAM_01] Attempt 5 failed, retrying...
+2026-03-31 17:35:07,003 [WARNING] camera_worker – [CAM_14] Attempt 5 failed, retrying...
+2026-03-31 17:35:08,918 [ERROR] health_monitor – [CAM_LOCAL] Exceeded max restarts (5) — giving up.
+2026-03-31 17:35:08,968 [WARNING] health_monitor – [CAM_08] CRASHED detected — restarting (attempt 1/5).
+2026-03-31 17:35:09,001 [INFO] camera_worker – [CAM_08] Connecting to source: http://takemotopiano.aa1.netvolante.jp:8190/nphMotionJpeg?Resolution=640x480&Quality=Standard&Framerate=30
+2026-03-31 17:35:09,001 [INFO] manager – Worker started: CAM_08 (Osaka Piano)
+2026-03-31 17:35:09,005 [INFO] manager – Worker restarted: CAM_08
+2026-03-31 17:35:09,006 [ERROR] health_monitor – [CAM_10] Exceeded max restarts (5) — giving up.
+2026-03-31 17:35:09,035 [WARNING] health_monitor – [CAM_16] STALLED detected — restarting (attempt 5/5).
+2026-03-31 17:35:09,063 [INFO] camera_worker – [CAM_16] Connecting to source: http://47.51.131.147/-wvhttp-01-/GetOneShot?image_size=1280x720&frame_count=1000000000
+2026-03-31 17:35:09,064 [INFO] manager – Worker started: CAM_16 (Warrenton OR)
+2026-03-31 17:35:09,065 [INFO] manager – Worker restarted: CAM_16
+2026-03-31 17:35:09,065 [INFO] health_monitor – Health sweep: 13/17 OK  |  4 problem(s)
+2026-03-31 17:35:12,522 [WARNING] camera_worker – [CAM_05] Attempt 4 failed, retrying...
+2026-03-31 17:35:17,670 [INFO] camera_worker – [CAM_16] Stream opened (attempt 1).
+2026-03-31 17:35:18,252 [WARNING] camera_worker – [CAM_15] Attempt 4 failed, retrying...
+2026-03-31 17:35:24,084 [ERROR] health_monitor – [CAM_LOCAL] Exceeded max restarts (5) — giving up.
+2026-03-31 17:35:24,129 [WARNING] health_monitor – [CAM_01] CRASHED detected — restarting (attempt 1/5).
+2026-03-31 17:35:24,173 [INFO] camera_worker – [CAM_01] Connecting to source: http://pendelcam.kip.uni-heidelberg.de/mjpg/video.mjpg
+2026-03-31 17:35:24,173 [INFO] manager – Worker started: CAM_01 (Heidelberg Uni)
+2026-03-31 17:35:24,174 [INFO] manager – Worker restarted: CAM_01
+2026-03-31 17:35:24,175 [ERROR] health_monitor – [CAM_03] Exceeded max restarts (5) — giving up.
+2026-03-31 17:35:24,211 [WARNING] health_monitor – [CAM_04] CRASHED detected — restarting (attempt 1/5).
+2026-03-31 17:35:24,253 [INFO] camera_worker – [CAM_04] Connecting to source: http://webcam01.ecn.purdue.edu/mjpg/video.mjpg
+2026-03-31 17:35:24,254 [INFO] manager – Worker started: CAM_04 (Purdue Engineering)
+2026-03-31 17:35:24,255 [INFO] manager – Worker restarted: CAM_04
+2026-03-31 17:35:24,256 [ERROR] health_monitor – [CAM_06] Exceeded max restarts (5) — giving up.
+2026-03-31 17:35:24,286 [ERROR] health_monitor – [CAM_07] Exceeded max restarts (5) — giving up.
+2026-03-31 17:35:24,315 [ERROR] health_monitor – [CAM_09] Exceeded max restarts (5) — giving up.
+2026-03-31 17:35:24,343 [ERROR] health_monitor – [CAM_10] Exceeded max restarts (5) — giving up.
+2026-03-31 17:35:24,376 [WARNING] health_monitor – [CAM_11] STALLED detected — restarting (attempt 5/5).
+2026-03-31 17:35:24,410 [INFO] camera_worker – [CAM_11] Connecting to source: http://honjin1.miemasu.net/nphMotionJpeg?Resolution=640x480&Quality=Standard
+2026-03-31 17:35:24,417 [INFO] manager – Worker started: CAM_11 (Tsumago Japan)
+2026-03-31 17:35:24,419 [INFO] manager – Worker restarted: CAM_11
+2026-03-31 17:35:24,425 [WARNING] health_monitor – [CAM_14] CRASHED detected — restarting (attempt 1/5).
+2026-03-31 17:35:24,552 [INFO] camera_worker – [CAM_14] Connecting to source: http://77.222.181.11:8080/mjpg/video.mjpg
+2026-03-31 17:35:24,552 [INFO] manager – Worker started: CAM_14 (Kaiskuru Ski)
+2026-03-31 17:35:24,554 [INFO] manager – Worker restarted: CAM_14
+2026-03-31 17:35:24,555 [INFO] health_monitor – Health sweep: 7/17 OK  |  10 problem(s)
+2026-03-31 17:35:35,117 [INFO] camera_worker – [CAM_11] Stream opened (attempt 1).
+2026-03-31 17:35:39,557 [ERROR] health_monitor – [CAM_LOCAL] Exceeded max restarts (5) — giving up.
+2026-03-31 17:35:39,586 [ERROR] health_monitor – [CAM_03] Exceeded max restarts (5) — giving up.
+2026-03-31 17:35:39,613 [ERROR] health_monitor – [CAM_06] Exceeded max restarts (5) — giving up.
+2026-03-31 17:35:39,642 [ERROR] health_monitor – [CAM_07] Exceeded max restarts (5) — giving up.
+2026-03-31 17:35:39,673 [ERROR] health_monitor – [CAM_09] Exceeded max restarts (5) — giving up.
+2026-03-31 17:35:39,703 [ERROR] health_monitor – [CAM_10] Exceeded max restarts (5) — giving up.
+2026-03-31 17:35:39,734 [INFO] health_monitor – Health sweep: 11/17 OK  |  6 problem(s)
+2026-03-31 17:35:54,735 [ERROR] health_monitor – [CAM_LOCAL] Exceeded max restarts (5) — giving up.
+2026-03-31 17:35:54,778 [ERROR] health_monitor – [CAM_03] Exceeded max restarts (5) — giving up.
+2026-03-31 17:35:54,821 [ERROR] health_monitor – [CAM_06] Exceeded max restarts (5) — giving up.
+2026-03-31 17:35:54,866 [ERROR] health_monitor – [CAM_07] Exceeded max restarts (5) — giving up.
+2026-03-31 17:35:54,906 [ERROR] health_monitor – [CAM_09] Exceeded max restarts (5) — giving up.
+2026-03-31 17:35:54,948 [ERROR] health_monitor – [CAM_10] Exceeded max restarts (5) — giving up.
+2026-03-31 17:35:54,992 [ERROR] health_monitor – [CAM_13] Exceeded max restarts (5) — giving up.
+2026-03-31 17:35:55,042 [ERROR] health_monitor – [CAM_16] Exceeded max restarts (5) — giving up.
+2026-03-31 17:35:55,093 [INFO] health_monitor – Health sweep: 9/17 OK  |  8 problem(s)
+2026-03-31 17:35:59,864 [WARNING] camera_worker – [CAM_12] Attempt 5 failed, retrying...
+2026-03-31 17:36:10,095 [ERROR] health_monitor – [CAM_LOCAL] Exceeded max restarts (5) — giving up.
+2026-03-31 17:36:10,132 [ERROR] health_monitor – [CAM_03] Exceeded max restarts (5) — giving up.
+2026-03-31 17:36:10,161 [ERROR] health_monitor – [CAM_06] Exceeded max restarts (5) — giving up.
+2026-03-31 17:36:10,190 [ERROR] health_monitor – [CAM_07] Exceeded max restarts (5) — giving up.
+2026-03-31 17:36:10,217 [ERROR] health_monitor – [CAM_09] Exceeded max restarts (5) — giving up.
+2026-03-31 17:36:10,246 [ERROR] health_monitor – [CAM_10] Exceeded max restarts (5) — giving up.
+2026-03-31 17:36:10,339 [ERROR] health_monitor – [CAM_13] Exceeded max restarts (5) — giving up.
+2026-03-31 17:36:10,370 [ERROR] health_monitor – [CAM_16] Exceeded max restarts (5) — giving up.
+2026-03-31 17:36:10,399 [INFO] health_monitor – Health sweep: 9/17 OK  |  8 problem(s)
+2026-03-31 17:36:11,263 [INFO] dashboard – Selected camera: CAM_11
+2026-03-31 17:36:24,058 [WARNING] camera_worker – [CAM_02] Attempt 1 failed, retrying...
+2026-03-31 17:36:25,400 [ERROR] health_monitor – [CAM_LOCAL] Exceeded max restarts (5) — giving up.
+2026-03-31 17:36:25,448 [ERROR] health_monitor – [CAM_03] Exceeded max restarts (5) — giving up.
+2026-03-31 17:36:25,498 [ERROR] health_monitor – [CAM_06] Exceeded max restarts (5) — giving up.
+2026-03-31 17:36:25,550 [ERROR] health_monitor – [CAM_07] Exceeded max restarts (5) — giving up.
+2026-03-31 17:36:25,599 [ERROR] health_monitor – [CAM_09] Exceeded max restarts (5) — giving up.
+2026-03-31 17:36:25,643 [ERROR] health_monitor – [CAM_10] Exceeded max restarts (5) — giving up.
+2026-03-31 17:36:25,674 [WARNING] health_monitor – [CAM_12] CRASHED detected — restarting (attempt 1/5).
+2026-03-31 17:36:25,705 [INFO] camera_worker – [CAM_12] Connecting to source: http://67.53.46.161:65123/mjpg/video.mjpg
+2026-03-31 17:36:25,705 [INFO] manager – Worker started: CAM_12 (Mohouli Park (HI))
+2026-03-31 17:36:25,706 [INFO] manager – Worker restarted: CAM_12
+2026-03-31 17:36:25,706 [ERROR] health_monitor – [CAM_13] Exceeded max restarts (5) — giving up.
+2026-03-31 17:36:25,736 [ERROR] health_monitor – [CAM_16] Exceeded max restarts (5) — giving up.
+2026-03-31 17:36:25,798 [INFO] health_monitor – Health sweep: 8/17 OK  |  9 problem(s)
+2026-03-31 17:36:39,339 [WARNING] camera_worker – [CAM_08] Attempt 1 failed, retrying...
+2026-03-31 17:36:40,799 [ERROR] health_monitor – [CAM_LOCAL] Exceeded max restarts (5) — giving up.
+2026-03-31 17:36:41,811 [ERROR] health_monitor – [CAM_03] Exceeded max restarts (5) — giving up.
+2026-03-31 17:36:42,031 [ERROR] health_monitor – [CAM_06] Exceeded max restarts (5) — giving up.
+2026-03-31 17:36:42,062 [ERROR] health_monitor – [CAM_07] Exceeded max restarts (5) — giving up.
+2026-03-31 17:36:42,095 [ERROR] health_monitor – [CAM_09] Exceeded max restarts (5) — giving up.
+2026-03-31 17:36:42,129 [ERROR] health_monitor – [CAM_10] Exceeded max restarts (5) — giving up.
+2026-03-31 17:36:42,163 [ERROR] health_monitor – [CAM_13] Exceeded max restarts (5) — giving up.
+2026-03-31 17:36:42,201 [ERROR] health_monitor – [CAM_16] Exceeded max restarts (5) — giving up.
+2026-03-31 17:36:42,295 [INFO] health_monitor – Health sweep: 9/17 OK  |  8 problem(s)
+2026-03-31 17:36:50,315 [WARNING] camera_worker – [CAM_05] Attempt 5 failed, retrying...
+2026-03-31 17:36:56,032 [WARNING] camera_worker – [CAM_01] Attempt 1 failed, retrying...
+2026-03-31 17:36:57,296 [ERROR] health_monitor – [CAM_LOCAL] Exceeded max restarts (5) — giving up.
+2026-03-31 17:36:57,425 [ERROR] health_monitor – [CAM_03] Exceeded max restarts (5) — giving up.
+2026-03-31 17:36:57,459 [ERROR] health_monitor – [CAM_06] Exceeded max restarts (5) — giving up.
+2026-03-31 17:36:57,490 [ERROR] health_monitor – [CAM_07] Exceeded max restarts (5) — giving up.
+2026-03-31 17:36:57,524 [ERROR] health_monitor – [CAM_09] Exceeded max restarts (5) — giving up.
+2026-03-31 17:36:57,556 [ERROR] health_monitor – [CAM_10] Exceeded max restarts (5) — giving up.
+2026-03-31 17:36:57,593 [ERROR] health_monitor – [CAM_13] Exceeded max restarts (5) — giving up.
+2026-03-31 17:36:57,624 [ERROR] health_monitor – [CAM_16] Exceeded max restarts (5) — giving up.
+2026-03-31 17:36:57,656 [INFO] health_monitor – Health sweep: 9/17 OK  |  8 problem(s)
+2026-03-31 17:37:05,113 [WARNING] camera_worker – [CAM_04] Attempt 1 failed, retrying...
+2026-03-31 17:37:10,515 [WARNING] camera_worker – [CAM_14] Attempt 1 failed, retrying...
+2026-03-31 17:37:12,659 [ERROR] health_monitor – [CAM_LOCAL] Exceeded max restarts (5) — giving up.
+2026-03-31 17:37:13,538 [ERROR] health_monitor – [CAM_03] Exceeded max restarts (5) — giving up.
+2026-03-31 17:37:13,624 [WARNING] health_monitor – [CAM_05] CRASHED detected — restarting (attempt 1/5).
+2026-03-31 17:37:13,654 [INFO] camera_worker – [CAM_05] Connecting to source: http://61.211.241.239/nphMotionJpeg?Resolution=320x240&Quality=Standard
+2026-03-31 17:37:13,654 [INFO] manager – Worker started: CAM_05 (Tokyo Japan)
+2026-03-31 17:37:13,655 [INFO] manager – Worker restarted: CAM_05
+2026-03-31 17:37:13,656 [ERROR] health_monitor – [CAM_06] Exceeded max restarts (5) — giving up.
+2026-03-31 17:37:13,688 [ERROR] health_monitor – [CAM_07] Exceeded max restarts (5) — giving up.
+2026-03-31 17:37:13,717 [ERROR] health_monitor – [CAM_09] Exceeded max restarts (5) — giving up.
+2026-03-31 17:37:13,752 [ERROR] health_monitor – [CAM_10] Exceeded max restarts (5) — giving up.
+2026-03-31 17:37:13,784 [ERROR] health_monitor – [CAM_13] Exceeded max restarts (5) — giving up.
+2026-03-31 17:37:13,815 [ERROR] health_monitor – [CAM_16] Exceeded max restarts (5) — giving up.
+2026-03-31 17:37:13,850 [INFO] health_monitor – Health sweep: 8/17 OK  |  9 problem(s)
+2026-03-31 17:37:16,014 [WARNING] camera_worker – [CAM_15] Attempt 5 failed, retrying...
+2026-03-31 17:37:18,616 [INFO] CAMS – KeyboardInterrupt — shutting down.
+2026-03-31 17:37:18,621 [INFO] manager – Stopping all camera workers…
+2026-03-31 17:37:18,706 [INFO] camera_worker – [CAM_11] Worker stopped.
+2026-03-31 17:37:28,020 [INFO] CAMS – ============================================================
+2026-03-31 17:37:28,021 [INFO] CAMS –   CAMS – Centralized Authorized Monitoring System
+2026-03-31 17:37:28,021 [INFO] CAMS – ============================================================
+2026-03-31 17:37:28,023 [INFO] CAMS – ✅ LBPH model found — recognition active.
+2026-03-31 17:37:28,029 [INFO] db – Database initialised at C:\code\cams\cams.db
+2026-03-31 17:37:28,099 [INFO] recognition – DNN face detector loaded.
+2026-03-31 17:37:28,110 [INFO] recognition – LBPH model loaded from C:\code\cams\models\lbph_model.xml
+2026-03-31 17:37:28,343 [INFO] manager – Starting 17 camera worker(s)…
+2026-03-31 17:37:28,345 [INFO] camera_worker – [CAM_LOCAL] Connecting to source: 0
+2026-03-31 17:37:28,345 [INFO] manager – Worker started: CAM_LOCAL (My Local Webcam)
+2026-03-31 17:37:28,348 [INFO] camera_worker – [CAM_01] Connecting to source: http://pendelcam.kip.uni-heidelberg.de/mjpg/video.mjpg
+2026-03-31 17:37:28,348 [INFO] manager – Worker started: CAM_01 (Heidelberg Uni)
+2026-03-31 17:37:28,359 [INFO] camera_worker – [CAM_02] Connecting to source: http://camera.buffalotrace.com/mjpg/video.mjpg
+2026-03-31 17:37:28,359 [INFO] manager – Worker started: CAM_02 (Blanton Bottling)
+2026-03-31 17:37:28,363 [INFO] camera_worker – [CAM_03] Connecting to source: http://camera.butovo.com/mjpg/video.mjpg
+2026-03-31 17:37:28,364 [INFO] manager – Worker started: CAM_03 (Butovo Moscow)
+2026-03-31 17:37:28,367 [INFO] camera_worker – [CAM_04] Connecting to source: http://webcam01.ecn.purdue.edu/mjpg/video.mjpg
+2026-03-31 17:37:28,367 [INFO] manager – Worker started: CAM_04 (Purdue Engineering)
+2026-03-31 17:37:28,373 [INFO] camera_worker – [CAM_05] Connecting to source: http://61.211.241.239/nphMotionJpeg?Resolution=320x240&Quality=Standard
+2026-03-31 17:37:28,373 [INFO] manager – Worker started: CAM_05 (Tokyo Japan)
+2026-03-31 17:37:28,376 [INFO] camera_worker – [CAM_06] Connecting to source: http://vetter.viewnetcam.com:50000/nphMotionJpeg?Resolution=640x480&Quality=Clarity
+2026-03-31 17:37:28,377 [INFO] manager – Worker started: CAM_06 (Japan Camera)
+2026-03-31 17:37:28,378 [INFO] camera_worker – [CAM_07] Connecting to source: http://tamperehacklab.tunk.org:38001/nphMotionJpeg?Resolution=640x480&Quality=Clarity
+2026-03-31 17:37:28,379 [INFO] manager – Worker started: CAM_07 (Tampere Hacklab)
+2026-03-31 17:37:28,381 [INFO] camera_worker – [CAM_08] Connecting to source: http://takemotopiano.aa1.netvolante.jp:8190/nphMotionJpeg?Resolution=640x480&Quality=Standard&Framerate=30
+2026-03-31 17:37:28,381 [INFO] manager – Worker started: CAM_08 (Osaka Piano)
+2026-03-31 17:37:28,383 [INFO] camera_worker – [CAM_09] Connecting to source: http://clausenrc5.viewnetcam.com:50003/nphMotionJpeg?Resolution=320x240
+2026-03-31 17:37:28,384 [INFO] manager – Worker started: CAM_09 (Richtung West (CH))
+2026-03-31 17:37:28,386 [INFO] camera_worker – [CAM_10] Connecting to source: http://195.196.36.242/mjpg/video.mjpg
+2026-03-31 17:37:28,387 [INFO] manager – Worker started: CAM_10 (Soltorget Pajala)
+2026-03-31 17:37:28,389 [INFO] camera_worker – [CAM_11] Connecting to source: http://honjin1.miemasu.net/nphMotionJpeg?Resolution=640x480&Quality=Standard
+2026-03-31 17:37:28,390 [INFO] manager – Worker started: CAM_11 (Tsumago Japan)
+2026-03-31 17:37:28,392 [INFO] camera_worker – [CAM_12] Connecting to source: http://67.53.46.161:65123/mjpg/video.mjpg
+2026-03-31 17:37:28,392 [INFO] manager – Worker started: CAM_12 (Mohouli Park (HI))
+2026-03-31 17:37:28,394 [INFO] camera_worker – [CAM_13] Connecting to source: http://webcam.rhein-taunus-krematorium.de/mjpg/video.mjpg
+2026-03-31 17:37:28,395 [INFO] manager – Worker started: CAM_13 (Krematorium DE)
+2026-03-31 17:37:28,396 [INFO] camera_worker – [CAM_14] Connecting to source: http://77.222.181.11:8080/mjpg/video.mjpg
+2026-03-31 17:37:28,397 [INFO] manager – Worker started: CAM_14 (Kaiskuru Ski)
+2026-03-31 17:37:28,399 [INFO] camera_worker – [CAM_15] Connecting to source: http://webcam.mchcares.com/mjpg/video.mjpg?timestamp=1566232173730
+2026-03-31 17:37:28,399 [INFO] manager – Worker started: CAM_15 (San Bernardino)
+2026-03-31 17:37:28,404 [INFO] camera_worker – [CAM_16] Connecting to source: http://47.51.131.147/-wvhttp-01-/GetOneShot?image_size=1280x720&frame_count=1000000000
+2026-03-31 17:37:28,405 [INFO] manager – Worker started: CAM_16 (Warrenton OR)
+2026-03-31 17:37:28,440 [INFO] alert_notifier – Alert notifier started.
+2026-03-31 17:37:28,441 [INFO] health_monitor – Health monitor started (interval=15s).
+2026-03-31 17:37:28,444 [INFO] stream_recorder – ClipRecorder attached to CAM_LOCAL
+2026-03-31 17:37:28,446 [INFO] stream_recorder – ClipRecorder attached to CAM_01
+2026-03-31 17:37:28,448 [INFO] stream_recorder – ClipRecorder attached to CAM_02
+2026-03-31 17:37:28,450 [INFO] stream_recorder – ClipRecorder attached to CAM_03
+2026-03-31 17:37:28,453 [INFO] stream_recorder – ClipRecorder attached to CAM_04
+2026-03-31 17:37:28,456 [INFO] stream_recorder – ClipRecorder attached to CAM_05
+2026-03-31 17:37:28,459 [INFO] stream_recorder – ClipRecorder attached to CAM_06
+2026-03-31 17:37:28,462 [INFO] stream_recorder – ClipRecorder attached to CAM_07
+2026-03-31 17:37:28,464 [INFO] stream_recorder – ClipRecorder attached to CAM_08
+2026-03-31 17:37:28,467 [INFO] stream_recorder – ClipRecorder attached to CAM_09
+2026-03-31 17:37:28,470 [INFO] stream_recorder – ClipRecorder attached to CAM_10
+2026-03-31 17:37:28,473 [INFO] stream_recorder – ClipRecorder attached to CAM_11
+2026-03-31 17:37:28,475 [INFO] stream_recorder – ClipRecorder attached to CAM_12
+2026-03-31 17:37:28,477 [INFO] stream_recorder – ClipRecorder attached to CAM_13
+2026-03-31 17:37:28,479 [INFO] stream_recorder – ClipRecorder attached to CAM_14
+2026-03-31 17:37:28,482 [INFO] stream_recorder – ClipRecorder attached to CAM_15
+2026-03-31 17:37:28,485 [INFO] stream_recorder – ClipRecorder attached to CAM_16
+2026-03-31 17:37:28,487 [INFO] stream_recorder – Clip recorder dispatcher started.
+2026-03-31 17:37:28,487 [INFO] CAMS – All systems running: 17 camera(s), alert notifier, health watchdog, 17 clip recorder(s).
+2026-03-31 17:37:28,488 [INFO] dashboard – Dashboard started.
+2026-03-31 17:37:43,443 [INFO] health_monitor – Health sweep: 17/17 OK  |  0 problem(s)
+2026-03-31 17:37:45,334 [WARNING] camera_worker – [CAM_07] Attempt 1 failed, retrying...
+2026-03-31 17:37:45,443 [WARNING] camera_worker – [CAM_09] Attempt 1 failed, retrying...
+2026-03-31 17:37:46,374 [INFO] camera_worker – [CAM_LOCAL] Webcam 0 opened.
+2026-03-31 17:37:48,831 [INFO] camera_worker – [CAM_11] Stream opened (attempt 1).
+2026-03-31 17:37:50,998 [INFO] camera_worker – [CAM_13] Stream opened (attempt 1).
+2026-03-31 17:37:56,834 [WARNING] camera_worker – [CAM_03] Attempt 1 failed, retrying...
+2026-03-31 17:37:58,449 [INFO] health_monitor – Health sweep: 17/17 OK  |  0 problem(s)
+2026-03-31 17:38:13,459 [INFO] health_monitor – Health sweep: 17/17 OK  |  0 problem(s)
+2026-03-31 17:38:13,797 [WARNING] camera_worker – [CAM_09] Attempt 2 failed, retrying...
+2026-03-31 17:38:15,951 [INFO] camera_worker – [CAM_16] Stream opened (attempt 1).
+2026-03-31 17:38:16,314 [WARNING] camera_worker – [CAM_03] Attempt 2 failed, retrying...
+2026-03-31 17:38:16,498 [WARNING] camera_worker – [CAM_06] Attempt 1 failed, retrying...
+2026-03-31 17:38:16,548 [WARNING] camera_worker – [CAM_07] Attempt 2 failed, retrying...
+2026-03-31 17:38:22,220 [INFO] camera_worker – [CAM_10] Stream opened (attempt 1).
+2026-03-31 17:38:22,526 [WARNING] camera_worker – [CAM_09] Attempt 3 failed, retrying...
+2026-03-31 17:38:22,527 [WARNING] camera_worker – [CAM_06] Attempt 2 failed, retrying...
+2026-03-31 17:38:22,651 [WARNING] camera_worker – [CAM_07] Attempt 3 failed, retrying...
+2026-03-31 17:38:22,682 [WARNING] camera_worker – [CAM_03] Attempt 3 failed, retrying...
+2026-03-31 17:38:24,278 [INFO] dashboard – Selected camera: CAM_10
+2026-03-31 17:38:28,156 [WARNING] camera_worker – [CAM_06] Attempt 3 failed, retrying...
+2026-03-31 17:38:28,460 [WARNING] health_monitor – [CAM_LOCAL] STALLED detected — restarting (attempt 1/5).
+2026-03-31 17:38:28,499 [INFO] camera_worker – [CAM_LOCAL] Connecting to source: 0
+2026-03-31 17:38:28,499 [INFO] manager – Worker started: CAM_LOCAL (My Local Webcam)
+2026-03-31 17:38:28,501 [INFO] manager – Worker restarted: CAM_LOCAL
+2026-03-31 17:38:28,503 [WARNING] health_monitor – [CAM_11] STALLED detected — restarting (attempt 1/5).
+2026-03-31 17:38:28,531 [WARNING] camera_worker – [CAM_09] Attempt 4 failed, retrying...
+2026-03-31 17:38:28,532 [WARNING] camera_worker – [CAM_07] Attempt 4 failed, retrying...
+2026-03-31 17:38:28,532 [WARNING] camera_worker – [CAM_03] Attempt 4 failed, retrying...
+2026-03-31 17:38:28,534 [INFO] camera_worker – [CAM_11] Connecting to source: http://honjin1.miemasu.net/nphMotionJpeg?Resolution=640x480&Quality=Standard
+2026-03-31 17:38:28,535 [INFO] manager – Worker started: CAM_11 (Tsumago Japan)
+2026-03-31 17:38:28,540 [INFO] manager – Worker restarted: CAM_11
+2026-03-31 17:38:28,541 [INFO] health_monitor – Health sweep: 15/17 OK  |  2 problem(s)
+2026-03-31 17:38:31,497 [INFO] camera_worker – [CAM_11] Stream opened (attempt 1).
+2026-03-31 17:38:32,265 [WARNING] camera_worker – [CAM_06] Attempt 4 failed, retrying...
+2026-03-31 17:38:36,688 [WARNING] camera_worker – [CAM_09] Attempt 5 failed, retrying...
+2026-03-31 17:38:36,709 [WARNING] camera_worker – [CAM_03] Attempt 5 failed, retrying...
+2026-03-31 17:38:37,033 [WARNING] camera_worker – [CAM_07] Attempt 5 failed, retrying...
+2026-03-31 17:38:40,400 [WARNING] camera_worker – [CAM_06] Attempt 5 failed, retrying...
+2026-03-31 17:38:43,543 [INFO] health_monitor – Health sweep: 17/17 OK  |  0 problem(s)
+2026-03-31 17:38:46,396 [INFO] camera_worker – [CAM_LOCAL] Webcam 0 opened.
+2026-03-31 17:38:58,551 [WARNING] health_monitor – [CAM_03] CRASHED detected — restarting (attempt 1/5).
+2026-03-31 17:38:58,601 [WARNING] camera_worker – [CAM_01] Attempt 1 failed, retrying...
+2026-03-31 17:38:58,789 [INFO] camera_worker – [CAM_03] Connecting to source: http://camera.butovo.com/mjpg/video.mjpg
+2026-03-31 17:38:58,793 [INFO] manager – Worker started: CAM_03 (Butovo Moscow)
+2026-03-31 17:38:58,802 [INFO] manager – Worker restarted: CAM_03
+2026-03-31 17:38:58,804 [WARNING] health_monitor – [CAM_06] CRASHED detected — restarting (attempt 1/5).
+2026-03-31 17:38:58,877 [INFO] camera_worker – [CAM_06] Connecting to source: http://vetter.viewnetcam.com:50000/nphMotionJpeg?Resolution=640x480&Quality=Clarity
+2026-03-31 17:38:58,877 [INFO] manager – Worker started: CAM_06 (Japan Camera)
+2026-03-31 17:38:58,883 [INFO] manager – Worker restarted: CAM_06
+2026-03-31 17:38:58,885 [WARNING] health_monitor – [CAM_07] CRASHED detected — restarting (attempt 1/5).
+2026-03-31 17:38:58,965 [INFO] camera_worker – [CAM_07] Connecting to source: http://tamperehacklab.tunk.org:38001/nphMotionJpeg?Resolution=640x480&Quality=Clarity
+2026-03-31 17:38:58,966 [INFO] manager – Worker started: CAM_07 (Tampere Hacklab)
+2026-03-31 17:38:58,974 [INFO] manager – Worker restarted: CAM_07
+2026-03-31 17:38:58,976 [WARNING] health_monitor – [CAM_09] CRASHED detected — restarting (attempt 1/5).
+2026-03-31 17:38:59,057 [INFO] camera_worker – [CAM_09] Connecting to source: http://clausenrc5.viewnetcam.com:50003/nphMotionJpeg?Resolution=320x240
+2026-03-31 17:38:59,058 [INFO] manager – Worker started: CAM_09 (Richtung West (CH))
+2026-03-31 17:38:59,061 [INFO] manager – Worker restarted: CAM_09
+2026-03-31 17:38:59,061 [WARNING] health_monitor – [CAM_13] STALLED detected — restarting (attempt 1/5).
+2026-03-31 17:38:59,200 [WARNING] camera_worker – [CAM_03] Attempt 1 failed, retrying...
+2026-03-31 17:38:59,213 [WARNING] camera_worker – [CAM_06] Attempt 1 failed, retrying...
+2026-03-31 17:38:59,249 [INFO] camera_worker – [CAM_13] Connecting to source: http://webcam.rhein-taunus-krematorium.de/mjpg/video.mjpg
+2026-03-31 17:38:59,250 [INFO] manager – Worker started: CAM_13 (Krematorium DE)
+2026-03-31 17:38:59,252 [INFO] manager – Worker restarted: CAM_13
+2026-03-31 17:38:59,253 [WARNING] health_monitor – [CAM_16] STALLED detected — restarting (attempt 1/5).
+2026-03-31 17:38:59,304 [INFO] camera_worker – [CAM_16] Connecting to source: http://47.51.131.147/-wvhttp-01-/GetOneShot?image_size=1280x720&frame_count=1000000000
+2026-03-31 17:38:59,306 [INFO] manager – Worker started: CAM_16 (Warrenton OR)
+2026-03-31 17:38:59,307 [INFO] manager – Worker restarted: CAM_16
+2026-03-31 17:38:59,308 [INFO] health_monitor – Health sweep: 11/17 OK  |  6 problem(s)
+2026-03-31 17:38:59,476 [WARNING] camera_worker – [CAM_07] Attempt 1 failed, retrying...
+2026-03-31 17:38:59,495 [WARNING] camera_worker – [CAM_09] Attempt 1 failed, retrying...
+2026-03-31 17:39:01,309 [INFO] camera_worker – [CAM_13] Stream opened (attempt 1).
+2026-03-31 17:39:03,438 [INFO] camera_worker – [CAM_16] Stream opened (attempt 1).
+2026-03-31 17:39:03,738 [WARNING] camera_worker – [CAM_03] Attempt 2 failed, retrying...
+2026-03-31 17:39:03,775 [WARNING] camera_worker – [CAM_07] Attempt 2 failed, retrying...
+2026-03-31 17:39:03,837 [WARNING] camera_worker – [CAM_02] Attempt 1 failed, retrying...
+2026-03-31 17:39:09,168 [WARNING] camera_worker – [CAM_09] Attempt 2 failed, retrying...
+2026-03-31 17:39:09,199 [WARNING] camera_worker – [CAM_05] Attempt 1 failed, retrying...
+2026-03-31 17:39:14,313 [WARNING] health_monitor – [CAM_11] STALLED detected — restarting (attempt 2/5).
+2026-03-31 17:39:14,366 [INFO] camera_worker – [CAM_11] Connecting to source: http://honjin1.miemasu.net/nphMotionJpeg?Resolution=640x480&Quality=Standard
+2026-03-31 17:39:14,366 [INFO] manager – Worker started: CAM_11 (Tsumago Japan)
+2026-03-31 17:39:14,369 [INFO] manager – Worker restarted: CAM_11
+2026-03-31 17:39:14,376 [INFO] health_monitor – Health sweep: 16/17 OK  |  1 problem(s)
+2026-03-31 17:39:14,926 [WARNING] camera_worker – [CAM_07] Attempt 3 failed, retrying...
+2026-03-31 17:39:14,933 [WARNING] camera_worker – [CAM_09] Attempt 3 failed, retrying...
+2026-03-31 17:39:14,937 [WARNING] camera_worker – [CAM_03] Attempt 3 failed, retrying...
+2026-03-31 17:39:14,945 [WARNING] camera_worker – [CAM_06] Attempt 2 failed, retrying...
+2026-03-31 17:39:17,166 [INFO] camera_worker – [CAM_11] Stream opened (attempt 1).
+2026-03-31 17:39:21,092 [WARNING] camera_worker – [CAM_15] Attempt 1 failed, retrying...
+2026-03-31 17:39:22,917 [WARNING] camera_worker – [CAM_06] Attempt 3 failed, retrying...
+2026-03-31 17:39:23,093 [WARNING] camera_worker – [CAM_07] Attempt 4 failed, retrying...
+2026-03-31 17:39:26,534 [WARNING] camera_worker – [CAM_04] Attempt 1 failed, retrying...
+2026-03-31 17:39:28,588 [WARNING] camera_worker – [CAM_03] Attempt 4 failed, retrying...
+2026-03-31 17:39:28,590 [WARNING] camera_worker – [CAM_06] Attempt 4 failed, retrying...
+2026-03-31 17:39:28,604 [WARNING] camera_worker – [CAM_09] Attempt 4 failed, retrying...
+2026-03-31 17:39:29,379 [WARNING] health_monitor – [CAM_LOCAL] STALLED detected — restarting (attempt 2/5).
+2026-03-31 17:39:29,426 [INFO] camera_worker – [CAM_LOCAL] Connecting to source: 0
+2026-03-31 17:39:29,426 [INFO] manager – Worker started: CAM_LOCAL (My Local Webcam)
+2026-03-31 17:39:29,427 [INFO] manager – Worker restarted: CAM_LOCAL
+2026-03-31 17:39:29,434 [INFO] health_monitor – Health sweep: 16/17 OK  |  1 problem(s)
+2026-03-31 17:39:33,192 [WARNING] camera_worker – [CAM_08] Attempt 1 failed, retrying...
+2026-03-31 17:39:34,274 [WARNING] camera_worker – [CAM_07] Attempt 5 failed, retrying...
+2026-03-31 17:39:37,933 [WARNING] camera_worker – [CAM_12] Attempt 1 failed, retrying...
+2026-03-31 17:39:40,312 [WARNING] camera_worker – [CAM_09] Attempt 5 failed, retrying...
+2026-03-31 17:39:40,386 [WARNING] camera_worker – [CAM_03] Attempt 5 failed, retrying...
+2026-03-31 17:39:40,451 [WARNING] camera_worker – [CAM_06] Attempt 5 failed, retrying...
+2026-03-31 17:39:44,454 [WARNING] health_monitor – [CAM_10] STALLED detected — restarting (attempt 1/5).
+2026-03-31 17:39:44,498 [INFO] camera_worker – [CAM_10] Connecting to source: http://195.196.36.242/mjpg/video.mjpg
+2026-03-31 17:39:44,499 [INFO] manager – Worker started: CAM_10 (Soltorget Pajala)
+2026-03-31 17:39:44,501 [INFO] manager – Worker restarted: CAM_10
+2026-03-31 17:39:44,502 [WARNING] health_monitor – [CAM_13] STALLED detected — restarting (attempt 2/5).
+2026-03-31 17:39:44,543 [INFO] camera_worker – [CAM_13] Connecting to source: http://webcam.rhein-taunus-krematorium.de/mjpg/video.mjpg
+2026-03-31 17:39:44,543 [INFO] manager – Worker started: CAM_13 (Krematorium DE)
+2026-03-31 17:39:44,544 [INFO] manager – Worker restarted: CAM_13
+2026-03-31 17:39:44,581 [WARNING] health_monitor – [CAM_16] STALLED detected — restarting (attempt 2/5).
+2026-03-31 17:39:44,614 [INFO] camera_worker – [CAM_16] Connecting to source: http://47.51.131.147/-wvhttp-01-/GetOneShot?image_size=1280x720&frame_count=1000000000
+2026-03-31 17:39:44,614 [INFO] manager – Worker started: CAM_16 (Warrenton OR)
+2026-03-31 17:39:44,615 [INFO] manager – Worker restarted: CAM_16
+2026-03-31 17:39:44,616 [INFO] health_monitor – Health sweep: 14/17 OK  |  3 problem(s)
+2026-03-31 17:39:50,059 [INFO] camera_worker – [CAM_10] Stream opened (attempt 1).
+2026-03-31 17:39:50,092 [INFO] camera_worker – [CAM_LOCAL] Webcam 0 opened.
+2026-03-31 17:39:51,811 [INFO] camera_worker – [CAM_16] Stream opened (attempt 1).
+2026-03-31 17:39:52,358 [WARNING] camera_worker – [CAM_14] Attempt 1 failed, retrying...
+2026-03-31 17:39:53,065 [INFO] camera_worker – [CAM_13] Stream opened (attempt 1).
+2026-03-31 17:39:59,638 [WARNING] health_monitor – [CAM_03] CRASHED detected — restarting (attempt 2/5).
+2026-03-31 17:39:59,706 [INFO] camera_worker – [CAM_03] Connecting to source: http://camera.butovo.com/mjpg/video.mjpg
+2026-03-31 17:39:59,706 [INFO] manager – Worker started: CAM_03 (Butovo Moscow)
+2026-03-31 17:39:59,718 [INFO] manager – Worker restarted: CAM_03
+2026-03-31 17:39:59,719 [WARNING] health_monitor – [CAM_06] CRASHED detected — restarting (attempt 2/5).
+2026-03-31 17:39:59,791 [INFO] camera_worker – [CAM_06] Connecting to source: http://vetter.viewnetcam.com:50000/nphMotionJpeg?Resolution=640x480&Quality=Clarity
+2026-03-31 17:39:59,791 [INFO] manager – Worker started: CAM_06 (Japan Camera)
+2026-03-31 17:39:59,793 [INFO] manager – Worker restarted: CAM_06
+2026-03-31 17:39:59,794 [WARNING] health_monitor – [CAM_07] CRASHED detected — restarting (attempt 2/5).
+2026-03-31 17:39:59,836 [INFO] camera_worker – [CAM_07] Connecting to source: http://tamperehacklab.tunk.org:38001/nphMotionJpeg?Resolution=640x480&Quality=Clarity
+2026-03-31 17:39:59,836 [INFO] manager – Worker started: CAM_07 (Tampere Hacklab)
+2026-03-31 17:39:59,840 [INFO] manager – Worker restarted: CAM_07
+2026-03-31 17:39:59,842 [WARNING] health_monitor – [CAM_09] CRASHED detected — restarting (attempt 2/5).
+2026-03-31 17:39:59,897 [INFO] camera_worker – [CAM_09] Connecting to source: http://clausenrc5.viewnetcam.com:50003/nphMotionJpeg?Resolution=320x240
+2026-03-31 17:39:59,898 [INFO] manager – Worker started: CAM_09 (Richtung West (CH))
+2026-03-31 17:39:59,900 [INFO] manager – Worker restarted: CAM_09
+2026-03-31 17:39:59,901 [WARNING] health_monitor – [CAM_11] STALLED detected — restarting (attempt 3/5).
+2026-03-31 17:39:59,926 [WARNING] camera_worker – [CAM_03] Attempt 1 failed, retrying...
+2026-03-31 17:39:59,939 [INFO] camera_worker – [CAM_11] Connecting to source: http://honjin1.miemasu.net/nphMotionJpeg?Resolution=640x480&Quality=Standard
+2026-03-31 17:39:59,940 [INFO] manager – Worker started: CAM_11 (Tsumago Japan)
+2026-03-31 17:39:59,941 [INFO] manager – Worker restarted: CAM_11
+2026-03-31 17:39:59,949 [INFO] health_monitor – Health sweep: 12/17 OK  |  5 problem(s)
+2026-03-31 17:40:00,129 [WARNING] camera_worker – [CAM_06] Attempt 1 failed, retrying...
+2026-03-31 17:40:00,182 [WARNING] camera_worker – [CAM_09] Attempt 1 failed, retrying...
+2026-03-31 17:40:00,252 [WARNING] camera_worker – [CAM_07] Attempt 1 failed, retrying...
+2026-03-31 17:40:03,150 [INFO] camera_worker – [CAM_11] Stream opened (attempt 1).
+2026-03-31 17:40:03,468 [WARNING] camera_worker – [CAM_03] Attempt 2 failed, retrying...
+2026-03-31 17:40:03,468 [WARNING] camera_worker – [CAM_09] Attempt 2 failed, retrying...
+2026-03-31 17:40:03,506 [WARNING] camera_worker – [CAM_07] Attempt 2 failed, retrying...
+2026-03-31 17:40:03,513 [WARNING] camera_worker – [CAM_06] Attempt 2 failed, retrying...
+2026-03-31 17:40:05,759 [WARNING] camera_worker – [CAM_03] Attempt 3 failed, retrying...
+2026-03-31 17:40:05,775 [WARNING] camera_worker – [CAM_09] Attempt 3 failed, retrying...
+2026-03-31 17:40:05,855 [WARNING] camera_worker – [CAM_06] Attempt 3 failed, retrying...
+2026-03-31 17:40:05,909 [WARNING] camera_worker – [CAM_07] Attempt 3 failed, retrying...
+2026-03-31 17:40:09,958 [WARNING] camera_worker – [CAM_03] Attempt 4 failed, retrying...
+2026-03-31 17:40:09,978 [WARNING] camera_worker – [CAM_09] Attempt 4 failed, retrying...
+2026-03-31 17:40:09,990 [WARNING] camera_worker – [CAM_06] Attempt 4 failed, retrying...
+2026-03-31 17:40:10,289 [WARNING] camera_worker – [CAM_07] Attempt 4 failed, retrying...
+2026-03-31 17:40:14,951 [INFO] health_monitor – Health sweep: 17/17 OK  |  0 problem(s)
+2026-03-31 17:40:18,314 [WARNING] camera_worker – [CAM_03] Attempt 5 failed, retrying...
+2026-03-31 17:40:18,378 [WARNING] camera_worker – [CAM_09] Attempt 5 failed, retrying...
+2026-03-31 17:40:18,422 [WARNING] camera_worker – [CAM_06] Attempt 5 failed, retrying...
+2026-03-31 17:40:18,791 [WARNING] camera_worker – [CAM_07] Attempt 5 failed, retrying...
+2026-03-31 17:40:29,953 [WARNING] health_monitor – [CAM_LOCAL] STALLED detected — restarting (attempt 3/5).
+2026-03-31 17:40:30,043 [INFO] camera_worker – [CAM_LOCAL] Connecting to source: 0
+2026-03-31 17:40:30,044 [INFO] manager – Worker started: CAM_LOCAL (My Local Webcam)
+2026-03-31 17:40:30,046 [INFO] manager – Worker restarted: CAM_LOCAL
+2026-03-31 17:40:30,077 [WARNING] health_monitor – [CAM_10] STALLED detected — restarting (attempt 2/5).
+2026-03-31 17:40:30,160 [INFO] camera_worker – [CAM_10] Connecting to source: http://195.196.36.242/mjpg/video.mjpg
+2026-03-31 17:40:30,161 [INFO] manager – Worker started: CAM_10 (Soltorget Pajala)
+2026-03-31 17:40:30,162 [INFO] manager – Worker restarted: CAM_10
+2026-03-31 17:40:30,247 [WARNING] health_monitor – [CAM_13] STALLED detected — restarting (attempt 3/5).
+2026-03-31 17:40:30,302 [INFO] camera_worker – [CAM_13] Connecting to source: http://webcam.rhein-taunus-krematorium.de/mjpg/video.mjpg
+2026-03-31 17:40:30,303 [INFO] manager – Worker started: CAM_13 (Krematorium DE)
+2026-03-31 17:40:30,304 [INFO] manager – Worker restarted: CAM_13
+2026-03-31 17:40:30,363 [WARNING] health_monitor – [CAM_16] STALLED detected — restarting (attempt 3/5).
+2026-03-31 17:40:30,399 [INFO] camera_worker – [CAM_16] Connecting to source: http://47.51.131.147/-wvhttp-01-/GetOneShot?image_size=1280x720&frame_count=1000000000
+2026-03-31 17:40:30,399 [INFO] manager – Worker started: CAM_16 (Warrenton OR)
+2026-03-31 17:40:30,400 [INFO] manager – Worker restarted: CAM_16
+2026-03-31 17:40:30,400 [INFO] health_monitor – Health sweep: 13/17 OK  |  4 problem(s)
+2026-03-31 17:40:33,517 [WARNING] camera_worker – [CAM_01] Attempt 2 failed, retrying...
+2026-03-31 17:40:34,446 [INFO] camera_worker – [CAM_10] Stream opened (attempt 1).
+2026-03-31 17:40:35,631 [INFO] camera_worker – [CAM_13] Stream opened (attempt 1).
+2026-03-31 17:40:37,518 [INFO] camera_worker – [CAM_16] Stream opened (attempt 1).
+2026-03-31 17:40:38,924 [WARNING] camera_worker – [CAM_02] Attempt 2 failed, retrying...
+2026-03-31 17:40:45,429 [WARNING] health_monitor – [CAM_03] CRASHED detected — restarting (attempt 3/5).
+2026-03-31 17:40:45,517 [INFO] camera_worker – [CAM_03] Connecting to source: http://camera.butovo.com/mjpg/video.mjpg
+2026-03-31 17:40:45,522 [INFO] manager – Worker started: CAM_03 (Butovo Moscow)
+2026-03-31 17:40:45,526 [INFO] manager – Worker restarted: CAM_03
+2026-03-31 17:40:45,528 [WARNING] health_monitor – [CAM_06] CRASHED detected — restarting (attempt 3/5).
+2026-03-31 17:40:45,598 [INFO] camera_worker – [CAM_06] Connecting to source: http://vetter.viewnetcam.com:50000/nphMotionJpeg?Resolution=640x480&Quality=Clarity
+2026-03-31 17:40:45,603 [INFO] manager – Worker started: CAM_06 (Japan Camera)
+2026-03-31 17:40:45,628 [INFO] manager – Worker restarted: CAM_06
+2026-03-31 17:40:45,682 [WARNING] health_monitor – [CAM_07] CRASHED detected — restarting (attempt 3/5).
+2026-03-31 17:40:45,840 [INFO] camera_worker – [CAM_07] Connecting to source: http://tamperehacklab.tunk.org:38001/nphMotionJpeg?Resolution=640x480&Quality=Clarity
+2026-03-31 17:40:45,843 [INFO] manager – Worker started: CAM_07 (Tampere Hacklab)
+2026-03-31 17:40:45,847 [INFO] manager – Worker restarted: CAM_07
+2026-03-31 17:40:45,849 [WARNING] health_monitor – [CAM_09] CRASHED detected — restarting (attempt 3/5).
+2026-03-31 17:40:45,937 [INFO] camera_worker – [CAM_09] Connecting to source: http://clausenrc5.viewnetcam.com:50003/nphMotionJpeg?Resolution=320x240
+2026-03-31 17:40:45,937 [INFO] manager – Worker started: CAM_09 (Richtung West (CH))
+2026-03-31 17:40:45,939 [INFO] manager – Worker restarted: CAM_09
+2026-03-31 17:40:45,939 [INFO] health_monitor – Health sweep: 13/17 OK  |  4 problem(s)
+2026-03-31 17:40:46,996 [WARNING] camera_worker – [CAM_05] Attempt 2 failed, retrying...
+2026-03-31 17:40:49,554 [WARNING] camera_worker – [CAM_07] Attempt 1 failed, retrying...
+2026-03-31 17:40:49,590 [WARNING] camera_worker – [CAM_03] Attempt 1 failed, retrying...
+2026-03-31 17:40:49,593 [WARNING] camera_worker – [CAM_06] Attempt 1 failed, retrying...
+2026-03-31 17:40:49,593 [WARNING] camera_worker – [CAM_09] Attempt 1 failed, retrying...
+2026-03-31 17:40:52,888 [WARNING] camera_worker – [CAM_15] Attempt 2 failed, retrying...
+2026-03-31 17:40:55,179 [WARNING] camera_worker – [CAM_03] Attempt 2 failed, retrying...
+2026-03-31 17:40:55,186 [WARNING] camera_worker – [CAM_06] Attempt 2 failed, retrying...
+2026-03-31 17:40:55,223 [WARNING] camera_worker – [CAM_09] Attempt 2 failed, retrying...
+2026-03-31 17:40:55,257 [WARNING] camera_worker – [CAM_07] Attempt 2 failed, retrying...
+2026-03-31 17:40:57,123 [INFO] camera_worker – [CAM_LOCAL] Webcam 0 opened.
+2026-03-31 17:40:58,354 [WARNING] camera_worker – [CAM_04] Attempt 2 failed, retrying...
+2026-03-31 17:41:00,650 [WARNING] camera_worker – [CAM_03] Attempt 3 failed, retrying...
+2026-03-31 17:41:00,655 [WARNING] camera_worker – [CAM_09] Attempt 3 failed, retrying...
+2026-03-31 17:41:00,941 [INFO] health_monitor – Health sweep: 17/17 OK  |  0 problem(s)
+2026-03-31 17:41:04,921 [WARNING] camera_worker – [CAM_08] Attempt 2 failed, retrying...
+2026-03-31 17:41:06,305 [WARNING] camera_worker – [CAM_07] Attempt 3 failed, retrying...
+2026-03-31 17:41:06,317 [WARNING] camera_worker – [CAM_03] Attempt 4 failed, retrying...
+2026-03-31 17:41:06,317 [WARNING] camera_worker – [CAM_06] Attempt 3 failed, retrying...
+2026-03-31 17:41:06,324 [WARNING] camera_worker – [CAM_09] Attempt 4 failed, retrying...
+2026-03-31 17:41:10,286 [WARNING] camera_worker – [CAM_12] Attempt 2 failed, retrying...
+2026-03-31 17:41:12,678 [WARNING] camera_worker – [CAM_07] Attempt 4 failed, retrying...
+2026-03-31 17:41:15,942 [WARNING] health_monitor – [CAM_13] STALLED detected — restarting (attempt 4/5).
+2026-03-31 17:41:15,983 [INFO] camera_worker – [CAM_13] Connecting to source: http://webcam.rhein-taunus-krematorium.de/mjpg/video.mjpg
+2026-03-31 17:41:15,983 [INFO] manager – Worker started: CAM_13 (Krematorium DE)
+2026-03-31 17:41:15,984 [INFO] manager – Worker restarted: CAM_13
+2026-03-31 17:41:16,025 [WARNING] health_monitor – [CAM_16] STALLED detected — restarting (attempt 4/5).
+2026-03-31 17:41:16,068 [INFO] camera_worker – [CAM_16] Connecting to source: http://47.51.131.147/-wvhttp-01-/GetOneShot?image_size=1280x720&frame_count=1000000000
+2026-03-31 17:41:16,069 [INFO] manager – Worker started: CAM_16 (Warrenton OR)
+2026-03-31 17:41:16,070 [INFO] manager – Worker restarted: CAM_16
+2026-03-31 17:41:16,071 [INFO] health_monitor – Health sweep: 15/17 OK  |  2 problem(s)
+2026-03-31 17:41:18,071 [WARNING] camera_worker – [CAM_06] Attempt 4 failed, retrying...
+2026-03-31 17:41:18,072 [WARNING] camera_worker – [CAM_09] Attempt 5 failed, retrying...
+2026-03-31 17:41:19,567 [INFO] camera_worker – [CAM_16] Stream opened (attempt 1).
+2026-03-31 17:41:20,860 [INFO] camera_worker – [CAM_13] Stream opened (attempt 1).
+2026-03-31 17:41:21,185 [WARNING] camera_worker – [CAM_03] Attempt 5 failed, retrying...
+2026-03-31 17:41:21,341 [WARNING] camera_worker – [CAM_07] Attempt 5 failed, retrying...
+2026-03-31 17:41:23,489 [WARNING] camera_worker – [CAM_14] Attempt 2 failed, retrying...
+2026-03-31 17:41:31,102 [WARNING] health_monitor – [CAM_LOCAL] STALLED detected — restarting (attempt 4/5).
+2026-03-31 17:41:31,136 [WARNING] camera_worker – [CAM_06] Attempt 5 failed, retrying...
+2026-03-31 17:41:31,165 [INFO] camera_worker – [CAM_LOCAL] Connecting to source: 0
+2026-03-31 17:41:31,165 [INFO] manager – Worker started: CAM_LOCAL (My Local Webcam)
+2026-03-31 17:41:31,166 [INFO] manager – Worker restarted: CAM_LOCAL
+2026-03-31 17:41:31,171 [INFO] health_monitor – Health sweep: 16/17 OK  |  1 problem(s)
+2026-03-31 17:41:46,172 [WARNING] health_monitor – [CAM_03] CRASHED detected — restarting (attempt 4/5).
+2026-03-31 17:41:46,210 [INFO] camera_worker – [CAM_03] Connecting to source: http://camera.butovo.com/mjpg/video.mjpg
+2026-03-31 17:41:46,211 [INFO] manager – Worker started: CAM_03 (Butovo Moscow)
+2026-03-31 17:41:46,213 [INFO] manager – Worker restarted: CAM_03
+2026-03-31 17:41:46,214 [WARNING] health_monitor – [CAM_07] CRASHED detected — restarting (attempt 4/5).
+2026-03-31 17:41:46,260 [INFO] camera_worker – [CAM_07] Connecting to source: http://tamperehacklab.tunk.org:38001/nphMotionJpeg?Resolution=640x480&Quality=Clarity
+2026-03-31 17:41:46,260 [INFO] manager – Worker started: CAM_07 (Tampere Hacklab)
+2026-03-31 17:41:46,261 [INFO] manager – Worker restarted: CAM_07
+2026-03-31 17:41:46,262 [WARNING] health_monitor – [CAM_09] CRASHED detected — restarting (attempt 4/5).
+2026-03-31 17:41:46,296 [INFO] camera_worker – [CAM_09] Connecting to source: http://clausenrc5.viewnetcam.com:50003/nphMotionJpeg?Resolution=320x240
+2026-03-31 17:41:46,297 [INFO] manager – Worker started: CAM_09 (Richtung West (CH))
+2026-03-31 17:41:46,298 [INFO] manager – Worker restarted: CAM_09
+2026-03-31 17:41:46,300 [INFO] health_monitor – Health sweep: 14/17 OK  |  3 problem(s)
+2026-03-31 17:41:46,441 [WARNING] camera_worker – [CAM_03] Attempt 1 failed, retrying...
+2026-03-31 17:41:46,621 [WARNING] camera_worker – [CAM_07] Attempt 1 failed, retrying...
+2026-03-31 17:41:46,623 [WARNING] camera_worker – [CAM_09] Attempt 1 failed, retrying...
+2026-03-31 17:41:47,828 [WARNING] camera_worker – [CAM_03] Attempt 2 failed, retrying...
+2026-03-31 17:41:47,849 [WARNING] camera_worker – [CAM_07] Attempt 2 failed, retrying...
+2026-03-31 17:41:47,851 [WARNING] camera_worker – [CAM_09] Attempt 2 failed, retrying...
+2026-03-31 17:41:50,170 [WARNING] camera_worker – [CAM_03] Attempt 3 failed, retrying...
+2026-03-31 17:41:50,172 [WARNING] camera_worker – [CAM_09] Attempt 3 failed, retrying...
+2026-03-31 17:41:50,221 [WARNING] camera_worker – [CAM_07] Attempt 3 failed, retrying...
+2026-03-31 17:41:54,351 [WARNING] camera_worker – [CAM_03] Attempt 4 failed, retrying...
+2026-03-31 17:41:54,356 [WARNING] camera_worker – [CAM_09] Attempt 4 failed, retrying...
+2026-03-31 17:41:54,825 [WARNING] camera_worker – [CAM_07] Attempt 4 failed, retrying...
+2026-03-31 17:41:55,283 [INFO] camera_worker – [CAM_LOCAL] Webcam 0 opened.
+2026-03-31 17:42:01,305 [WARNING] health_monitor – [CAM_06] CRASHED detected — restarting (attempt 4/5).
+2026-03-31 17:42:01,361 [INFO] camera_worker – [CAM_06] Connecting to source: http://vetter.viewnetcam.com:50000/nphMotionJpeg?Resolution=640x480&Quality=Clarity
+2026-03-31 17:42:01,361 [INFO] manager – Worker started: CAM_06 (Japan Camera)
+2026-03-31 17:42:01,363 [INFO] manager – Worker restarted: CAM_06
+2026-03-31 17:42:01,365 [WARNING] health_monitor – [CAM_13] STALLED detected — restarting (attempt 5/5).
+2026-03-31 17:42:01,415 [INFO] camera_worker – [CAM_13] Connecting to source: http://webcam.rhein-taunus-krematorium.de/mjpg/video.mjpg
+2026-03-31 17:42:01,415 [INFO] manager – Worker started: CAM_13 (Krematorium DE)
+2026-03-31 17:42:01,417 [INFO] manager – Worker restarted: CAM_13
+2026-03-31 17:42:01,461 [WARNING] health_monitor – [CAM_16] STALLED detected — restarting (attempt 5/5).
+2026-03-31 17:42:01,512 [INFO] camera_worker – [CAM_16] Connecting to source: http://47.51.131.147/-wvhttp-01-/GetOneShot?image_size=1280x720&frame_count=1000000000
+2026-03-31 17:42:01,512 [INFO] manager – Worker started: CAM_16 (Warrenton OR)
+2026-03-31 17:42:01,513 [INFO] manager – Worker restarted: CAM_16
+2026-03-31 17:42:01,516 [INFO] health_monitor – Health sweep: 14/17 OK  |  3 problem(s)
+2026-03-31 17:42:01,580 [WARNING] camera_worker – [CAM_06] Attempt 1 failed, retrying...
+2026-03-31 17:42:02,998 [INFO] camera_worker – [CAM_13] Stream opened (attempt 1).
+2026-03-31 17:42:04,915 [INFO] camera_worker – [CAM_16] Stream opened (attempt 1).
+2026-03-31 17:42:05,116 [WARNING] camera_worker – [CAM_09] Attempt 5 failed, retrying...
+2026-03-31 17:42:05,271 [WARNING] camera_worker – [CAM_06] Attempt 2 failed, retrying...
+2026-03-31 17:42:05,287 [WARNING] camera_worker – [CAM_03] Attempt 5 failed, retrying...
+2026-03-31 17:42:05,312 [WARNING] camera_worker – [CAM_07] Attempt 5 failed, retrying...
+2026-03-31 17:42:07,324 [WARNING] camera_worker – [CAM_01] Attempt 3 failed, retrying...
+2026-03-31 17:42:07,399 [WARNING] camera_worker – [CAM_06] Attempt 3 failed, retrying...
+2026-03-31 17:42:13,245 [WARNING] camera_worker – [CAM_02] Attempt 3 failed, retrying...
+2026-03-31 17:42:16,537 [INFO] health_monitor – Health sweep: 17/17 OK  |  0 problem(s)
+2026-03-31 17:42:16,971 [WARNING] camera_worker – [CAM_06] Attempt 4 failed, retrying...
+2026-03-31 17:42:18,785 [WARNING] camera_worker – [CAM_05] Attempt 3 failed, retrying...
+2026-03-31 17:42:25,032 [WARNING] camera_worker – [CAM_15] Attempt 3 failed, retrying...
+2026-03-31 17:42:28,278 [WARNING] camera_worker – [CAM_06] Attempt 5 failed, retrying...
+2026-03-31 17:42:30,198 [WARNING] camera_worker – [CAM_04] Attempt 3 failed, retrying...
+2026-03-31 17:42:31,540 [WARNING] health_monitor – [CAM_LOCAL] STALLED detected — restarting (attempt 5/5).
+2026-03-31 17:42:31,600 [INFO] camera_worker – [CAM_LOCAL] Connecting to source: 0
+2026-03-31 17:42:31,601 [INFO] manager – Worker started: CAM_LOCAL (My Local Webcam)
+2026-03-31 17:42:31,604 [INFO] manager – Worker restarted: CAM_LOCAL
+2026-03-31 17:42:31,623 [WARNING] health_monitor – [CAM_03] CRASHED detected — restarting (attempt 5/5).
+2026-03-31 17:42:31,686 [INFO] camera_worker – [CAM_03] Connecting to source: http://camera.butovo.com/mjpg/video.mjpg
+2026-03-31 17:42:31,687 [INFO] manager – Worker started: CAM_03 (Butovo Moscow)
+2026-03-31 17:42:31,700 [INFO] manager – Worker restarted: CAM_03
+2026-03-31 17:42:31,708 [WARNING] health_monitor – [CAM_07] CRASHED detected — restarting (attempt 5/5).
+2026-03-31 17:42:31,744 [INFO] camera_worker – [CAM_07] Connecting to source: http://tamperehacklab.tunk.org:38001/nphMotionJpeg?Resolution=640x480&Quality=Clarity
+2026-03-31 17:42:31,746 [INFO] manager – Worker started: CAM_07 (Tampere Hacklab)
+2026-03-31 17:42:31,747 [INFO] manager – Worker restarted: CAM_07
+2026-03-31 17:42:31,750 [WARNING] health_monitor – [CAM_09] CRASHED detected — restarting (attempt 5/5).
+2026-03-31 17:42:31,779 [INFO] camera_worker – [CAM_09] Connecting to source: http://clausenrc5.viewnetcam.com:50003/nphMotionJpeg?Resolution=320x240
+2026-03-31 17:42:31,779 [INFO] manager – Worker started: CAM_09 (Richtung West (CH))
+2026-03-31 17:42:31,780 [INFO] manager – Worker restarted: CAM_09
+2026-03-31 17:42:31,780 [WARNING] health_monitor – [CAM_10] STALLED detected — restarting (attempt 3/5).
+2026-03-31 17:42:31,810 [INFO] camera_worker – [CAM_10] Connecting to source: http://195.196.36.242/mjpg/video.mjpg
+2026-03-31 17:42:31,810 [INFO] manager – Worker started: CAM_10 (Soltorget Pajala)
+2026-03-31 17:42:31,813 [INFO] manager – Worker restarted: CAM_10
+2026-03-31 17:42:31,902 [WARNING] health_monitor – [CAM_11] STALLED detected — restarting (attempt 4/5).
+2026-03-31 17:42:31,952 [INFO] camera_worker – [CAM_11] Connecting to source: http://honjin1.miemasu.net/nphMotionJpeg?Resolution=640x480&Quality=Standard
+2026-03-31 17:42:31,952 [INFO] manager – Worker started: CAM_11 (Tsumago Japan)
+2026-03-31 17:42:31,953 [INFO] manager – Worker restarted: CAM_11
+2026-03-31 17:42:31,958 [INFO] health_monitor – Health sweep: 11/17 OK  |  6 problem(s)
+2026-03-31 17:42:34,969 [WARNING] camera_worker – [CAM_03] Attempt 1 failed, retrying...
+2026-03-31 17:42:34,985 [WARNING] camera_worker – [CAM_09] Attempt 1 failed, retrying...
+2026-03-31 17:42:37,052 [WARNING] camera_worker – [CAM_08] Attempt 3 failed, retrying...
+2026-03-31 17:42:38,347 [INFO] camera_worker – [CAM_11] Stream opened (attempt 1).
+2026-03-31 17:42:38,641 [WARNING] camera_worker – [CAM_07] Attempt 1 failed, retrying...
+2026-03-31 17:42:42,189 [WARNING] camera_worker – [CAM_12] Attempt 3 failed, retrying...
+2026-03-31 17:42:44,219 [WARNING] camera_worker – [CAM_09] Attempt 2 failed, retrying...
+2026-03-31 17:42:44,230 [WARNING] camera_worker – [CAM_03] Attempt 2 failed, retrying...
+2026-03-31 17:42:46,960 [WARNING] health_monitor – [CAM_06] CRASHED detected — restarting (attempt 5/5).
+2026-03-31 17:42:46,993 [INFO] camera_worker – [CAM_06] Connecting to source: http://vetter.viewnetcam.com:50000/nphMotionJpeg?Resolution=640x480&Quality=Clarity
+2026-03-31 17:42:46,993 [INFO] manager – Worker started: CAM_06 (Japan Camera)
+2026-03-31 17:42:46,995 [INFO] manager – Worker restarted: CAM_06
+2026-03-31 17:42:46,996 [ERROR] health_monitor – [CAM_13] Exceeded max restarts (5) — giving up.
+2026-03-31 17:42:47,047 [ERROR] health_monitor – [CAM_16] Exceeded max restarts (5) — giving up.
+2026-03-31 17:42:47,081 [INFO] health_monitor – Health sweep: 14/17 OK  |  3 problem(s)
+2026-03-31 17:42:50,612 [WARNING] camera_worker – [CAM_07] Attempt 2 failed, retrying...
+2026-03-31 17:42:52,899 [INFO] camera_worker – [CAM_LOCAL] Webcam 0 opened.
+2026-03-31 17:42:55,179 [WARNING] camera_worker – [CAM_14] Attempt 3 failed, retrying...
+2026-03-31 17:42:56,088 [WARNING] camera_worker – [CAM_03] Attempt 3 failed, retrying...
+2026-03-31 17:42:59,821 [INFO] camera_worker – [CAM_10] Stream opened (attempt 1).
+2026-03-31 17:43:00,440 [WARNING] camera_worker – [CAM_06] Attempt 1 failed, retrying...
+2026-03-31 17:43:00,441 [WARNING] camera_worker – [CAM_07] Attempt 3 failed, retrying...
+2026-03-31 17:43:00,447 [WARNING] camera_worker – [CAM_03] Attempt 4 failed, retrying...
+2026-03-31 17:43:00,459 [WARNING] camera_worker – [CAM_09] Attempt 3 failed, retrying...
+2026-03-31 17:43:02,083 [ERROR] health_monitor – [CAM_13] Exceeded max restarts (5) — giving up.
+2026-03-31 17:43:02,128 [ERROR] health_monitor – [CAM_16] Exceeded max restarts (5) — giving up.
+2026-03-31 17:43:02,159 [INFO] health_monitor – Health sweep: 15/17 OK  |  2 problem(s)
+2026-03-31 17:43:05,787 [WARNING] camera_worker – [CAM_06] Attempt 2 failed, retrying...
+2026-03-31 17:43:05,794 [WARNING] camera_worker – [CAM_09] Attempt 4 failed, retrying...
+2026-03-31 17:43:05,916 [WARNING] camera_worker – [CAM_07] Attempt 4 failed, retrying...
+2026-03-31 17:43:07,933 [WARNING] camera_worker – [CAM_06] Attempt 3 failed, retrying...
+2026-03-31 17:43:08,589 [WARNING] camera_worker – [CAM_03] Attempt 5 failed, retrying...
+2026-03-31 17:43:12,068 [WARNING] camera_worker – [CAM_06] Attempt 4 failed, retrying...
+2026-03-31 17:43:14,015 [WARNING] camera_worker – [CAM_09] Attempt 5 failed, retrying...
+2026-03-31 17:43:14,295 [WARNING] camera_worker – [CAM_07] Attempt 5 failed, retrying...
+2026-03-31 17:43:17,160 [WARNING] health_monitor – [CAM_11] STALLED detected — restarting (attempt 5/5).
+2026-03-31 17:43:17,198 [INFO] camera_worker – [CAM_11] Connecting to source: http://honjin1.miemasu.net/nphMotionJpeg?Resolution=640x480&Quality=Standard
+2026-03-31 17:43:17,198 [INFO] manager – Worker started: CAM_11 (Tsumago Japan)
+2026-03-31 17:43:17,201 [INFO] manager – Worker restarted: CAM_11
+2026-03-31 17:43:17,206 [ERROR] health_monitor – [CAM_13] Exceeded max restarts (5) — giving up.
+2026-03-31 17:43:17,236 [ERROR] health_monitor – [CAM_16] Exceeded max restarts (5) — giving up.
+2026-03-31 17:43:17,267 [INFO] health_monitor – Health sweep: 14/17 OK  |  3 problem(s)
+2026-03-31 17:43:19,719 [INFO] camera_worker – [CAM_11] Stream opened (attempt 1).
+2026-03-31 17:43:20,250 [WARNING] camera_worker – [CAM_06] Attempt 5 failed, retrying...
+2026-03-31 17:43:32,269 [ERROR] health_monitor – [CAM_LOCAL] Exceeded max restarts (5) — giving up.
+2026-03-31 17:43:32,312 [ERROR] health_monitor – [CAM_03] Exceeded max restarts (5) — giving up.
+2026-03-31 17:43:32,345 [ERROR] health_monitor – [CAM_07] Exceeded max restarts (5) — giving up.
+2026-03-31 17:43:32,375 [ERROR] health_monitor – [CAM_09] Exceeded max restarts (5) — giving up.
+2026-03-31 17:43:32,411 [ERROR] health_monitor – [CAM_13] Exceeded max restarts (5) — giving up.
+2026-03-31 17:43:32,445 [ERROR] health_monitor – [CAM_16] Exceeded max restarts (5) — giving up.
+2026-03-31 17:43:32,498 [INFO] health_monitor – Health sweep: 11/17 OK  |  6 problem(s)
+2026-03-31 17:43:41,169 [WARNING] camera_worker – [CAM_01] Attempt 4 failed, retrying...
+2026-03-31 17:43:47,374 [WARNING] camera_worker – [CAM_02] Attempt 4 failed, retrying...
+2026-03-31 17:43:47,512 [ERROR] health_monitor – [CAM_LOCAL] Exceeded max restarts (5) — giving up.
+2026-03-31 17:43:47,549 [ERROR] health_monitor – [CAM_03] Exceeded max restarts (5) — giving up.
+2026-03-31 17:43:47,591 [ERROR] health_monitor – [CAM_06] Exceeded max restarts (5) — giving up.
+2026-03-31 17:43:47,620 [ERROR] health_monitor – [CAM_07] Exceeded max restarts (5) — giving up.
+2026-03-31 17:43:47,655 [ERROR] health_monitor – [CAM_09] Exceeded max restarts (5) — giving up.
+2026-03-31 17:43:47,687 [ERROR] health_monitor – [CAM_11] Exceeded max restarts (5) — giving up.
+2026-03-31 17:43:47,723 [ERROR] health_monitor – [CAM_13] Exceeded max restarts (5) — giving up.
+2026-03-31 17:43:47,756 [ERROR] health_monitor – [CAM_16] Exceeded max restarts (5) — giving up.
+2026-03-31 17:43:47,795 [INFO] health_monitor – Health sweep: 9/17 OK  |  8 problem(s)
+2026-03-31 17:43:52,491 [WARNING] camera_worker – [CAM_05] Attempt 4 failed, retrying...
+2026-03-31 17:43:59,267 [WARNING] camera_worker – [CAM_15] Attempt 4 failed, retrying...
+2026-03-31 17:44:02,797 [ERROR] health_monitor – [CAM_LOCAL] Exceeded max restarts (5) — giving up.
+2026-03-31 17:44:02,834 [ERROR] health_monitor – [CAM_03] Exceeded max restarts (5) — giving up.
+2026-03-31 17:44:02,867 [ERROR] health_monitor – [CAM_06] Exceeded max restarts (5) — giving up.
+2026-03-31 17:44:02,898 [ERROR] health_monitor – [CAM_07] Exceeded max restarts (5) — giving up.
+2026-03-31 17:44:02,942 [ERROR] health_monitor – [CAM_09] Exceeded max restarts (5) — giving up.
+2026-03-31 17:44:02,979 [ERROR] health_monitor – [CAM_11] Exceeded max restarts (5) — giving up.
+2026-03-31 17:44:03,043 [ERROR] health_monitor – [CAM_13] Exceeded max restarts (5) — giving up.
+2026-03-31 17:44:03,080 [ERROR] health_monitor – [CAM_16] Exceeded max restarts (5) — giving up.
+2026-03-31 17:44:03,118 [INFO] health_monitor – Health sweep: 9/17 OK  |  8 problem(s)
+2026-03-31 17:44:08,402 [WARNING] camera_worker – [CAM_04] Attempt 4 failed, retrying...
+2026-03-31 17:44:14,799 [WARNING] camera_worker – [CAM_08] Attempt 4 failed, retrying...
+2026-03-31 17:44:18,120 [ERROR] health_monitor – [CAM_LOCAL] Exceeded max restarts (5) — giving up.
+2026-03-31 17:44:18,158 [ERROR] health_monitor – [CAM_03] Exceeded max restarts (5) — giving up.
+2026-03-31 17:44:18,209 [ERROR] health_monitor – [CAM_06] Exceeded max restarts (5) — giving up.
+2026-03-31 17:44:18,244 [ERROR] health_monitor – [CAM_07] Exceeded max restarts (5) — giving up.
+2026-03-31 17:44:18,275 [ERROR] health_monitor – [CAM_09] Exceeded max restarts (5) — giving up.
+2026-03-31 17:44:18,308 [ERROR] health_monitor – [CAM_11] Exceeded max restarts (5) — giving up.
+2026-03-31 17:44:18,342 [ERROR] health_monitor – [CAM_13] Exceeded max restarts (5) — giving up.
+2026-03-31 17:44:18,447 [ERROR] health_monitor – [CAM_16] Exceeded max restarts (5) — giving up.
+2026-03-31 17:44:18,525 [INFO] health_monitor – Health sweep: 9/17 OK  |  8 problem(s)
+2026-03-31 17:44:20,332 [WARNING] camera_worker – [CAM_12] Attempt 4 failed, retrying...
+2026-03-31 17:44:29,921 [WARNING] camera_worker – [CAM_14] Attempt 4 failed, retrying...
+2026-03-31 17:44:33,533 [ERROR] health_monitor – [CAM_LOCAL] Exceeded max restarts (5) — giving up.
+2026-03-31 17:44:33,583 [ERROR] health_monitor – [CAM_03] Exceeded max restarts (5) — giving up.
+2026-03-31 17:44:33,616 [ERROR] health_monitor – [CAM_06] Exceeded max restarts (5) — giving up.
+2026-03-31 17:44:33,645 [ERROR] health_monitor – [CAM_07] Exceeded max restarts (5) — giving up.
+2026-03-31 17:44:33,699 [ERROR] health_monitor – [CAM_09] Exceeded max restarts (5) — giving up.
+2026-03-31 17:44:33,731 [ERROR] health_monitor – [CAM_11] Exceeded max restarts (5) — giving up.
+2026-03-31 17:44:33,767 [ERROR] health_monitor – [CAM_13] Exceeded max restarts (5) — giving up.
+2026-03-31 17:44:33,799 [ERROR] health_monitor – [CAM_16] Exceeded max restarts (5) — giving up.
+2026-03-31 17:44:33,835 [INFO] health_monitor – Health sweep: 9/17 OK  |  8 problem(s)
+2026-03-31 17:44:48,836 [ERROR] health_monitor – [CAM_LOCAL] Exceeded max restarts (5) — giving up.
+2026-03-31 17:44:48,873 [ERROR] health_monitor – [CAM_03] Exceeded max restarts (5) — giving up.
+2026-03-31 17:44:48,903 [ERROR] health_monitor – [CAM_06] Exceeded max restarts (5) — giving up.
+2026-03-31 17:44:48,937 [ERROR] health_monitor – [CAM_07] Exceeded max restarts (5) — giving up.
+2026-03-31 17:44:48,981 [ERROR] health_monitor – [CAM_09] Exceeded max restarts (5) — giving up.
+2026-03-31 17:44:49,022 [ERROR] health_monitor – [CAM_11] Exceeded max restarts (5) — giving up.
+2026-03-31 17:44:49,063 [ERROR] health_monitor – [CAM_13] Exceeded max restarts (5) — giving up.
+2026-03-31 17:44:49,099 [ERROR] health_monitor – [CAM_16] Exceeded max restarts (5) — giving up.
+2026-03-31 17:44:49,143 [INFO] health_monitor – Health sweep: 9/17 OK  |  8 problem(s)
+2026-03-31 17:45:04,146 [ERROR] health_monitor – [CAM_LOCAL] Exceeded max restarts (5) — giving up.
+2026-03-31 17:45:04,208 [ERROR] health_monitor – [CAM_03] Exceeded max restarts (5) — giving up.
+2026-03-31 17:45:04,247 [ERROR] health_monitor – [CAM_06] Exceeded max restarts (5) — giving up.
+2026-03-31 17:45:04,348 [ERROR] health_monitor – [CAM_07] Exceeded max restarts (5) — giving up.
+2026-03-31 17:45:04,398 [ERROR] health_monitor – [CAM_09] Exceeded max restarts (5) — giving up.
+2026-03-31 17:45:04,443 [ERROR] health_monitor – [CAM_11] Exceeded max restarts (5) — giving up.
+2026-03-31 17:45:04,500 [ERROR] health_monitor – [CAM_13] Exceeded max restarts (5) — giving up.
+2026-03-31 17:45:04,633 [ERROR] health_monitor – [CAM_16] Exceeded max restarts (5) — giving up.
+2026-03-31 17:45:04,682 [INFO] health_monitor – Health sweep: 9/17 OK  |  8 problem(s)
+2026-03-31 17:45:19,357 [WARNING] camera_worker – [CAM_01] Attempt 5 failed, retrying...
+2026-03-31 17:45:19,363 [INFO] CAMS – KeyboardInterrupt — shutting down.
+2026-03-31 17:45:19,368 [INFO] manager – Stopping all camera workers…
+2026-03-31 17:45:19,687 [ERROR] health_monitor – [CAM_LOCAL] Exceeded max restarts (5) — giving up.
+2026-03-31 17:45:19,729 [ERROR] health_monitor – [CAM_03] Exceeded max restarts (5) — giving up.
+2026-03-31 17:45:19,763 [ERROR] health_monitor – [CAM_06] Exceeded max restarts (5) — giving up.
+2026-03-31 17:45:19,800 [ERROR] health_monitor – [CAM_07] Exceeded max restarts (5) — giving up.
+2026-03-31 17:45:19,830 [ERROR] health_monitor – [CAM_09] Exceeded max restarts (5) — giving up.
+2026-03-31 17:45:19,858 [ERROR] health_monitor – [CAM_11] Exceeded max restarts (5) — giving up.
+2026-03-31 17:45:19,889 [ERROR] health_monitor – [CAM_13] Exceeded max restarts (5) — giving up.
+2026-03-31 17:45:19,890 [INFO] camera_worker – [CAM_10] Worker stopped.
+2026-03-31 17:45:19,918 [ERROR] health_monitor – [CAM_16] Exceeded max restarts (5) — giving up.
+2026-03-31 17:45:19,970 [INFO] health_monitor – Health sweep: 9/17 OK  |  8 problem(s)
+2026-03-31 17:45:25,554 [WARNING] camera_worker – [CAM_02] Attempt 5 failed, retrying...
+2026-03-31 17:45:30,869 [WARNING] camera_worker – [CAM_05] Attempt 5 failed, retrying...
+2026-03-31 17:45:36,994 [INFO] CAMS – ============================================================
+2026-03-31 17:45:36,995 [INFO] CAMS –   CAMS – Centralized Authorized Monitoring System
+2026-03-31 17:45:36,995 [INFO] CAMS – ============================================================
+2026-03-31 17:45:36,998 [INFO] CAMS – ✅ LBPH model found — recognition active.
+2026-03-31 17:45:37,004 [INFO] db – Database initialised at C:\code\cams\cams.db
+2026-03-31 17:45:37,076 [INFO] recognition – DNN face detector loaded.
+2026-03-31 17:45:37,087 [INFO] recognition – LBPH model loaded from C:\code\cams\models\lbph_model.xml
+2026-03-31 17:45:37,258 [INFO] manager – Starting 17 camera worker(s)…
+2026-03-31 17:45:37,262 [INFO] camera_worker – [CAM_LOCAL] Connecting to source: 0
+2026-03-31 17:45:37,263 [INFO] manager – Worker started: CAM_LOCAL (My Local Webcam)
+2026-03-31 17:45:37,273 [INFO] camera_worker – [CAM_01] Connecting to source: http://pendelcam.kip.uni-heidelberg.de/mjpg/video.mjpg
+2026-03-31 17:45:37,274 [INFO] manager – Worker started: CAM_01 (Heidelberg Uni)
+2026-03-31 17:45:37,295 [INFO] camera_worker – [CAM_02] Connecting to source: http://camera.buffalotrace.com/mjpg/video.mjpg
+2026-03-31 17:45:37,296 [INFO] manager – Worker started: CAM_02 (Blanton Bottling)
+2026-03-31 17:45:37,346 [INFO] camera_worker – [CAM_03] Connecting to source: http://camera.butovo.com/mjpg/video.mjpg
+2026-03-31 17:45:37,347 [INFO] manager – Worker started: CAM_03 (Butovo Moscow)
+2026-03-31 17:45:37,355 [INFO] camera_worker – [CAM_04] Connecting to source: http://webcam01.ecn.purdue.edu/mjpg/video.mjpg
+2026-03-31 17:45:37,355 [INFO] manager – Worker started: CAM_04 (Purdue Engineering)
+2026-03-31 17:45:37,360 [INFO] camera_worker – [CAM_05] Connecting to source: http://61.211.241.239/nphMotionJpeg?Resolution=320x240&Quality=Standard
+2026-03-31 17:45:37,364 [INFO] manager – Worker started: CAM_05 (Tokyo Japan)
+2026-03-31 17:45:37,382 [INFO] camera_worker – [CAM_06] Connecting to source: http://vetter.viewnetcam.com:50000/nphMotionJpeg?Resolution=640x480&Quality=Clarity
+2026-03-31 17:45:37,383 [INFO] manager – Worker started: CAM_06 (Japan Camera)
+2026-03-31 17:45:37,392 [INFO] camera_worker – [CAM_07] Connecting to source: http://tamperehacklab.tunk.org:38001/nphMotionJpeg?Resolution=640x480&Quality=Clarity
+2026-03-31 17:45:37,392 [INFO] manager – Worker started: CAM_07 (Tampere Hacklab)
+2026-03-31 17:45:37,398 [INFO] camera_worker – [CAM_08] Connecting to source: http://takemotopiano.aa1.netvolante.jp:8190/nphMotionJpeg?Resolution=640x480&Quality=Standard&Framerate=30
+2026-03-31 17:45:37,398 [INFO] manager – Worker started: CAM_08 (Osaka Piano)
+2026-03-31 17:45:37,423 [INFO] camera_worker – [CAM_09] Connecting to source: http://clausenrc5.viewnetcam.com:50003/nphMotionJpeg?Resolution=320x240
+2026-03-31 17:45:37,423 [INFO] manager – Worker started: CAM_09 (Richtung West (CH))
+2026-03-31 17:45:37,426 [INFO] camera_worker – [CAM_10] Connecting to source: http://195.196.36.242/mjpg/video.mjpg
+2026-03-31 17:45:37,426 [INFO] manager – Worker started: CAM_10 (Soltorget Pajala)
+2026-03-31 17:45:37,429 [INFO] camera_worker – [CAM_11] Connecting to source: http://honjin1.miemasu.net/nphMotionJpeg?Resolution=640x480&Quality=Standard
+2026-03-31 17:45:37,430 [INFO] manager – Worker started: CAM_11 (Tsumago Japan)
+2026-03-31 17:45:37,437 [INFO] camera_worker – [CAM_12] Connecting to source: http://67.53.46.161:65123/mjpg/video.mjpg
+2026-03-31 17:45:37,437 [INFO] manager – Worker started: CAM_12 (Mohouli Park (HI))
+2026-03-31 17:45:37,439 [INFO] camera_worker – [CAM_13] Connecting to source: http://webcam.rhein-taunus-krematorium.de/mjpg/video.mjpg
+2026-03-31 17:45:37,440 [INFO] manager – Worker started: CAM_13 (Krematorium DE)
+2026-03-31 17:45:37,442 [INFO] camera_worker – [CAM_14] Connecting to source: http://77.222.181.11:8080/mjpg/video.mjpg
+2026-03-31 17:45:37,442 [INFO] manager – Worker started: CAM_14 (Kaiskuru Ski)
+2026-03-31 17:45:37,446 [INFO] camera_worker – [CAM_15] Connecting to source: http://webcam.mchcares.com/mjpg/video.mjpg?timestamp=1566232173730
+2026-03-31 17:45:37,447 [INFO] manager – Worker started: CAM_15 (San Bernardino)
+2026-03-31 17:45:37,452 [INFO] camera_worker – [CAM_16] Connecting to source: http://47.51.131.147/-wvhttp-01-/GetOneShot?image_size=1280x720&frame_count=1000000000
+2026-03-31 17:45:37,452 [INFO] manager – Worker started: CAM_16 (Warrenton OR)
+2026-03-31 17:45:37,482 [INFO] alert_notifier – Alert notifier started.
+2026-03-31 17:45:37,487 [INFO] health_monitor – Health monitor started (interval=15s).
+2026-03-31 17:45:37,489 [INFO] stream_recorder – ClipRecorder attached to CAM_LOCAL
+2026-03-31 17:45:37,492 [INFO] stream_recorder – ClipRecorder attached to CAM_01
+2026-03-31 17:45:37,495 [INFO] stream_recorder – ClipRecorder attached to CAM_02
+2026-03-31 17:45:37,497 [INFO] stream_recorder – ClipRecorder attached to CAM_03
+2026-03-31 17:45:37,504 [INFO] stream_recorder – ClipRecorder attached to CAM_04
+2026-03-31 17:45:37,506 [INFO] stream_recorder – ClipRecorder attached to CAM_05
+2026-03-31 17:45:37,510 [INFO] stream_recorder – ClipRecorder attached to CAM_06
+2026-03-31 17:45:37,513 [INFO] stream_recorder – ClipRecorder attached to CAM_07
+2026-03-31 17:45:37,518 [INFO] stream_recorder – ClipRecorder attached to CAM_08
+2026-03-31 17:45:37,520 [INFO] stream_recorder – ClipRecorder attached to CAM_09
+2026-03-31 17:45:37,523 [INFO] stream_recorder – ClipRecorder attached to CAM_10
+2026-03-31 17:45:37,525 [INFO] stream_recorder – ClipRecorder attached to CAM_11
+2026-03-31 17:45:37,527 [INFO] stream_recorder – ClipRecorder attached to CAM_12
+2026-03-31 17:45:37,530 [INFO] stream_recorder – ClipRecorder attached to CAM_13
+2026-03-31 17:45:37,538 [INFO] stream_recorder – ClipRecorder attached to CAM_14
+2026-03-31 17:45:37,541 [INFO] stream_recorder – ClipRecorder attached to CAM_15
+2026-03-31 17:45:37,543 [INFO] stream_recorder – ClipRecorder attached to CAM_16
+2026-03-31 17:45:37,544 [INFO] stream_recorder – Clip recorder dispatcher started.
+2026-03-31 17:45:37,545 [INFO] CAMS – All systems running: 17 camera(s), alert notifier, health watchdog, 17 clip recorder(s).
+2026-03-31 17:45:37,546 [INFO] dashboard – Dashboard started.
+2026-03-31 17:45:52,490 [INFO] health_monitor – Health sweep: 17/17 OK  |  0 problem(s)
+2026-03-31 17:45:54,377 [WARNING] camera_worker – [CAM_06] Attempt 1 failed, retrying...
+2026-03-31 17:45:58,658 [INFO] camera_worker – [CAM_LOCAL] Webcam 0 opened.
+2026-03-31 17:46:04,046 [INFO] camera_worker – [CAM_10] Stream opened (attempt 1).
+2026-03-31 17:46:07,492 [INFO] health_monitor – Health sweep: 17/17 OK  |  0 problem(s)
+2026-03-31 17:46:16,543 [INFO] camera_worker – [CAM_16] Stream opened (attempt 1).
+2026-03-31 17:46:22,366 [WARNING] camera_worker – [CAM_09] Attempt 1 failed, retrying...
+2026-03-31 17:46:22,494 [INFO] health_monitor – Health sweep: 17/17 OK  |  0 problem(s)
+2026-03-31 17:46:25,181 [INFO] camera_worker – [CAM_11] Stream opened (attempt 1).
+2026-03-31 17:46:31,133 [WARNING] camera_worker – [CAM_07] Attempt 1 failed, retrying...
+2026-03-31 17:46:32,453 [INFO] camera_worker – [CAM_13] Stream opened (attempt 1).
+2026-03-31 17:46:33,101 [WARNING] camera_worker – [CAM_03] Attempt 1 failed, retrying...
+2026-03-31 17:46:33,153 [WARNING] camera_worker – [CAM_09] Attempt 2 failed, retrying...
+2026-03-31 17:46:33,175 [WARNING] camera_worker – [CAM_06] Attempt 2 failed, retrying...
+2026-03-31 17:46:33,232 [WARNING] camera_worker – [CAM_07] Attempt 2 failed, retrying...
+2026-03-31 17:46:34,403 [WARNING] camera_worker – [CAM_03] Attempt 2 failed, retrying...
+2026-03-31 17:46:35,722 [WARNING] camera_worker – [CAM_09] Attempt 3 failed, retrying...
+2026-03-31 17:46:35,776 [WARNING] camera_worker – [CAM_07] Attempt 3 failed, retrying...
+2026-03-31 17:46:35,776 [WARNING] camera_worker – [CAM_06] Attempt 3 failed, retrying...
+2026-03-31 17:46:36,906 [WARNING] camera_worker – [CAM_03] Attempt 3 failed, retrying...
+2026-03-31 17:46:37,498 [INFO] health_monitor – Health sweep: 17/17 OK  |  0 problem(s)
+2026-03-31 17:46:40,208 [WARNING] camera_worker – [CAM_07] Attempt 4 failed, retrying...
+2026-03-31 17:46:40,266 [WARNING] camera_worker – [CAM_09] Attempt 4 failed, retrying...
+2026-03-31 17:46:40,396 [WARNING] camera_worker – [CAM_06] Attempt 4 failed, retrying...
+2026-03-31 17:46:41,259 [WARNING] camera_worker – [CAM_03] Attempt 4 failed, retrying...
+2026-03-31 17:46:50,206 [WARNING] camera_worker – [CAM_06] Attempt 5 failed, retrying...
+2026-03-31 17:46:50,322 [WARNING] camera_worker – [CAM_07] Attempt 5 failed, retrying...
+2026-03-31 17:46:50,368 [WARNING] camera_worker – [CAM_09] Attempt 5 failed, retrying...
+2026-03-31 17:46:51,105 [WARNING] camera_worker – [CAM_03] Attempt 5 failed, retrying...
+2026-03-31 17:46:52,510 [INFO] health_monitor – Health sweep: 17/17 OK  |  0 problem(s)
+2026-03-31 17:47:07,530 [WARNING] health_monitor – [CAM_03] CRASHED detected — restarting (attempt 1/5).
+2026-03-31 17:47:07,601 [INFO] camera_worker – [CAM_03] Connecting to source: http://camera.butovo.com/mjpg/video.mjpg
+2026-03-31 17:47:07,601 [INFO] manager – Worker started: CAM_03 (Butovo Moscow)
+2026-03-31 17:47:07,608 [WARNING] camera_worker – [CAM_01] Attempt 1 failed, retrying...
+2026-03-31 17:47:07,613 [INFO] manager – Worker restarted: CAM_03
+2026-03-31 17:47:07,616 [WARNING] health_monitor – [CAM_06] CRASHED detected — restarting (attempt 1/5).
+2026-03-31 17:47:07,666 [INFO] camera_worker – [CAM_06] Connecting to source: http://vetter.viewnetcam.com:50000/nphMotionJpeg?Resolution=640x480&Quality=Clarity
+2026-03-31 17:47:07,667 [INFO] manager – Worker started: CAM_06 (Japan Camera)
+2026-03-31 17:47:07,668 [INFO] manager – Worker restarted: CAM_06
+2026-03-31 17:47:07,694 [WARNING] health_monitor – [CAM_07] CRASHED detected — restarting (attempt 1/5).
+2026-03-31 17:47:07,753 [INFO] camera_worker – [CAM_07] Connecting to source: http://tamperehacklab.tunk.org:38001/nphMotionJpeg?Resolution=640x480&Quality=Clarity
+2026-03-31 17:47:07,757 [INFO] manager – Worker started: CAM_07 (Tampere Hacklab)
+2026-03-31 17:47:07,762 [INFO] manager – Worker restarted: CAM_07
+2026-03-31 17:47:07,763 [WARNING] health_monitor – [CAM_09] CRASHED detected — restarting (attempt 1/5).
+2026-03-31 17:47:07,836 [INFO] camera_worker – [CAM_09] Connecting to source: http://clausenrc5.viewnetcam.com:50003/nphMotionJpeg?Resolution=320x240
+2026-03-31 17:47:07,836 [INFO] manager – Worker started: CAM_09 (Richtung West (CH))
+2026-03-31 17:47:07,839 [INFO] manager – Worker restarted: CAM_09
+2026-03-31 17:47:07,841 [INFO] health_monitor – Health sweep: 13/17 OK  |  4 problem(s)
+2026-03-31 17:47:08,157 [WARNING] camera_worker – [CAM_03] Attempt 1 failed, retrying...
+2026-03-31 17:47:08,544 [WARNING] camera_worker – [CAM_06] Attempt 1 failed, retrying...
+2026-03-31 17:47:08,599 [WARNING] camera_worker – [CAM_07] Attempt 1 failed, retrying...
+2026-03-31 17:47:08,661 [WARNING] camera_worker – [CAM_09] Attempt 1 failed, retrying...
+2026-03-31 17:47:12,913 [WARNING] camera_worker – [CAM_02] Attempt 1 failed, retrying...
+2026-03-31 17:47:14,452 [WARNING] camera_worker – [CAM_03] Attempt 2 failed, retrying...
+2026-03-31 17:47:14,982 [WARNING] camera_worker – [CAM_07] Attempt 2 failed, retrying...
+2026-03-31 17:47:15,117 [WARNING] camera_worker – [CAM_09] Attempt 2 failed, retrying...
+2026-03-31 17:47:15,166 [WARNING] camera_worker – [CAM_06] Attempt 2 failed, retrying...
+2026-03-31 17:47:17,162 [INFO] dashboard – Selected camera: CAM_10
+2026-03-31 17:47:18,428 [WARNING] camera_worker – [CAM_04] Attempt 1 failed, retrying...
+2026-03-31 17:47:20,701 [WARNING] camera_worker – [CAM_03] Attempt 3 failed, retrying...
+2026-03-31 17:47:20,717 [WARNING] camera_worker – [CAM_09] Attempt 3 failed, retrying...
+2026-03-31 17:47:21,530 [INFO] dashboard – Selected camera: CAM_10
+2026-03-31 17:47:22,845 [INFO] health_monitor – Health sweep: 17/17 OK  |  0 problem(s)
+2026-03-31 17:47:25,326 [WARNING] camera_worker – [CAM_08] Attempt 1 failed, retrying...
+2026-03-31 17:47:26,539 [WARNING] camera_worker – [CAM_06] Attempt 3 failed, retrying...
+2026-03-31 17:47:26,574 [WARNING] camera_worker – [CAM_03] Attempt 4 failed, retrying...
+2026-03-31 17:47:26,861 [WARNING] camera_worker – [CAM_07] Attempt 3 failed, retrying...
+2026-03-31 17:47:26,870 [WARNING] camera_worker – [CAM_09] Attempt 4 failed, retrying...
+2026-03-31 17:47:32,324 [WARNING] camera_worker – [CAM_06] Attempt 4 failed, retrying...
+2026-03-31 17:47:32,460 [WARNING] camera_worker – [CAM_07] Attempt 4 failed, retrying...
+2026-03-31 17:47:33,954 [WARNING] camera_worker – [CAM_12] Attempt 1 failed, retrying...
+2026-03-31 17:47:34,838 [WARNING] camera_worker – [CAM_03] Attempt 5 failed, retrying...
+2026-03-31 17:47:35,084 [WARNING] camera_worker – [CAM_09] Attempt 5 failed, retrying...
+2026-03-31 17:47:37,850 [INFO] health_monitor – Health sweep: 17/17 OK  |  0 problem(s)
+2026-03-31 17:47:39,419 [WARNING] camera_worker – [CAM_14] Attempt 1 failed, retrying...
+2026-03-31 17:47:40,795 [WARNING] camera_worker – [CAM_06] Attempt 5 failed, retrying...
+2026-03-31 17:47:46,249 [WARNING] camera_worker – [CAM_07] Attempt 5 failed, retrying...
+2026-03-31 17:47:46,356 [WARNING] camera_worker – [CAM_05] Attempt 1 failed, retrying...
+2026-03-31 17:47:52,862 [WARNING] health_monitor – [CAM_03] CRASHED detected — restarting (attempt 2/5).
+2026-03-31 17:47:52,924 [INFO] camera_worker – [CAM_03] Connecting to source: http://camera.butovo.com/mjpg/video.mjpg
+2026-03-31 17:47:52,924 [INFO] manager – Worker started: CAM_03 (Butovo Moscow)
+2026-03-31 17:47:52,940 [INFO] manager – Worker restarted: CAM_03
+2026-03-31 17:47:52,951 [WARNING] health_monitor – [CAM_09] CRASHED detected — restarting (attempt 2/5).
+2026-03-31 17:47:53,007 [INFO] camera_worker – [CAM_09] Connecting to source: http://clausenrc5.viewnetcam.com:50003/nphMotionJpeg?Resolution=320x240
+2026-03-31 17:47:53,008 [INFO] manager – Worker started: CAM_09 (Richtung West (CH))
+2026-03-31 17:47:53,018 [INFO] manager – Worker restarted: CAM_09
+2026-03-31 17:47:53,019 [INFO] health_monitor – Health sweep: 15/17 OK  |  2 problem(s)
+2026-03-31 17:47:53,380 [WARNING] camera_worker – [CAM_09] Attempt 1 failed, retrying...
+2026-03-31 17:47:53,406 [WARNING] camera_worker – [CAM_03] Attempt 1 failed, retrying...
+2026-03-31 17:47:54,741 [WARNING] camera_worker – [CAM_09] Attempt 2 failed, retrying...
+2026-03-31 17:47:55,565 [WARNING] camera_worker – [CAM_03] Attempt 2 failed, retrying...
+2026-03-31 17:47:55,648 [WARNING] camera_worker – [CAM_15] Attempt 1 failed, retrying...
+2026-03-31 17:48:02,685 [WARNING] camera_worker – [CAM_09] Attempt 3 failed, retrying...
+2026-03-31 17:48:02,688 [WARNING] camera_worker – [CAM_03] Attempt 3 failed, retrying...
+2026-03-31 17:48:07,409 [WARNING] camera_worker – [CAM_09] Attempt 4 failed, retrying...
+2026-03-31 17:48:07,469 [WARNING] camera_worker – [CAM_03] Attempt 4 failed, retrying...
+2026-03-31 17:48:08,036 [WARNING] health_monitor – [CAM_06] CRASHED detected — restarting (attempt 2/5).
+2026-03-31 17:48:08,134 [INFO] camera_worker – [CAM_06] Connecting to source: http://vetter.viewnetcam.com:50000/nphMotionJpeg?Resolution=640x480&Quality=Clarity
+2026-03-31 17:48:08,134 [INFO] manager – Worker started: CAM_06 (Japan Camera)
+2026-03-31 17:48:08,153 [INFO] manager – Worker restarted: CAM_06
+2026-03-31 17:48:08,171 [WARNING] health_monitor – [CAM_07] CRASHED detected — restarting (attempt 2/5).
+2026-03-31 17:48:08,286 [INFO] camera_worker – [CAM_07] Connecting to source: http://tamperehacklab.tunk.org:38001/nphMotionJpeg?Resolution=640x480&Quality=Clarity
+2026-03-31 17:48:08,294 [INFO] manager – Worker started: CAM_07 (Tampere Hacklab)
+2026-03-31 17:48:08,311 [INFO] manager – Worker restarted: CAM_07
+2026-03-31 17:48:08,324 [INFO] health_monitor – Health sweep: 15/17 OK  |  2 problem(s)
+2026-03-31 17:48:08,799 [WARNING] camera_worker – [CAM_06] Attempt 1 failed, retrying...
+2026-03-31 17:48:09,089 [WARNING] camera_worker – [CAM_07] Attempt 1 failed, retrying...
+2026-03-31 17:48:10,091 [WARNING] camera_worker – [CAM_06] Attempt 2 failed, retrying...
+2026-03-31 17:48:10,411 [WARNING] camera_worker – [CAM_07] Attempt 2 failed, retrying...
+2026-03-31 17:48:12,339 [WARNING] camera_worker – [CAM_06] Attempt 3 failed, retrying...
+2026-03-31 17:48:12,853 [WARNING] camera_worker – [CAM_07] Attempt 3 failed, retrying...
+2026-03-31 17:48:15,747 [WARNING] camera_worker – [CAM_09] Attempt 5 failed, retrying...
+2026-03-31 17:48:15,780 [WARNING] camera_worker – [CAM_03] Attempt 5 failed, retrying...
+2026-03-31 17:48:16,719 [WARNING] camera_worker – [CAM_06] Attempt 4 failed, retrying...
+2026-03-31 17:48:17,812 [WARNING] camera_worker – [CAM_07] Attempt 4 failed, retrying...
+2026-03-31 17:48:23,338 [INFO] health_monitor – Health sweep: 17/17 OK  |  0 problem(s)
+2026-03-31 17:48:25,046 [WARNING] camera_worker – [CAM_06] Attempt 5 failed, retrying...
+2026-03-31 17:48:26,287 [WARNING] camera_worker – [CAM_07] Attempt 5 failed, retrying...
+2026-03-31 17:48:32,617 [INFO] dashboard – Selected camera: CAM_10
+2026-03-31 17:48:38,346 [WARNING] health_monitor – [CAM_03] CRASHED detected — restarting (attempt 3/5).
+2026-03-31 17:48:38,382 [INFO] camera_worker – [CAM_03] Connecting to source: http://camera.butovo.com/mjpg/video.mjpg
+2026-03-31 17:48:38,383 [INFO] manager – Worker started: CAM_03 (Butovo Moscow)
+2026-03-31 17:48:38,395 [INFO] manager – Worker restarted: CAM_03
+2026-03-31 17:48:38,397 [WARNING] health_monitor – [CAM_09] CRASHED detected — restarting (attempt 3/5).
+2026-03-31 17:48:38,526 [INFO] camera_worker – [CAM_09] Connecting to source: http://clausenrc5.viewnetcam.com:50003/nphMotionJpeg?Resolution=320x240
+2026-03-31 17:48:38,527 [INFO] manager – Worker started: CAM_09 (Richtung West (CH))
+2026-03-31 17:48:38,651 [INFO] manager – Worker restarted: CAM_09
+2026-03-31 17:48:38,659 [INFO] health_monitor – Health sweep: 15/17 OK  |  2 problem(s)
+2026-03-31 17:48:38,807 [WARNING] camera_worker – [CAM_01] Attempt 2 failed, retrying...
+2026-03-31 17:48:38,929 [WARNING] camera_worker – [CAM_03] Attempt 1 failed, retrying...
+2026-03-31 17:48:39,038 [WARNING] camera_worker – [CAM_09] Attempt 1 failed, retrying...
+2026-03-31 17:48:40,111 [WARNING] camera_worker – [CAM_03] Attempt 2 failed, retrying...
+2026-03-31 17:48:40,163 [WARNING] camera_worker – [CAM_09] Attempt 2 failed, retrying...
+2026-03-31 17:48:45,194 [WARNING] camera_worker – [CAM_02] Attempt 2 failed, retrying...
+2026-03-31 17:48:46,866 [WARNING] camera_worker – [CAM_03] Attempt 3 failed, retrying...
+2026-03-31 17:48:46,878 [WARNING] camera_worker – [CAM_09] Attempt 3 failed, retrying...
+2026-03-31 17:48:51,083 [WARNING] camera_worker – [CAM_04] Attempt 2 failed, retrying...
+2026-03-31 17:48:53,039 [WARNING] camera_worker – [CAM_03] Attempt 4 failed, retrying...
+2026-03-31 17:48:53,090 [WARNING] camera_worker – [CAM_09] Attempt 4 failed, retrying...
+2026-03-31 17:48:53,670 [WARNING] health_monitor – [CAM_06] CRASHED detected — restarting (attempt 3/5).
+2026-03-31 17:48:53,723 [INFO] camera_worker – [CAM_06] Connecting to source: http://vetter.viewnetcam.com:50000/nphMotionJpeg?Resolution=640x480&Quality=Clarity
+2026-03-31 17:48:53,725 [INFO] manager – Worker started: CAM_06 (Japan Camera)
+2026-03-31 17:48:53,727 [INFO] manager – Worker restarted: CAM_06
+2026-03-31 17:48:53,729 [WARNING] health_monitor – [CAM_07] CRASHED detected — restarting (attempt 3/5).
+2026-03-31 17:48:53,769 [INFO] camera_worker – [CAM_07] Connecting to source: http://tamperehacklab.tunk.org:38001/nphMotionJpeg?Resolution=640x480&Quality=Clarity
+2026-03-31 17:48:53,770 [INFO] manager – Worker started: CAM_07 (Tampere Hacklab)
+2026-03-31 17:48:53,771 [INFO] manager – Worker restarted: CAM_07
+2026-03-31 17:48:53,773 [INFO] health_monitor – Health sweep: 15/17 OK  |  2 problem(s)
+2026-03-31 17:48:56,966 [WARNING] camera_worker – [CAM_08] Attempt 2 failed, retrying...
+2026-03-31 17:48:58,828 [WARNING] camera_worker – [CAM_06] Attempt 1 failed, retrying...
+2026-03-31 17:48:58,941 [WARNING] camera_worker – [CAM_07] Attempt 1 failed, retrying...
+2026-03-31 17:49:04,972 [WARNING] camera_worker – [CAM_12] Attempt 2 failed, retrying...
+2026-03-31 17:49:06,199 [WARNING] camera_worker – [CAM_03] Attempt 5 failed, retrying...
+2026-03-31 17:49:06,216 [WARNING] camera_worker – [CAM_06] Attempt 2 failed, retrying...
+2026-03-31 17:49:06,240 [WARNING] camera_worker – [CAM_07] Attempt 2 failed, retrying...
+2026-03-31 17:49:06,390 [WARNING] camera_worker – [CAM_09] Attempt 5 failed, retrying...
+2026-03-31 17:49:08,781 [INFO] health_monitor – Health sweep: 17/17 OK  |  0 problem(s)
+2026-03-31 17:49:10,387 [WARNING] camera_worker – [CAM_14] Attempt 2 failed, retrying...
+2026-03-31 17:49:12,688 [WARNING] camera_worker – [CAM_06] Attempt 3 failed, retrying...
+2026-03-31 17:49:12,939 [WARNING] camera_worker – [CAM_07] Attempt 3 failed, retrying...
+2026-03-31 17:49:17,266 [WARNING] camera_worker – [CAM_05] Attempt 2 failed, retrying...
+2026-03-31 17:49:18,479 [WARNING] camera_worker – [CAM_06] Attempt 4 failed, retrying...
+2026-03-31 17:49:18,746 [WARNING] camera_worker – [CAM_07] Attempt 4 failed, retrying...
+2026-03-31 17:49:23,786 [WARNING] health_monitor – [CAM_03] CRASHED detected — restarting (attempt 4/5).
+2026-03-31 17:49:23,841 [INFO] camera_worker – [CAM_03] Connecting to source: http://camera.butovo.com/mjpg/video.mjpg
+2026-03-31 17:49:23,841 [INFO] manager – Worker started: CAM_03 (Butovo Moscow)
+2026-03-31 17:49:23,845 [INFO] manager – Worker restarted: CAM_03
+2026-03-31 17:49:23,845 [WARNING] health_monitor – [CAM_09] CRASHED detected — restarting (attempt 4/5).
+2026-03-31 17:49:23,893 [INFO] camera_worker – [CAM_09] Connecting to source: http://clausenrc5.viewnetcam.com:50003/nphMotionJpeg?Resolution=320x240
+2026-03-31 17:49:23,893 [INFO] manager – Worker started: CAM_09 (Richtung West (CH))
+2026-03-31 17:49:23,907 [INFO] manager – Worker restarted: CAM_09
+2026-03-31 17:49:23,909 [INFO] health_monitor – Health sweep: 15/17 OK  |  2 problem(s)
+2026-03-31 17:49:24,877 [WARNING] camera_worker – [CAM_03] Attempt 1 failed, retrying...
+2026-03-31 17:49:25,047 [WARNING] camera_worker – [CAM_09] Attempt 1 failed, retrying...
+2026-03-31 17:49:26,277 [WARNING] camera_worker – [CAM_03] Attempt 2 failed, retrying...
+2026-03-31 17:49:26,591 [WARNING] camera_worker – [CAM_09] Attempt 2 failed, retrying...
+2026-03-31 17:49:26,837 [WARNING] camera_worker – [CAM_15] Attempt 2 failed, retrying...
+2026-03-31 17:49:26,849 [WARNING] camera_worker – [CAM_06] Attempt 5 failed, retrying...
+2026-03-31 17:49:27,568 [WARNING] camera_worker – [CAM_07] Attempt 5 failed, retrying...
+2026-03-31 17:49:29,135 [WARNING] camera_worker – [CAM_03] Attempt 3 failed, retrying...
+2026-03-31 17:49:29,281 [WARNING] camera_worker – [CAM_09] Attempt 3 failed, retrying...
+2026-03-31 17:49:34,410 [WARNING] camera_worker – [CAM_03] Attempt 4 failed, retrying...
+2026-03-31 17:49:34,526 [WARNING] camera_worker – [CAM_09] Attempt 4 failed, retrying...
+2026-03-31 17:49:38,912 [INFO] health_monitor – Health sweep: 17/17 OK  |  0 problem(s)
+2026-03-31 17:49:42,618 [WARNING] camera_worker – [CAM_03] Attempt 5 failed, retrying...
+2026-03-31 17:49:43,313 [WARNING] camera_worker – [CAM_09] Attempt 5 failed, retrying...
+2026-03-31 17:49:53,918 [WARNING] health_monitor – [CAM_06] CRASHED detected — restarting (attempt 4/5).
+2026-03-31 17:49:53,959 [INFO] camera_worker – [CAM_06] Connecting to source: http://vetter.viewnetcam.com:50000/nphMotionJpeg?Resolution=640x480&Quality=Clarity
+2026-03-31 17:49:53,959 [INFO] manager – Worker started: CAM_06 (Japan Camera)
+2026-03-31 17:49:53,961 [INFO] manager – Worker restarted: CAM_06
+2026-03-31 17:49:53,962 [WARNING] health_monitor – [CAM_07] CRASHED detected — restarting (attempt 4/5).
+2026-03-31 17:49:54,004 [INFO] camera_worker – [CAM_07] Connecting to source: http://tamperehacklab.tunk.org:38001/nphMotionJpeg?Resolution=640x480&Quality=Clarity
+2026-03-31 17:49:54,004 [INFO] manager – Worker started: CAM_07 (Tampere Hacklab)
+2026-03-31 17:49:54,007 [INFO] manager – Worker restarted: CAM_07
+2026-03-31 17:49:54,009 [INFO] health_monitor – Health sweep: 15/17 OK  |  2 problem(s)
+2026-03-31 17:49:54,122 [WARNING] camera_worker – [CAM_06] Attempt 1 failed, retrying...
+2026-03-31 17:49:54,311 [WARNING] camera_worker – [CAM_07] Attempt 1 failed, retrying...
+2026-03-31 17:49:55,324 [WARNING] camera_worker – [CAM_06] Attempt 2 failed, retrying...
+2026-03-31 17:49:55,529 [WARNING] camera_worker – [CAM_07] Attempt 2 failed, retrying...
+2026-03-31 17:49:57,489 [WARNING] camera_worker – [CAM_06] Attempt 3 failed, retrying...
+2026-03-31 17:49:57,722 [WARNING] camera_worker – [CAM_07] Attempt 3 failed, retrying...
+2026-03-31 17:50:01,844 [WARNING] camera_worker – [CAM_06] Attempt 4 failed, retrying...
+2026-03-31 17:50:02,188 [WARNING] camera_worker – [CAM_07] Attempt 4 failed, retrying...
+2026-03-31 17:50:09,010 [WARNING] health_monitor – [CAM_03] CRASHED detected — restarting (attempt 5/5).
+2026-03-31 17:50:09,045 [INFO] camera_worker – [CAM_03] Connecting to source: http://camera.butovo.com/mjpg/video.mjpg
+2026-03-31 17:50:09,045 [INFO] manager – Worker started: CAM_03 (Butovo Moscow)
+2026-03-31 17:50:09,046 [INFO] manager – Worker restarted: CAM_03
+2026-03-31 17:50:09,047 [WARNING] health_monitor – [CAM_09] CRASHED detected — restarting (attempt 5/5).
+2026-03-31 17:50:09,078 [INFO] camera_worker – [CAM_09] Connecting to source: http://clausenrc5.viewnetcam.com:50003/nphMotionJpeg?Resolution=320x240
+2026-03-31 17:50:09,079 [INFO] manager – Worker started: CAM_09 (Richtung West (CH))
+2026-03-31 17:50:09,082 [INFO] manager – Worker restarted: CAM_09
+2026-03-31 17:50:09,083 [INFO] health_monitor – Health sweep: 15/17 OK  |  2 problem(s)
+2026-03-31 17:50:09,256 [WARNING] camera_worker – [CAM_03] Attempt 1 failed, retrying...
+2026-03-31 17:50:09,370 [WARNING] camera_worker – [CAM_09] Attempt 1 failed, retrying...
+2026-03-31 17:50:10,307 [WARNING] camera_worker – [CAM_06] Attempt 5 failed, retrying...
+2026-03-31 17:50:10,652 [WARNING] camera_worker – [CAM_07] Attempt 5 failed, retrying...
+2026-03-31 17:50:10,691 [WARNING] camera_worker – [CAM_03] Attempt 2 failed, retrying...
+2026-03-31 17:50:10,740 [WARNING] camera_worker – [CAM_09] Attempt 2 failed, retrying...
+2026-03-31 17:50:11,267 [WARNING] camera_worker – [CAM_01] Attempt 3 failed, retrying...
+2026-03-31 17:50:12,892 [WARNING] camera_worker – [CAM_03] Attempt 3 failed, retrying...
+2026-03-31 17:50:13,011 [WARNING] camera_worker – [CAM_09] Attempt 3 failed, retrying...
+2026-03-31 17:50:17,091 [WARNING] camera_worker – [CAM_02] Attempt 3 failed, retrying...
+2026-03-31 17:50:20,226 [INFO] dashboard – Selected camera: CAM_10
+2026-03-31 17:50:21,398 [WARNING] camera_worker – [CAM_03] Attempt 4 failed, retrying...
+2026-03-31 17:50:23,073 [WARNING] camera_worker – [CAM_04] Attempt 3 failed, retrying...
+2026-03-31 17:50:24,084 [INFO] health_monitor – Health sweep: 17/17 OK  |  0 problem(s)
+2026-03-31 17:50:27,004 [WARNING] camera_worker – [CAM_09] Attempt 4 failed, retrying...
+2026-03-31 17:50:30,082 [WARNING] camera_worker – [CAM_08] Attempt 3 failed, retrying...
+2026-03-31 17:50:32,876 [WARNING] camera_worker – [CAM_03] Attempt 5 failed, retrying...
+2026-03-31 17:50:36,838 [WARNING] camera_worker – [CAM_12] Attempt 3 failed, retrying...
+2026-03-31 17:50:38,054 [INFO] dashboard – Selected camera: CAM_11
+2026-03-31 17:50:39,104 [WARNING] health_monitor – [CAM_06] CRASHED detected — restarting (attempt 5/5).
+2026-03-31 17:50:39,405 [INFO] camera_worker – [CAM_06] Connecting to source: http://vetter.viewnetcam.com:50000/nphMotionJpeg?Resolution=640x480&Quality=Clarity
+2026-03-31 17:50:39,405 [INFO] manager – Worker started: CAM_06 (Japan Camera)
+2026-03-31 17:50:39,424 [INFO] manager – Worker restarted: CAM_06
+2026-03-31 17:50:39,425 [WARNING] health_monitor – [CAM_07] CRASHED detected — restarting (attempt 5/5).
+2026-03-31 17:50:39,458 [INFO] camera_worker – [CAM_07] Connecting to source: http://tamperehacklab.tunk.org:38001/nphMotionJpeg?Resolution=640x480&Quality=Clarity
+2026-03-31 17:50:39,459 [INFO] manager – Worker started: CAM_07 (Tampere Hacklab)
+2026-03-31 17:50:39,480 [INFO] manager – Worker restarted: CAM_07
+2026-03-31 17:50:39,483 [INFO] health_monitor – Health sweep: 15/17 OK  |  2 problem(s)
+2026-03-31 17:50:40,148 [WARNING] camera_worker – [CAM_09] Attempt 5 failed, retrying...
+2026-03-31 17:50:40,465 [WARNING] camera_worker – [CAM_07] Attempt 1 failed, retrying...
+2026-03-31 17:50:40,615 [WARNING] camera_worker – [CAM_06] Attempt 1 failed, retrying...
+2026-03-31 17:50:42,600 [WARNING] camera_worker – [CAM_14] Attempt 3 failed, retrying...
+2026-03-31 17:50:46,720 [WARNING] camera_worker – [CAM_07] Attempt 2 failed, retrying...
+2026-03-31 17:50:46,731 [WARNING] camera_worker – [CAM_06] Attempt 2 failed, retrying...
+2026-03-31 17:50:48,994 [WARNING] camera_worker – [CAM_05] Attempt 3 failed, retrying...
+2026-03-31 17:50:52,760 [WARNING] camera_worker – [CAM_07] Attempt 3 failed, retrying...
+2026-03-31 17:50:52,769 [WARNING] camera_worker – [CAM_06] Attempt 3 failed, retrying...
+2026-03-31 17:50:54,486 [ERROR] health_monitor – [CAM_03] Exceeded max restarts (5) — giving up.
+2026-03-31 17:50:54,526 [INFO] health_monitor – Health sweep: 16/17 OK  |  1 problem(s)
+2026-03-31 17:50:58,708 [WARNING] camera_worker – [CAM_15] Attempt 3 failed, retrying...
+2026-03-31 17:50:58,802 [WARNING] camera_worker – [CAM_07] Attempt 4 failed, retrying...
+2026-03-31 17:50:58,814 [WARNING] camera_worker – [CAM_06] Attempt 4 failed, retrying...
+2026-03-31 17:51:08,735 [WARNING] camera_worker – [CAM_06] Attempt 5 failed, retrying...
+2026-03-31 17:51:08,742 [WARNING] camera_worker – [CAM_07] Attempt 5 failed, retrying...
+2026-03-31 17:51:09,529 [ERROR] health_monitor – [CAM_03] Exceeded max restarts (5) — giving up.
+2026-03-31 17:51:09,571 [ERROR] health_monitor – [CAM_09] Exceeded max restarts (5) — giving up.
+2026-03-31 17:51:09,604 [INFO] health_monitor – Health sweep: 15/17 OK  |  2 problem(s)
+2026-03-31 17:51:24,610 [ERROR] health_monitor – [CAM_03] Exceeded max restarts (5) — giving up.
+2026-03-31 17:51:24,660 [ERROR] health_monitor – [CAM_09] Exceeded max restarts (5) — giving up.
+2026-03-31 17:51:24,719 [INFO] health_monitor – Health sweep: 15/17 OK  |  2 problem(s)
